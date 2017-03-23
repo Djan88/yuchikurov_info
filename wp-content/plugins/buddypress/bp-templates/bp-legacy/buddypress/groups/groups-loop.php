@@ -120,7 +120,7 @@
                                     </div>
                                     <div class="rasp-content">
                                         <div class="rasp-time">
-                                            <span class="fa fa-phone"></span> +7 (495) 135-25-48 | <span class="fa fa-envelope"></span> <a href="mailto:yuchikurov@gmail.com">yuchikurov@gmail.com</a>
+                                            <span class="fa fa-phone"></span> <?php bp_group_master_telephone(); ?> | <span class="fa fa-envelope"></span> <a href="mailto:yuchikurov@gmail.com">yuchikurov@gmail.com</a>
                                         </div>
                                     </div>
                                 </div>
