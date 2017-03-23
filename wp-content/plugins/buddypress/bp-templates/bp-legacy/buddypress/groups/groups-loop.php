@@ -99,17 +99,21 @@
                             <div class="row">
                                 <div class="col-md-2 col-sm-2 col-xs-2 text-center rasp-date">
                                     <div class="rasp_d_i_m">
-                                        <span class="rasp_d">$date_seminar_day</span> 
+                                        <span class="rasp_d">
+                                            <?php echo $date_seminar_day;?>
+                                        </span> 
                                         <span class="devider">/</span>
                                         <span class="devider_small">—</span> 
-                                        <span class="rasp_m">$date_seminar_month</span>
+                                        <span class="rasp_m">
+                                            <?php echo $date_seminar_month;?>
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-sm-7 col-xs-7" style="padding-top: 10px;">
                                     <div class="rasp-title"><a href="<?php bp_group_permalink(); ?>"><?php bp_group_name(); ?></a></div>
                                     <div class="rasp-content">
                                         <div class="rasp-time">
-                                            <span class="fa fa-clock-o"></span> <?php echo $date_seminar_day;?> — <?php echo $date_seminar_month;?> | 
+                                            <span class="fa fa-clock-o"></span> <?php echo $date_seminar;?> — <?php echo $date_end;?> | 
                                         </div>
                                         <div class="rasp-adress">
                                             <span class="fa fa-map-marker"></span>  Москва, ул. Сельскохозяйственная 17, корпус 5, оф. 128.                    </div>
