@@ -109,7 +109,7 @@
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-md-8 col-sm-7 col-xs-7" style="padding-top: 10px;">
+                                <div class="col-md-8 col-sm-7 col-xs-7" style="padding-top: 10px;  text-align: left;">
                                     <div class="rasp-title"><a href="<?php bp_group_permalink(); ?>"><?php bp_group_name(); ?></a></div>
                                     <div class="rasp-content">
                                         <div class="rasp-time">
