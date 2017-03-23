@@ -3037,7 +3037,6 @@ ul.pagination li a
 .rasp-date 
 {
     position: relative;
-    padding-top: 10px;
 }
 span.rasp_d 
 {
@@ -3205,6 +3204,7 @@ span.rasp_m
 .porfolio_smallbox.seminar_linear 
 {
     width: 100%;
+    padding: 10px 0;
 }
 .seminar_linear 
 {
