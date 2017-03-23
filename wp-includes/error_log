@@ -1,0 +1,109 @@
+[09-Jan-2016 12:42:51 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/theme.php on line 679
+[09-Jan-2016 12:42:54 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_filter() in /home/chikurov/public_html/wp-includes/shortcodes.php on line 410
+[09-Jan-2016 12:42:54 Europe/Simferopol] PHP Fatal error:  Call to undefined function feed_content_type() in /home/chikurov/public_html/wp-includes/feed-rss2-comments.php on line 8
+[09-Jan-2016 12:42:54 Europe/Simferopol] PHP Fatal error:  Class 'Walker' not found in /home/chikurov/public_html/wp-includes/post-template.php on line 1232
+[09-Jan-2016 12:42:56 Europe/Simferopol] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/chikurov/public_html/wp-includes/class-snoopy.php on line 6
+[09-Jan-2016 12:42:56 Europe/Simferopol] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/chikurov/public_html/wp-includes/rss.php on line 19
+[09-Jan-2016 12:42:57 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_shortcode() in /home/chikurov/public_html/wp-includes/media.php on line 769
+[09-Jan-2016 12:42:57 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/taxonomy.php on line 129
+[09-Jan-2016 12:42:57 Europe/Simferopol] PHP Fatal error:  Call to undefined function feed_content_type() in /home/chikurov/public_html/wp-includes/feed-rdf.php on line 8
+[09-Jan-2016 12:42:58 Europe/Simferopol] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/chikurov/public_html/wp-includes/class.wp-styles.php on line 19
+[09-Jan-2016 12:43:00 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/post.php on line 167
+[09-Jan-2016 12:43:00 Europe/Simferopol] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/chikurov/public_html/wp-includes/rss-functions.php on line 8
+[09-Jan-2016 12:43:00 Europe/Simferopol] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/class-feed.php on line 4
+[09-Jan-2016 12:43:00 Europe/Simferopol] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chikurov/public_html/wp-includes/class-feed.php on line 4
+[09-Jan-2016 12:43:01 Europe/Simferopol] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/chikurov/public_html/wp-includes/class.wp-scripts.php on line 19
+[09-Jan-2016 12:43:01 Europe/Simferopol] PHP Fatal error:  Class 'Walker' not found in /home/chikurov/public_html/wp-includes/category-template.php on line 893
+[09-Jan-2016 12:43:03 Europe/Simferopol] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/script-loader.php on line 25
+[09-Jan-2016 12:43:03 Europe/Simferopol] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/script-loader.php on line 25
+[09-Jan-2016 12:43:03 Europe/Simferopol] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chikurov/public_html/wp-includes/script-loader.php on line 25
+[09-Jan-2016 12:43:04 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/ms-functions.php on line 2064
+[09-Jan-2016 12:43:05 Europe/Simferopol] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/chikurov/public_html/wp-includes/registration-functions.php on line 7
+[09-Jan-2016 12:43:05 Europe/Simferopol] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/chikurov/public_html/wp-includes/registration.php on line 7
+[09-Jan-2016 12:43:05 Europe/Simferopol] PHP Warning:  require_once(ABSPATHWPINC/ms-load.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/ms-settings.php on line 14
+[09-Jan-2016 12:43:05 Europe/Simferopol] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chikurov/public_html/wp-includes/ms-settings.php on line 14
+[09-Jan-2016 12:43:05 Europe/Simferopol] PHP Fatal error:  Call to undefined function feed_content_type() in /home/chikurov/public_html/wp-includes/feed-atom-comments.php on line 8
+[09-Jan-2016 12:43:06 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_filter() in /home/chikurov/public_html/wp-includes/default-filters.php on line 17
+[09-Jan-2016 12:43:06 Europe/Simferopol] PHP Fatal error:  Call to undefined function feed_content_type() in /home/chikurov/public_html/wp-includes/feed-rss.php on line 8
+[09-Jan-2016 12:43:07 Europe/Simferopol] PHP Fatal error:  Class 'WP_Widget' not found in /home/chikurov/public_html/wp-includes/default-widgets.php on line 14
+[09-Jan-2016 12:43:07 Europe/Simferopol] PHP Fatal error:  Class 'IXR_Client' not found in /home/chikurov/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[09-Jan-2016 12:43:07 Europe/Simferopol] PHP Fatal error:  Call to undefined function is_admin() in /home/chikurov/public_html/wp-includes/vars.php on line 23
+[09-Jan-2016 12:43:09 Europe/Simferopol] PHP Fatal error:  Class 'Walker' not found in /home/chikurov/public_html/wp-includes/nav-menu-template.php on line 16
+[09-Jan-2016 12:43:11 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/ms-default-constants.php on line 153
+[09-Jan-2016 12:43:12 Europe/Simferopol] PHP Fatal error:  Call to undefined function is_robots() in /home/chikurov/public_html/wp-includes/template-loader.php on line 28
+[09-Jan-2016 12:43:13 Europe/Simferopol] PHP Fatal error:  Class 'Walker' not found in /home/chikurov/public_html/wp-includes/comment-template.php on line 1563
+[09-Jan-2016 12:43:13 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_filter() in /home/chikurov/public_html/wp-includes/ms-default-filters.php on line 17
+[09-Jan-2016 12:43:13 Europe/Simferopol] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/functions.php on line 8
+[09-Jan-2016 12:43:13 Europe/Simferopol] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/functions.php on line 8
+[09-Jan-2016 12:43:13 Europe/Simferopol] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chikurov/public_html/wp-includes/functions.php on line 8
+[09-Jan-2016 12:43:13 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_filter() in /home/chikurov/public_html/wp-includes/class-wp-embed.php on line 26
+[09-Jan-2016 12:43:13 Europe/Simferopol] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/class-simplepie.php on line 5
+[09-Jan-2016 12:43:13 Europe/Simferopol] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/class-simplepie.php on line 5
+[09-Jan-2016 12:43:13 Europe/Simferopol] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chikurov/public_html/wp-includes/class-simplepie.php on line 5
+[09-Jan-2016 12:43:14 Europe/Simferopol] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/chikurov/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[09-Jan-2016 12:43:14 Europe/Simferopol] PHP Fatal error:  Call to undefined function feed_content_type() in /home/chikurov/public_html/wp-includes/feed-atom.php on line 8
+[09-Jan-2016 12:43:21 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/canonical.php on line 556
+[09-Jan-2016 12:43:21 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_filter() in /home/chikurov/public_html/wp-includes/post-formats.php on line 170
+[09-Jan-2016 12:43:21 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/general-template.php on line 1626
+[09-Jan-2016 12:43:21 Europe/Simferopol] PHP Fatal error:  Class 'IXR_Server' not found in /home/chikurov/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[09-Jan-2016 12:43:24 Europe/Simferopol] PHP Fatal error:  Call to undefined function feed_content_type() in /home/chikurov/public_html/wp-includes/feed-rss2.php on line 8
+[09-Jan-2016 12:43:24 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/author-template.php on line 471
+[09-Jan-2016 12:43:24 Europe/Simferopol] PHP Fatal error:  Call to undefined function is_main_site() in /home/chikurov/public_html/wp-includes/update.php on line 651
+[09-Jan-2016 12:43:26 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/kses.php on line 1428
+[09-Jan-2016 12:43:26 Europe/Simferopol] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/chikurov/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[09-Jan-2016 12:48:31 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/admin-bar.php on line 48
+[11-Feb-2016 17:11:27 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/author-template.php on line 471
+[11-Feb-2016 17:11:28 Europe/Simferopol] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/functions.php on line 8
+[11-Feb-2016 17:11:28 Europe/Simferopol] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/functions.php on line 8
+[11-Feb-2016 17:11:28 Europe/Simferopol] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chikurov/public_html/wp-includes/functions.php on line 8
+[11-Feb-2016 17:11:28 Europe/Simferopol] PHP Fatal error:  Class 'Walker' not found in /home/chikurov/public_html/wp-includes/post-template.php on line 1232
+[11-Feb-2016 17:11:31 Europe/Simferopol] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/script-loader.php on line 25
+[11-Feb-2016 17:11:31 Europe/Simferopol] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/script-loader.php on line 25
+[11-Feb-2016 17:11:31 Europe/Simferopol] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chikurov/public_html/wp-includes/script-loader.php on line 25
+[11-Feb-2016 17:11:36 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/kses.php on line 1428
+[11-Feb-2016 17:11:36 Europe/Simferopol] PHP Warning:  require_once(ABSPATHWPINC/ms-load.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/ms-settings.php on line 14
+[11-Feb-2016 17:11:36 Europe/Simferopol] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chikurov/public_html/wp-includes/ms-settings.php on line 14
+[11-Feb-2016 17:11:37 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/admin-bar.php on line 48
+[11-Feb-2016 17:11:38 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_filter() in /home/chikurov/public_html/wp-includes/default-filters.php on line 17
+[11-Feb-2016 17:11:41 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_filter() in /home/chikurov/public_html/wp-includes/post-formats.php on line 170
+[11-Feb-2016 17:11:41 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/ms-functions.php on line 2064
+[11-Feb-2016 17:11:42 Europe/Simferopol] PHP Fatal error:  Class 'Walker' not found in /home/chikurov/public_html/wp-includes/category-template.php on line 893
+[11-Feb-2016 17:11:42 Europe/Simferopol] PHP Fatal error:  Call to undefined function feed_content_type() in /home/chikurov/public_html/wp-includes/feed-atom-comments.php on line 8
+[11-Feb-2016 17:11:45 Europe/Simferopol] PHP Fatal error:  Class 'IXR_Client' not found in /home/chikurov/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[11-Feb-2016 17:11:47 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/canonical.php on line 556
+[11-Feb-2016 17:11:49 Europe/Simferopol] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/chikurov/public_html/wp-includes/registration-functions.php on line 7
+[11-Feb-2016 17:11:49 Europe/Simferopol] PHP Fatal error:  Call to undefined function feed_content_type() in /home/chikurov/public_html/wp-includes/feed-rdf.php on line 8
+[11-Feb-2016 17:11:49 Europe/Simferopol] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/chikurov/public_html/wp-includes/class-snoopy.php on line 6
+[11-Feb-2016 17:11:50 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_filter() in /home/chikurov/public_html/wp-includes/shortcodes.php on line 410
+[11-Feb-2016 17:11:50 Europe/Simferopol] PHP Fatal error:  Call to undefined function is_robots() in /home/chikurov/public_html/wp-includes/template-loader.php on line 28
+[11-Feb-2016 17:11:50 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/ms-default-constants.php on line 153
+[11-Feb-2016 17:11:50 Europe/Simferopol] PHP Fatal error:  Call to undefined function feed_content_type() in /home/chikurov/public_html/wp-includes/feed-rss2.php on line 8
+[11-Feb-2016 17:11:51 Europe/Simferopol] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/chikurov/public_html/wp-includes/registration.php on line 7
+[11-Feb-2016 17:11:54 Europe/Simferopol] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/chikurov/public_html/wp-includes/rss-functions.php on line 8
+[11-Feb-2016 17:11:54 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/taxonomy.php on line 129
+[11-Feb-2016 17:11:54 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_shortcode() in /home/chikurov/public_html/wp-includes/media.php on line 769
+[11-Feb-2016 17:11:55 Europe/Simferopol] PHP Fatal error:  Class 'Walker' not found in /home/chikurov/public_html/wp-includes/nav-menu-template.php on line 16
+[11-Feb-2016 17:11:55 Europe/Simferopol] PHP Fatal error:  Call to undefined function feed_content_type() in /home/chikurov/public_html/wp-includes/feed-rss2-comments.php on line 8
+[11-Feb-2016 17:11:55 Europe/Simferopol] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/class-simplepie.php on line 5
+[11-Feb-2016 17:11:55 Europe/Simferopol] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/class-simplepie.php on line 5
+[11-Feb-2016 17:11:55 Europe/Simferopol] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chikurov/public_html/wp-includes/class-simplepie.php on line 5
+[11-Feb-2016 17:11:58 Europe/Simferopol] PHP Fatal error:  Call to undefined function is_admin() in /home/chikurov/public_html/wp-includes/vars.php on line 23
+[11-Feb-2016 17:11:58 Europe/Simferopol] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php): failed to open stream: No such file or directory in /home/chikurov/public_html/wp-includes/class-feed.php on line 4
+[11-Feb-2016 17:11:58 Europe/Simferopol] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chikurov/public_html/wp-includes/class-feed.php on line 4
+[11-Feb-2016 17:11:59 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_filter() in /home/chikurov/public_html/wp-includes/class-wp-embed.php on line 26
+[11-Feb-2016 17:12:00 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_filter() in /home/chikurov/public_html/wp-includes/ms-default-filters.php on line 17
+[11-Feb-2016 17:12:04 Europe/Simferopol] PHP Fatal error:  Class 'WP_Widget' not found in /home/chikurov/public_html/wp-includes/default-widgets.php on line 14
+[11-Feb-2016 17:12:08 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/theme.php on line 679
+[11-Feb-2016 17:12:08 Europe/Simferopol] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/chikurov/public_html/wp-includes/rss.php on line 19
+[11-Feb-2016 17:12:09 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/post.php on line 167
+[11-Feb-2016 17:12:09 Europe/Simferopol] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/chikurov/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[11-Feb-2016 17:12:10 Europe/Simferopol] PHP Fatal error:  Call to undefined function feed_content_type() in /home/chikurov/public_html/wp-includes/feed-rss.php on line 8
+[11-Feb-2016 17:12:10 Europe/Simferopol] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/chikurov/public_html/wp-includes/class.wp-styles.php on line 19
+[11-Feb-2016 17:12:11 Europe/Simferopol] PHP Fatal error:  Call to undefined function is_main_site() in /home/chikurov/public_html/wp-includes/update.php on line 651
+[11-Feb-2016 17:12:12 Europe/Simferopol] PHP Fatal error:  Class 'IXR_Server' not found in /home/chikurov/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[11-Feb-2016 17:12:13 Europe/Simferopol] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/chikurov/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[11-Feb-2016 17:12:14 Europe/Simferopol] PHP Fatal error:  Call to undefined function add_action() in /home/chikurov/public_html/wp-includes/general-template.php on line 1626
+[11-Feb-2016 17:12:16 Europe/Simferopol] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/chikurov/public_html/wp-includes/class.wp-scripts.php on line 19
+[11-Feb-2016 17:12:18 Europe/Simferopol] PHP Fatal error:  Call to undefined function feed_content_type() in /home/chikurov/public_html/wp-includes/feed-atom.php on line 8
+[11-Feb-2016 17:12:18 Europe/Simferopol] PHP Fatal error:  Class 'Walker' not found in /home/chikurov/public_html/wp-includes/comment-template.php on line 1563
+[31-May-2016 10:55:38 Europe/Simferopol] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/chikurov/public_html/wp-includes/rss-functions.php on line 8
