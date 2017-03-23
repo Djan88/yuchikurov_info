@@ -93,7 +93,7 @@
                 }
                 if(bp_displayed_user_id() == 0 || bp_displayed_user_id() == $group->admins[0]->user_id){ ?>
                     <?php if ($master_id == 1 || $master_id == 7 || $master_id == 11 || $master_id == 9 || $master_id == 5 || $master_id == 4149 || $master_id == 1033) { ?>
-                        <div class="porfolio_smallbox col-sm-4 col-md-4 col-lg-3 col-xs-12" data-filter="<?php echo $master_filter; ?>">
+                        <div class="porfolio_smallbox seminar_linear" data-filter="<?php echo $master_filter; ?>">
                             <div class="top-section seminar_section">
                                 <a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( 'type=full&width=false&height=false' ); ?></a>
                                 <div class="seminar_sum">
