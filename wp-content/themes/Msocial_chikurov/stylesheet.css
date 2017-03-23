@@ -2175,7 +2175,7 @@ a.readmore {
     overflow: hidden;
 }
 .masonry-portfolio {
-    margin: 2.5% 0 0;
+    /*margin: 2.5% 0 0;*/
 }
 .masonry-portfolio .porfolio_smallbox {
     padding: 0px;
