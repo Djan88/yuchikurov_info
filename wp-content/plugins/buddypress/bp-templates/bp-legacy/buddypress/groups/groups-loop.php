@@ -125,7 +125,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-2 col-sm-3 col-xs-3 text-center rasp-img">
-                                    <a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( 'rasp_thumb' ); ?></a>           
+                                    <a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( 'type=thumbnail&width=100&height=100' ); ?></a>           
                                 </div>
 
                             </div>
