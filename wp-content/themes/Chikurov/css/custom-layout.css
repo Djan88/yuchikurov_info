@@ -1,0 +1,69 @@
+.full-nav {
+	width: 100%;
+	text-align: center;
+}
+#navigation .full-nav .navbar-brand {
+	float: none;
+	display: inline-block;
+}
+.title {
+	border-bottom: 1px solid #dcdbd7;
+	margin: 20px 0;
+	padding-bottom: 20px;
+	position: relative;
+}
+.title::after {
+	border-bottom: 2px solid #477ab9;
+	bottom: -1px;
+	content: "";
+	height: 0;
+	left: 0;
+	position: absolute;
+	width: 65px;
+}
+.title::before {
+	background-color: #477ab9;
+	border-radius: 500px;
+	bottom: -5px;
+	content: "";
+	height: 10px;
+	left: 0;
+	position: absolute;
+	width: 10px;
+}
+#loader {
+	background: #fff url(../images/loading.gif) no-repeat center center;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 100000000000;
+	left: 0%;
+	top: 0%;
+	margin: 0;
+}
+.dmtop {
+	background-image: url(../images/arrow.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-color: #3a3a3a;
+	border:1px solid #f5f5f5;
+	opacity: 0.5;
+	z-index: 9999;
+	width: 40px;
+	height: 40px;
+	text-indent: -99999px;
+	position: fixed;
+	bottom: -100px;
+	right: 25px;
+	cursor: pointer;
+	-webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-o-transition: all .7s ease-in-out;
+	-ms-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
+	overflow: auto;
+}
+.dmtop:hover {
+	opacity: 1;
+	background-color: #477ab9;
+}

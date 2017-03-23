@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Open Sans Font */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+/* Bootstrap v3.2.0 */
+@import url("bootstrap/bootstrap.min.css");
+
+/* Main Stylesheet */
+@import url("../stylesheet.css");
+
+/* CUSTOM LAYOUT Stylesheet */
+@import url("custom-layout.css");
+
+/* Custome Fonts Stylesheet */
+@import url("fonts.css");
+
+/* Animation Style */
+@import url("animation.css");
+
+/* PrettyPhoto Style */
+@import url("prettyPhoto.css");
+
+/* FontAwesome Icons */
+@import url("../fonts/font-awesome/css/font-awesome.css");
+@import url("../fonts/font-awesome/css/font-awesome.min.css");
+
+/* Owl Carousel */
+@import url("owl-carousel/owl.carousel.css");
+@import url("owl-carousel/owl.theme.css");
+@import url("owl-carousel/owl.transitions.css");
+@import url("owl-carousel/animate.css");
+
+/* Mobile css */
+@import url("mobile.css");
