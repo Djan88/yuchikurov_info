@@ -113,16 +113,19 @@
                                     <div class="rasp-title"><a href="<?php bp_group_permalink(); ?>"><?php bp_group_name(); ?></a></div>
                                     <div class="rasp-content">
                                         <div class="rasp-time">
-                                            <span class="fa fa-clock-o"></span> <?php echo $date_seminar;?> — <?php echo $date_end;?> | 
+                                            <span class="fa fa-calendar"></span> <?php echo $date_seminar;?> — <?php echo $date_end;?> | 
                                         </div>
                                         <div class="rasp-adress">
                                             <span class="fa fa-map-marker"></span>  Москва, ул. Сельскохозяйственная 17, корпус 5, оф. 128.                    </div>
                                     </div>
                                     <div class="rasp-content">
                                         <div class="rasp-time">
-                                            <span class="fa fa-phone"></span> +7 (495) 135-25-48 | <span class="fa fa-envelope"></span> <a href="mailto:yuchikurov@gmail.com">yuchikurov@gmail.com</a> | <b>Запиcь обязательна</b>
+                                            <span class="fa fa-phone"></span> +7 (495) 135-25-48 | <span class="fa fa-envelope"></span> <a href="mailto:yuchikurov@gmail.com">yuchikurov@gmail.com</a>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="col-md-2 col-sm-3 col-xs-3 text-center rasp-img">
+                                    <a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( 'type=thumbnail&width=false&height=false' ); ?></a>           
                                 </div>
 
                             </div>
