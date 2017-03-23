@@ -3204,6 +3204,15 @@ span.rasp_m
 {
     width: 100%;
 }
+.seminar_linear 
+{
+    background-color: #eee;
+    border-bottom: 1px solid #477ab9;
+}
+.type-post:nth-child(2n) 
+{
+    background-color: #fff;
+}
 @media (max-width: 992px) {
     .rasp-date div 
     {
