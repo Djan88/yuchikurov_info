@@ -116,7 +116,7 @@
                                             <span class="fa fa-calendar"></span> <?php echo $date_seminar;?> — <?php echo $date_end;?> | 
                                         </div>
                                         <div class="rasp-adress">
-                                            <span class="fa fa-map-marker"></span>  Москва, ул. Сельскохозяйственная 17, корпус 5, оф. 128.                    </div>
+                                            <span class="fa fa-map-marker"></span>  <?= $city; ?></div>
                                     </div>
                                     <div class="rasp-content">
                                         <div class="rasp-time">
