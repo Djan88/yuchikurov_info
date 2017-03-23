@@ -109,7 +109,7 @@
                                     <div class="rasp-title"><a href="<?php bp_group_permalink(); ?>"><?php bp_group_name(); ?></a></div>
                                     <div class="rasp-content">
                                         <div class="rasp-time">
-                                            <span class="fa fa-clock-o"></span> $date_seminar_day — $date_seminar_month | 
+                                            <span class="fa fa-clock-o"></span> <?php echo $date_seminar_day;?> — <?php echo $date_seminar_month;?> | 
                                         </div>
                                         <div class="rasp-adress">
                                             <span class="fa fa-map-marker"></span>  Москва, ул. Сельскохозяйственная 17, корпус 5, оф. 128.                    </div>
