@@ -3035,6 +3035,7 @@ ul.pagination li a
 .rasp-date 
 {
     position: relative;
+    padding-top: 10px;
 }
 span.rasp_d 
 {
@@ -3071,6 +3072,7 @@ span.rasp_m
 {
     padding: 0;
     padding-right: 10px;
+    padding-top: 7px;
 }
 .rasp-content
 {
