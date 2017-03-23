@@ -1,0 +1,185 @@
+.add-master textarea
+{
+    display: block;
+    margin: 10px 5px;
+}
+
+.add-master select
+{
+    height: auto;
+    padding: 5px;
+    vertical-align: initial;
+    margin: 10px 5px;
+}
+
+.add-master input
+{
+    padding: 5px;
+    margin: 0 5px;
+}
+
+#select-db
+{
+    display: block;
+    margin: 10px 5px;
+}
+
+.add-master input[type=submit]
+{
+    display: block;
+}
+
+.search_clients table
+{
+    background: #fff;
+}
+
+.search_clients table thead tr td, .search_clients table tbody tr td
+{
+    padding: 5px;
+    border: 1px solid #db4a37;
+}
+
+.search_clients table thead tr, .search_clients table tbody tr
+{
+    border: 1px solid #db4a37;
+}
+
+.form-table input[type=submit]
+{
+    margin: 15px 0;
+    color: #fff;
+    background: #db4a37;
+    padding: 10px 15px;
+    border: 1px solid #db4a37;
+    cursor: pointer;
+}
+
+#add-row
+{
+    background: #29A449;
+    border: 1px solid #29A449;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    top: -5px;
+}
+
+#add-row i
+{
+    padding-right: 10px;
+}
+
+.add-row-block select, .add-row-block input[type=text]
+{
+    width: 20%;
+    margin-left: 10px;
+}
+
+.add-row-block
+{
+    padding: 20px;
+    display: none;
+}
+
+.add-row-block h4
+{
+    margin: 15px 0 10px 0;
+}
+
+.add-row-block input[type=submit]
+{
+    background: #29A449 !important;
+    border: 1px solid #29A449 !important;
+}
+
+.delivery-select select
+{
+    height: auto;
+    padding: 10px 15px;
+    width: 20%;
+}
+
+.delivery-select h2
+{
+    font-size: 28px;
+}
+
+.delivery-select form
+{
+    padding: 10px;
+}
+
+.delivery-type-select, .delivery-type
+{
+    margin-bottom: 20px;
+}
+
+.all-column
+{
+    background: #fff;
+    padding: 10px;
+}
+
+.one-column
+{
+    width: 33%;
+    display: inline-block;
+}
+
+.delivery-select input[type=submit]
+{
+    margin: 20px 0;
+    padding: 10px 20px;
+    color: #fff;
+    background: #29A449;
+    border: 1px solid #29A449;
+    cursor: pointer;
+}
+
+.message-text input
+{
+    margin: 10px 0;
+    padding: 10px 15px;
+    width: 20%;
+}
+
+.message-text h3
+{
+    margin: 15px 0 10px 0;
+}
+
+.custom-options-type label
+{
+    display: block;
+}
+
+.select-submit
+{
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background: #DBCD37;
+    border: 1px solid #DBCD37;
+    cursor: pointer;
+}
+
+.select-checkbox
+{
+    margin-left: 10px !important;
+}
+
+.block-none
+{
+    display: none;
+}
+
+.custom-options-city label, .custom-options-type label
+{
+    display: block;
+    margin-bottom: 5px;
+}

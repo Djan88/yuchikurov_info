@@ -1,0 +1,398 @@
+@media screen and (max-width: 1040px) {
+.navbar-header {
+	width: 100%;
+	text-align: center;
+}
+#navigation .navbar-brand {
+	float: none;
+	display: inline-block;
+	margin-left: 0px;
+	position: relative;
+}
+#navigation .navbar-inverse .navbar-nav > li.current::before{
+	opacity:0;
+}
+#navigation .navbar-collapse {
+	margin: 20px 0 0 !important;
+	width:100%;
+	text-align:center;
+}
+#navigation .navbar-collapse .navbar-nav{
+	display:inline-block;
+	float:none;
+	vertical-align:top;
+}
+#navigation .navbar-inverse .navbar-nav > li > a {
+	padding: 0 10px;
+}
+.nav_top_rt {
+	margin-left: 5px;
+}
+/************NAVIGATION CSS END*******************/
+.affix ~ .navspacer {
+	height: 170px;
+}
+.textlt {
+	margin: 0px;
+}
+.small-box1 {
+	padding: 0 1% !important;
+	width: 98%;
+}
+.thumbnail-box {
+	margin-bottom: 15px;
+}
+.thumbnail-box ul li, .thumbnail-box ul li:nth-child(2n) {
+	margin: 0 1% 2%;
+	width: 31.3%;
+}
+.thumbnail-box ul li, .thumbnail-box ul li a, .trustbox ul li .counter, .trustbox ul li, .social-icons ul li a::before, .tab-shapebox::before {
+	transform: none;
+}
+.thumbnail-box ul li a, .trustbox ul li .counter {
+	width: 100%;
+}
+.trustbox ul li, .trustbox ul li:last-child {
+	margin: 0 0 1%;
+	width: 49%;
+}
+.social-icons ul {
+	margin: 46px 0 30px;
+}
+.social-icons ul li {
+	margin: 0px;
+}
+.social-icons ul li a::before {
+	left: -50px;
+}
+.small_box {
+	font-size: 10px;
+}
+.textbox h2::after {
+	width: 200px;
+}
+.padding-box {
+	padding: 40px 2%;
+}
+.textlt {
+	text-align: center;
+	margin: 0 0 20px;
+}
+.textlt ~ figure {
+	float: none !important;
+	margin: 0 auto;
+	clear: both;
+}
+/************CAROUSAL CSS***********************/
+.services-carousel.owl-theme .owl-controls .owl-buttons .owl-prev {
+	left: 10px;
+}
+.services-carousel.owl-theme .owl-controls .owl-buttons .owl-next {
+	right: 10px;
+}
+.testimonial-carousel .owl-item {
+	padding: 0 1%;
+}
+/***********SERVICE PAGE*******************/
+.tab-panel ul {
+	width: 100%;
+}
+.tab-panel ul li {
+	width: 15%;
+	margin: 0px;
+	display: inline-block;
+}
+.services-tab-content {
+	width: 100%;
+	padding: 20px;
+}
+.tab-shapebox {
+	clear: both;
+	float: none !important;
+	margin: 3% auto 20px;
+}
+/***********CONTACT US PAGE***********************/
+.inquiry-form ul li {
+	width: 100%;
+}
+/********PRICING PAGE*******************/
+.pakage_price span.numeric {
+	font-size: 42px;
+}
+.pakage_price span.blue {
+	font-size: 18px;
+}
+.plan1 .btn {
+	padding: 15px 22px;
+}
+.plan1 ul li {
+	font-size: 12px;
+}
+.plan-pricing .col-sm-4 {
+	display: none;
+}
+.plan-pricing .col-sm-3 {
+	width: 33.3%;
+}
+/************404 PAGE*********************/
+.error_box h3 {
+	font-size: 45px;
+	line-height: 50px;
+}
+.error_box h3 span {
+	line-height: 30px;
+}
+.error_box h1 {
+	font-size: 120px;
+	line-height: 120px;
+}
+.login-box .error_box .form-control {
+	width: 70%;
+}
+.error_box .input-group-btn {
+	width: auto;
+}
+/**********BLOG PAGE**************/
+.full-comment-section .comment-content, .comment-content {
+	width: auto;
+}
+}
+@media screen and (max-width: 767px) {
+/************NAVIFGATION CSS************************/
+#navigation .navbar-collapse {
+	background-color: rgba(23,23,23,0.90);
+	margin: 20px 0 0 !important;
+	text-align:left;
+}
+#navigation .navbar-collapse .navbar-nav{
+	float:left;
+	width:100%;
+}
+#navigation .navbar-brand {
+	float: left;
+	margin: 20px 0 10px 10px;
+}
+#navigation .navbar-collapse, .navbar {
+	width: 100%;
+}
+#navigation .navbar-inverse .navbar-nav > li > a {
+	border-bottom: 1px solid rgba(71,122,185,0.50);
+}
+.nav_top_rt {
+	margin: 0 -15px;
+	background: none;
+	border-radius: 0px;
+}
+.nav_top_rt li a {
+	font-size: 16px !important;
+	text-transform: none !important;
+}
+#navigation .navbar-inverse .navbar-nav > li.current:before {
+	opacity: 0;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a.dropdown-toggle {
+	color: #f6be60;
+}
+#navigation .navbar-inverse .navbar-nav > li.current a.dropdown-toggle {
+	color: #fff;
+}
+#navigation .navbar-inverse .navbar-nav > li.open a.dropdown-toggle, #navigation .navbar-inverse .navbar-nav > li.current:hover a.dropdown-toggle {
+	color: #f6be60;
+}
+.navbar-nav > li > .dropdown-menu::before {
+	opacity: 0;
+}
+.navbar-nav > li > a.dropdown-toggle::after {
+	display: none;
+}
+#dmsearch {
+	display: none;
+}
+/*************NAVIGATION CSS END******************/
+header#header {
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 999;
+}
+.affix ~ .navspacer {
+	display: none;
+}
+.home-page header#header {
+	position: static;
+}
+.home-page .affix ~ .navspacer {
+	display: block;
+	height: 107px;
+}
+.subbanner {
+	margin: 98px 0 0;
+}
+/***********SOCIAL CSS***********************/
+.small_box {
+	font-size: 14px;
+}
+.small_box span {
+	margin: 0 15px 50px 0;
+}
+.small_box:last-child span {
+	margin-bottom: 0px;
+}
+.social-icons ul {
+	margin: 20px 0;
+}
+.social-icons ul li {
+	width: 22%;
+	margin: 0 0 3px;
+	padding: 0px;
+	height:auto;
+	background:none;
+	transform:none;
+	-webkit-transform:none;
+	-moz-transform:none;
+	-ms-transform:none;
+}
+.social-icons ul li a {
+	display: block;
+	padding: 20px 0;
+	transform:none;
+	-webkit-transform:none;
+	-moz-transform:none;
+	-ms-transform:none;
+	margin:0px;
+	top:0px;
+	background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+}
+.social-icons ul li:hover a {
+	background: #fff;
+}
+.social-icons ul li a::before {
+	display: none;
+}
+/***********SOCIAL CSS END********************/
+.tp-caption.medium_text div {
+	font-size: 12px;
+}
+/************SERVICE PAGE**********************/
+.design_box {
+	margin: 0 0 35px;
+}
+/***********CONTACT US PAGE***********************/
+.contact-info {
+	margin-bottom: 5px;
+}
+.btn1 {
+	float: left !important;
+}
+.item_image img {
+	width: 100%;
+}
+.image-container {
+	margin: 10px 0;
+}
+.partner-carousel .owl-item {
+	left: inherit !important;
+}
+/************PRICING PAGE***********************/
+.plan-pricing .col-sm-3 {
+	width: 100%;
+}
+.plan-pricing .plan1 {
+	border-right: 1px solid #d4d4d4 !important;
+}
+.js-video {
+	border: 1px solid #ffffff;
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 50.5%;
+	padding-top: 25px;
+	position: relative;
+}
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+/***********404 PAGE**************/
+.login-box .error_box .form-control {
+	width: 82%;
+}
+}
+@media screen and (max-width: 667px) {
+.small-box1 {
+	width: 88%;
+	float: none;
+	display: inline-block;
+}
+}
+@media screen and (max-width: 600px) {
+.portfolio-section ul#cartegories li a {
+	padding: 5px 10px;
+	font-size: 12px;
+}
+.thumbnail-box ul li, .thumbnail-box ul li:nth-child(2n) {
+	width: 48%;
+}
+.error_box .input-group {
+	width: 100%;
+}
+.login-box .error_box .form-control {
+	width: 80%;
+}
+}
+@media screen and (max-width: 400px) {
+.padding-box {
+	padding: 40px 0;
+}
+.tp-caption.medium_text div {
+	font-size: 9px;
+}
+.social-icons ul li {
+	width: 32%;
+}
+.small_box {
+	font-size: 11px;
+}
+.porfolio_smallbox .text-hide span {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+.trustbox ul li, .trustbox ul li:last-child {
+	width: 100%;
+	margin: 0 0 2%;
+}
+.trustbox ul li .counter {
+	padding: 15px 0;
+	height: auto;
+}
+/***********LOGIN PAGE*************/
+.full-container {
+	padding: 30px 0;
+}
+.login-box a.logo {
+	margin-bottom: 30px;
+}
+.login-box .textbox {
+	padding: 30px;
+}
+.login-box a {
+	border: none;
+	margin: 8px 0 0;
+	padding: 0;
+}
+/***********BLOG PAGE***************/
+.author_box {
+	padding: 0px;
+}
+.author_box img {
+	margin: 0 0 20px;
+}
+.comment-list ul.child {
+	width: 100%;
+	margin: 0px;
+}
+}

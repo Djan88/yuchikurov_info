@@ -1,0 +1,226 @@
+.cl {
+	display: block;
+	clear: both;
+	line-height: 0;
+	height: 0;
+	font-size: 0;
+}
+.cl-10 {
+	display: block;
+	clear: both;
+	line-height: 0;
+	height: 10px;
+	font-size: 0;
+}
+.cl-20 {
+	display: block;
+	clear: both;
+	line-height: 0;
+	height: 20px;
+	font-size: 0;
+}
+.cl-30 {
+	display: block;
+	clear: both;
+	line-height: 0;
+	height: 30px;
+	font-size: 0;
+}
+.cl-40 {
+	display: block;
+	clear: both;
+	line-height: 0;
+	height: 40px;
+	font-size: 0;
+}
+#sa-wrapper {
+	width: 720px;
+	font-family: 'Trebuchet MS', Trebuchet, sans-serif;
+}
+#sa-header {
+	height: 60px;
+	padding: 20px 20px 0 20px;
+	background: url(../images/header.png) no-repeat;
+}
+#sa-header h2 {
+	display: block;
+	padding: 13px 0 0 65px;
+	margin: 0;
+	font-size: 16px;
+	color: #fff;
+	font-weight: normal;
+	text-shadow: -1px -1px 0 #000;
+	-moz-text-shadow: -1px -1px 0 #000;
+	-webkit-text-shadow: -1px -1px 0 #000;
+}
+#sa-header cite {
+	display: block;
+	padding: 0 0 0 65px;
+	margin: 0;
+	font-size: 10px;
+	color: #999;
+	font-style: normal;
+	text-shadow: -1px -1px 0 #000;
+	-moz-text-shadow: -1px -1px 0 #000;
+	-webkit-text-shadow: -1px -1px 0 #000;
+}
+#sa-panel {
+	background: url(../images/panel.png) repeat-y;
+	padding: 0 20px;
+}
+.sa-notification {
+	padding: 2px 0;
+	width: 100%;
+	background: url(../images/notification.png) repeat-y;
+}
+.sa-notification div {
+	padding: 5px 0;
+	text-align: center;
+	padding: 5px 0;
+	color: #fff;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 14px;
+	cursor: pointer;
+	text-shadow: 1px 1px 0 #000;
+	-moz-text-shadow: 1px 1px 0 #000;
+	-webkit-text-shadow: 1px 1px 0 #000;
+}
+#sa-tabs {
+	width: 200px;
+	float: left;
+}
+#sa-tabs li {
+	display: block;
+	padding: 0;
+	margin: 0;
+	float: none;
+	list-style-type: none;
+	height: 29px;
+	background: url(../images/tab.png) no-repeat;
+	cursor: pointer;
+}
+#sa-tabs li a {
+	display: block;
+	height: 19px;
+	line-height: 19px;
+	padding: 5px 0 5px 10px;
+	color: #000;
+	text-decoration: none;
+}
+#sa-tabs li.sa-current-tab { background: #fff }
+#sa-tabs a img {
+	display: block;
+	height: 19px;
+	width: 19px;
+	float: left;
+	margin-right: 10px;
+	text-decoration: none;
+}
+#sa-panes {
+	float: right;
+	width: 440px;
+	padding: 10px 20px;
+	min-height: 400px;
+}
+#sa-panes .sa-pane { display: none }
+.sa-divider {
+	display: block;
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #DBDBDB;
+}
+.sa-box-title {
+	display: block;
+	padding: 10px 0;
+	margin: 0 0 10px 0;
+	font-size: 17px;
+	font-weight: normal;
+	color: #000;
+	border-bottom: 1px solid #888;
+}
+.sa-box-title-toggle {
+	display: block;
+	padding: 5px 10px;
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	font-weight: normal;
+	color: #333;
+	background: left center url(../images/toggle.png) repeat-x;
+	cursor: pointer;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.sa-pane-toggle { display: none }
+.sa-option-box {
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #DBDBDB;
+}
+.sa-pane-toggle .sa-option-box {
+	padding: 0 10px 10px 10px;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #DBDBDB;
+}
+.sa-option-left {
+	width: 140px;
+	line-height: 17px;
+	margin-right: 20px;
+	padding-top: 5px;
+	float: left;
+}
+.sa-option-right {
+	float: left;
+	width: 240px;
+}
+.sa-option-right small {
+	display: block;
+	color: #aaa;
+	font-style: normal;
+	font-size: 11px;
+	padding-top: 5px;
+}
+.sa-option-right label { display: block }
+.sa-option-right .textfield {
+	width: 260px;
+	color: #999;
+}
+.sa-option-right .textarea {
+	width: 260px;
+	height: 100px;
+	color: #999;
+}
+.sa-option-right .drop-select { width: 260px }
+.sa-option-right .textfield:focus,
+.sa-option-right .textarea:focus {
+	border: 1px solid #888;
+	background: #f7f7f7;
+	color: #333;
+}
+.sa-submit {
+	border: none;
+	cursor: pointer;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+#pane-help .sa-submit { display: none }
+#sa-footer {
+	height: 50px;
+	background: url(../images/footer.png) no-repeat;
+}
+#sa-footer-shell {
+	text-align: center;
+	color: #aaa;
+	padding: 6px 30px 0 30px;
+	font-size: 12px;
+}
+#sa-footer-shell a {
+	color: #aaa;
+	text-decoration: none;
+}
+#sa-footer-shell a:hover {
+	color: #fff;
+	text-decoration: underline;
+}

@@ -1,0 +1,349 @@
+/*body{
+    margin: 0;
+    padding: 0;
+    background: #444;
+    overflow: hidden;
+}
+.main
+{
+    background: url(img/main_bg.png) 0 -400px/100% no-repeat;
+    height: 1400px;
+    background-size: cover; 
+}*/
+.circles_wrap svg
+{
+    fill: #fff;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+.circles_wrap path 
+{
+  stroke: #fff!important;
+  stroke-width: 1px;
+  fill: #fff;
+}
+.g_hidden
+{
+    opacity: 0;
+}
+.circles_wrap
+{
+    position: relative;
+    border-radius: 50%;
+    background: #555;
+    width: 1000px;
+    height: 1000px;
+    margin-top: 40px;
+}
+.sim
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: 9;
+}
+.sim_right
+{
+    right: 5px;
+    top: 39.5%;
+}
+.sim_left
+{
+    right: 0px;
+    top: 18%;
+}
+.circle_outside 
+{
+    width: 750px;
+    height: 750px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    left: 125px;
+    top: 125px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: transform 1.5s cubic-bezier(.21,1,.18,1.17);
+    transition: transform 1.5s linear;
+}
+.circle_inside 
+{
+    width: 350px;
+    height: 350px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    left: 325px;
+    top: 325px;
+    position: absolute;
+}
+.formula-wrap 
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: 99;
+    overflow: hidden;
+}
+.formula-wrap svg
+{
+    transition: opacity .25s linear;
+}
+.formula-wrap:hover svg, .active svg, .sim_left svg, .sim_right svg
+{
+    opacity: 1;     
+}
+.formula-filtr 
+{
+    right: 55px;
+    top: 315px;
+    width: 100px;
+    height: 110px;
+}
+.formula-travma 
+{
+    right: 35px;
+    top: 180px;
+    transform: rotate(-30deg);
+    width: 205px;
+    height: 120px;
+}
+.formula-chsv_util 
+{
+    right: 130px;
+    top: 70px;
+    transform: rotate(-60deg);
+    width: 205px;
+    height: 140px;
+}
+.formula-life_woter 
+{
+    right: 275px;
+    top: 50px;
+    transform: rotate(-90deg);
+    width: 180px;
+    height: 110px;
+}
+.formula-plod 
+{
+    right: 470px;
+    top: 95px;
+    transform: rotate(-120deg);
+    width: 100px;
+    height: 100px;
+}
+.formula-disf 
+{
+    right: 505px;
+    top: 183px;
+    transform: rotate(-150deg);
+    width: 210px;
+    height: 110px;
+}
+.formula-egg-num 
+{
+    right: 560px;
+    top: 285px;
+    transform: rotate(-180deg);
+    width: 220px;
+    height: 180px;
+}
+.formula-nag 
+{
+    right: 540px;
+    top: 445px;
+    transform: rotate(-210deg);
+    width: 220px;
+    height: 180px;
+}
+.formula-vodopad 
+{
+    right: 390px;
+    top: 575px;
+    transform: rotate(-250deg);
+    width: 220px;
+    height: 147px;
+}
+.formula-travma_demona 
+{
+    right: 220px;
+    top: 565px;
+    transform: rotate(-280deg);
+    width: 220px;
+    height: 180px;
+}
+.formula-voda_due 
+{
+    right: 75px;
+    top: 480px;
+    transform: rotate(-310deg);
+    width: 220px;
+    height: 180px;
+}
+.popover.popover_static
+{
+    top: 110px;
+    left: -205px;
+    max-width: 400px;
+}
+.popover.popover_static .arrow
+{
+    top: 45px;
+    right: -21px;
+}
+.popover.popover_static .arrow:after
+{
+    border-width: 10px;
+    content: " ";
+    right: 1px;
+    border-right-width: 0;
+    border-left-color: #fff;
+    bottom: -10px;
+}
+.popover.popover_static.visible
+{
+    display: block;
+}
+.popover.popover_static .popover-content 
+{
+    width: 400px;
+}
+.sim.sim_center 
+{
+    right: 105px;
+    top: 41.5%;
+    width: 250px;
+}
+h3.popover-title.popover_static_title
+{
+    font-size: 17px;
+    font-weight: 600;
+}
+@media (max-width: 1300px){
+  .circles_wrap
+  {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .circle_outside
+  {
+    width: 375px;
+    height: 375px;
+    left: 65px;
+    top: 65px;
+  }
+  .circle_inside
+  {
+    width: 175px;
+    height: 175px;
+    left: 165px;
+    top: 165px;
+  }
+  .sim
+  {
+    width: 75px;
+    height: 75px;
+  }
+  .sim_right
+  {
+    right: 2px;
+  }
+  .popover.popover_static
+  {
+    top: 25px;
+    left: -160px;
+    max-width: 250px;
+  }
+  .popover.popover_static .popover-content
+  {
+    width: 250px;
+  }
+  .sim.sim_center
+  {
+    right: 50px;
+    width: 135px;
+  }
+  .formula-wrap
+  {
+    width: 75px;
+    height: 75px;
+  }
+  .formula-filtr
+  {
+    right: 27px;
+    top: 155px;
+    width: 50px;
+    height: 55px;
+  }
+  .formula-travma
+  {
+    right: 17px;
+    top: 90px;
+    width: 103px;
+    height: 60px;
+  }
+  .formula-chsv_util
+  {
+    right: 65px;
+    top: 33px;
+    width: 103px;
+    height: 70px;
+  }
+  .formula-life_woter
+  {
+    right: 137px;
+    top: 25px;
+    width: 90px;
+    height: 55px;
+  }
+  .formula-plod
+  {
+    right: 235px;
+    top: 47px;
+    width: 50px;
+    height: 50px;
+  }
+  .formula-disf
+  {
+    right: 255px;
+    top: 90px;
+    width: 100px;
+    height: 60px;
+  }
+  .formula-egg-num
+  {
+    right: 280px;
+    top: 142px;
+    width: 110px;
+    height: 90px;
+  }
+  .formula-nag
+  {
+    right: 270px;
+    top: 225px;
+    width: 110px;
+    height: 90px;
+  }
+  .formula-vodopad
+  {
+    right: 195px;
+    top: 290px;
+    width: 110px;
+    height: 75px;
+  }
+  .formula-travma_demona
+  {
+    right: 105px;
+    top: 285px;
+    width: 110px;
+    height: 90px;
+  }
+  .formula-voda_due
+  {
+    right: 37px;
+    top: 240px;
+    width: 110px;
+    height: 90px;
+  }
+}

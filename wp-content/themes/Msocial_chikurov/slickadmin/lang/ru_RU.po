@@ -1,0 +1,605 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gn_themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-08 15:08+0300\n"
+"PO-Revision-Date: 2011-03-08 15:08+0300\n"
+"Last-Translator: Владимир <ano.vladimir@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: slickadmin.php:119
+msgid "Options saved"
+msgstr "Настройки сохранены"
+
+#: slickadmin.php:128
+msgid "Theme documentation"
+msgstr "Документация"
+
+#: slickadmin.php:129
+msgid "Twitter"
+msgstr "Твиттер разработчика"
+
+#: slickadmin.php:130
+msgid "Contact author"
+msgstr "Связаться с автором"
+
+#: slickadmin.php:183
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: template.php:3
+msgid "Theme options"
+msgstr "Настройки темы"
+
+#: theme-options.php:12
+msgid "Example tab"
+msgstr "Пример вкладки"
+
+#: theme-options.php:18
+msgid "Textfield example"
+msgstr "Пример текстовго поля"
+
+#: theme-options.php:23
+msgid "Textfield name"
+msgstr "Имя текстового поля"
+
+#: theme-options.php:24
+msgid "Textfield description"
+msgstr "Описание текстовго поля"
+
+#: theme-options.php:25
+msgid "Default value"
+msgstr "Значение по умолчанию"
+
+#: theme-options.php:31
+msgid "Select example"
+msgstr "Пример выпадающего списка"
+
+#: theme-options.php:36
+msgid "Select name"
+msgstr "Имя выпадающего списка"
+
+#: theme-options.php:37
+msgid "Select description"
+msgstr "Описание выпадающего списка"
+
+#: theme-options.php:40
+msgid "Option 1"
+msgstr "Вариант 1"
+
+#: theme-options.php:41
+msgid "Option 2"
+msgstr "Вариант 2"
+
+#: theme-options.php:48
+msgid "Textarea example"
+msgstr "Пример текстового поля"
+
+#: theme-options.php:53
+msgid "Textarea name"
+msgstr "Имя текстового поля"
+
+#: theme-options.php:54
+msgid "Textarea description"
+msgstr "Описание текстовго поля"
+
+#: theme-options.php:60
+msgid "Color picker example"
+msgstr "Пример выбора цвета"
+
+#: theme-options.php:65
+msgid "Color picker name"
+msgstr "Имя поля выбора цвета"
+
+#: theme-options.php:66
+msgid "Color picker description"
+msgstr "Описание для поля выбора цвета"
+
+#: theme-options.php:73
+msgid "Toggle block example"
+msgstr "Пример раскрывающегося блока"
+
+#: theme-options.php:78
+msgid "Toggle block name"
+msgstr "Имя раскрывающегося блока"
+
+#: theme-options.php:83
+msgid "This is toggle content. You can put here any options, that you want"
+msgstr "Это содержимое раскрывающегося блока. Вы можете поместить в этот блок любые опции"
+
+#: theme-options.php:92
+msgid "Hidden option name"
+msgstr "Имя скрытого поля"
+
+#: theme-options.php:93
+msgid "Hidden option description"
+msgstr "Описание скрытого поля"
+
+#: theme-options.php:100
+msgid "Text block example"
+msgstr "Пример текстового блока"
+
+#~ msgid "Twitter (updates and fixes)"
+#~ msgstr "Твиттер (обновления и исправления)"
+
+#~ msgid "Upload"
+#~ msgstr "Загрузить"
+
+#~ msgid "General"
+#~ msgstr "Основные"
+
+#~ msgid "Custom logo"
+#~ msgstr "Логотип"
+
+#~ msgid "Custom logo url"
+#~ msgstr "Изображение"
+
+#~ msgid "Paste full link to your logo. "
+#~ msgstr "Вставьте полную ссылку на лого. "
+
+#~ msgid "Logo indent"
+#~ msgstr "Отступ логотипа"
+
+#~ msgid "Logo top padding (in pixels). If logo image height less than 100px"
+#~ msgstr "Верхний отступ логотипа. Если его высота менее 100 пикселей"
+
+#~ msgid "Custom favicon"
+#~ msgstr "Иконка сайта (favicon)"
+
+#~ msgid "Custom favicon url"
+#~ msgstr "Ссылка на иконку"
+
+#~ msgid "Paste full link to your favicon. "
+#~ msgstr "Вставьте полную ссылку на вашу произвольную иконку. "
+
+#~ msgid "Sidebar position"
+#~ msgstr "Положение боковой колонки"
+
+#~ msgid "Default sidebar position"
+#~ msgstr "Положение стандартной боковой колонки"
+
+#~ msgid ""
+#~ "This value will be used for single posts, single pages and archives (by "
+#~ "tag, by category and by date)"
+#~ msgstr ""
+#~ "Это значение будет использовано для записей, страниц и архивов (по тегу, "
+#~ "категории и дате)"
+
+#~ msgid "Left"
+#~ msgstr "Слева"
+
+#~ msgid "Right"
+#~ msgstr "Справа"
+
+#~ msgid "No sidebar"
+#~ msgstr "Нет сайдбара"
+
+#~ msgid "Header blocks"
+#~ msgstr "Блоки в шапке"
+
+#~ msgid "Social links"
+#~ msgstr "Социальные ссылки"
+
+#~ msgid "Show/hide social media block in header"
+#~ msgstr "Показать/скрыть блок социальных ссылок в шапке"
+
+#~ msgid "Show"
+#~ msgstr "Показать"
+
+#~ msgid "Hide"
+#~ msgstr "Скрыть"
+
+#~ msgid "Styling"
+#~ msgstr "Внешний вид"
+
+#~ msgid "Skins"
+#~ msgstr "Скины"
+
+#~ msgid "Choose skin"
+#~ msgstr "Выберите скин"
+
+#~ msgid "Custom css"
+#~ msgstr "Произвольные стили (css)"
+
+#~ msgid "Colors"
+#~ msgstr "Цвета"
+
+#~ msgid "Text color"
+#~ msgstr "Цвет текста"
+
+#~ msgid "Global text color"
+#~ msgstr "Общий цвет текста"
+
+#~ msgid "Headings color"
+#~ msgstr "Цвет заголовков"
+
+#~ msgid "Color for heading tags (h1, h2, ...)"
+#~ msgstr "Цвет для заголовков (h1, h2, ...)"
+
+#~ msgid "Links color"
+#~ msgstr "Цвет ссылок"
+
+#~ msgid "Color for hyperlinks"
+#~ msgstr "Цвет для гиперссылок в тексте"
+
+#~ msgid "Hover links color"
+#~ msgstr "Цвет ссылок при наведении"
+
+#~ msgid "Color for hyperlinks on hover"
+#~ msgstr "Цвет для гиперссылок в тексте при наведении курсора"
+
+#~ msgid "Fonts"
+#~ msgstr "Шрифты"
+
+#~ msgid "Global font settings"
+#~ msgstr "Общие настройки шрифта"
+
+#~ msgid "Global font family"
+#~ msgstr "Семейство шрифтов"
+
+#~ msgid "Global font-family rule"
+#~ msgstr "Общее семейство шрифтов для текста"
+
+#~ msgid "Global font size"
+#~ msgstr "Общий размер шрифта"
+
+#~ msgid "Global font size (in pixels). Optimal values: 12, 13, 14 or 15"
+#~ msgstr ""
+#~ "Общий размер шрифта на сайте (в пикселях). Оптимальные значения: 12, 13, "
+#~ "14 или 15"
+
+#~ msgid "Headings font settings"
+#~ msgstr "Настройки шрифтов заголовков"
+
+#~ msgid "Headings font"
+#~ msgstr "Шрифт для заголовков"
+
+#~ msgid "Font for header tags (h1, h2, ...)"
+#~ msgstr "Шрифт для тегов заголовков (h1, h2, ...)"
+
+#~ msgid "H1 font size"
+#~ msgstr "Размер заголовков H1"
+
+#~ msgid "Font size for H1 tags (in ems)"
+#~ msgstr ""
+#~ "Размер заголовков H1. Относительная величина (em). вычисляется "
+#~ "относительно общего размера шрифта"
+
+#~ msgid "H2 font size"
+#~ msgstr "Размер заголовков H2"
+
+#~ msgid "Font size for H2 tags (in ems)"
+#~ msgstr ""
+#~ "Размер заголовков H2. Относительная величина (em). вычисляется "
+#~ "относительно общего размера шрифта"
+
+#~ msgid "H3 font size"
+#~ msgstr "Размер заголовков H3"
+
+#~ msgid "Font size for H3 tags (in ems)"
+#~ msgstr ""
+#~ "Размер заголовков H3. Относительная величина (em). вычисляется "
+#~ "относительно общего размера шрифта"
+
+#~ msgid "H4 font size"
+#~ msgstr "Размер заголовков H4"
+
+#~ msgid "Font size for H4 tags (in ems)"
+#~ msgstr ""
+#~ "Размер заголовков H4. Относительная величина (em). вычисляется "
+#~ "относительно общего размера шрифта"
+
+#~ msgid "H5 font size"
+#~ msgstr "Размер заголовков H5"
+
+#~ msgid "Font size for H5 tags (in ems)"
+#~ msgstr ""
+#~ "Размер заголовков H5. Относительная величина (em). вычисляется "
+#~ "относительно общего размера шрифта"
+
+#~ msgid "H6 font size"
+#~ msgstr "Размер заголовков H6"
+
+#~ msgid "Font size for H6 tags (in ems)"
+#~ msgstr ""
+#~ "Размер заголовков H6. Относительная величина (em). вычисляется "
+#~ "относительно общего размера шрифта"
+
+#~ msgid "Slider"
+#~ msgstr "Слайдер"
+
+#~ msgid "General settings"
+#~ msgstr "Основные настройки"
+
+#~ msgid "Slider type"
+#~ msgstr "Тип слайдера"
+
+#~ msgid "Choose slider type"
+#~ msgstr "Укажите тип слайдера"
+
+#~ msgid "Anything slider"
+#~ msgstr "Anything slider"
+
+#~ msgid "Static image"
+#~ msgstr "Статичное изображение"
+
+#~ msgid "Width"
+#~ msgstr "Ширина"
+
+#~ msgid "Enter slider width, in pixels. MAX: 960"
+#~ msgstr "Укажите ширину слайдера в пикселях. Максимум: 960"
+
+#~ msgid "Slider height"
+#~ msgstr "Высота слайдера"
+
+#~ msgid "Enter slider height, in pixels"
+#~ msgstr "Укажите высоту слайдера, в пикселях"
+
+#~ msgid "Anything slider settings"
+#~ msgstr "Настройки Anything slider"
+
+#~ msgid "Show arrows"
+#~ msgstr "Показывать навигацию стрелками"
+
+#~ msgid "Show/hide left/right navigation arrows"
+#~ msgstr "Показать/скрыть стрелки навигации влево/вправо"
+
+#~ msgid "Show on hover"
+#~ msgstr "Показать при наведении"
+
+#~ msgid "Show pagination"
+#~ msgstr "Показывать страницы"
+
+#~ msgid "Show/hide pages navigation"
+#~ msgstr "Показать/скрыть постраницную навигацию слайдера"
+
+#~ msgid "Auto play"
+#~ msgstr "Авто старт"
+
+#~ msgid "Force slides animation automatically"
+#~ msgstr "Запускать анимацию слайдера автоматически"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Delay"
+#~ msgstr "Задержка"
+
+#~ msgid ""
+#~ "Delay between slide trasitions (in milliseconds).<br/>1 second = 1000"
+#~ msgstr "Время, между сменой слайдов (в миллисекундах).<br/>1 секунда = 1000"
+
+#~ msgid "Speed"
+#~ msgstr "Скорость"
+
+#~ msgid "Transition speed (in milliseconds).<br/>1 second = 1000"
+#~ msgstr ""
+#~ "Скорость, с которой сменяются слайды (в миллисекундах).<br/>1 секунда = "
+#~ "1000"
+
+#~ msgid "Easing"
+#~ msgstr "Плавность"
+
+#~ msgid "Easing effect for transitions"
+#~ msgstr "Плавность. Функция времени при анимации смены слайдов"
+
+#~ msgid "Mouse wheel"
+#~ msgstr "Колесико"
+
+#~ msgid ""
+#~ "Change slides on mouse wheel.<br/><b>Note:</b> this is experimental "
+#~ "incomlete function. At this time scroll don't work above the vimeo video "
+#~ "frame"
+#~ msgstr ""
+#~ "Сменять слайды при прокрутке колесиком мышки.<br/><b>Инфо:</b> это "
+#~ "экспериментальная, не завершенная функция. На данный момент прокрутка не "
+#~ "будет работать, если курсор находится над видео-плеером vimeo."
+
+#~ msgid "Static image settings"
+#~ msgstr "Настройки статичного изображения"
+
+#~ msgid "Image"
+#~ msgstr "Изображение"
+
+#~ msgid "Paste full link to your static image. "
+#~ msgstr "Вставьте полную ссылку на ваше статичное изображение. "
+
+#~ msgid "Custom link"
+#~ msgstr "Произвольная ссылка"
+
+#~ msgid "Footer"
+#~ msgstr "Подвал"
+
+#~ msgid "Widgets"
+#~ msgstr "Виджеты"
+
+#~ msgid "Widgets in footer"
+#~ msgstr "Виджеты в подвале"
+
+#~ msgid "Show/hide widgetized areas in footer"
+#~ msgstr "Показать/скрыть виджет-зоны в подвале"
+
+#~ msgid "Copyrights"
+#~ msgstr "Копирайты"
+
+#~ msgid "Left custom text"
+#~ msgstr "Произвольный текст слева"
+
+#~ msgid "Footer left custom text"
+#~ msgstr "Произвольный текст слева в подвале"
+
+#~ msgid "Right custom text"
+#~ msgstr "Произвольный текст справа"
+
+#~ msgid "Footer right custom text"
+#~ msgstr "Произвольный текст справа в подвале"
+
+#~ msgid "Tracking code"
+#~ msgstr "Код счетчика"
+
+#~ msgid "Google tracking code"
+#~ msgstr "Код счетчика google"
+
+#~ msgid "Paste your tracking code"
+#~ msgstr "Вставьте ваш код счетчика google"
+
+#~ msgid "Social media"
+#~ msgstr "Социальные"
+
+#~ msgid "Links target"
+#~ msgstr "Поведение ссылок"
+
+#~ msgid "New window/tab"
+#~ msgstr "Открывать в новом окне/вкладке"
+
+#~ msgid "Open social links in new window/tab (target=blank)"
+#~ msgstr "Открывать социальные ссылки в новом окне/вкладке (target=blank)"
+
+#~ msgid "Custom icon 1"
+#~ msgstr "Произвольная иконка 1"
+
+#~ msgid "Link"
+#~ msgstr "Ссылка"
+
+#~ msgid "Paste full link to your custom page (1)"
+#~ msgstr "Вставьте полную ссылку на нужную страницу (1)"
+
+#~ msgid "Icon"
+#~ msgstr "Иконка"
+
+#~ msgid "Paste full link to your custom icon (1)"
+#~ msgstr "Вставьте полную ссылку на произвольную иконку (1)"
+
+#~ msgid "Custom icon 2"
+#~ msgstr "Произвольная иконка 2"
+
+#~ msgid "Paste full link to your custom page (2)"
+#~ msgstr "Вставьте полную ссылку на нужную страницу (2)"
+
+#~ msgid "Paste full link to your custom icon (2)"
+#~ msgstr "Вставьте полную ссылку на произвольную иконку (2)"
+
+#~ msgid "Custom icon 3"
+#~ msgstr "Произвольная иконка 3"
+
+#~ msgid "Paste full link to your custom page (3)"
+#~ msgstr "Вставьте полную ссылку на нужную страницу (3)"
+
+#~ msgid "Paste full link to your custom icon (3)"
+#~ msgstr "Вставьте полную ссылку на произвольную иконку (3)"
+
+#~ msgid "Blog"
+#~ msgstr "Блог"
+
+#~ msgid "Blog page settings"
+#~ msgstr "Настройки страницы блога"
+
+#~ msgid "Posts per page"
+#~ msgstr "Записей на страницу"
+
+#~ msgid "How much posts show per page"
+#~ msgstr "Сколько записей выводить на одной странице блога"
+
+#~ msgid "More text"
+#~ msgstr "Читать далее"
+
+#~ msgid "Text for \"Read more\" link"
+#~ msgstr "Текст для ссылки \"Читать полностью\""
+
+#~ msgid "Share block"
+#~ msgstr "Блок поделиться"
+
+#~ msgid "Show/hide share block on single posts pages"
+#~ msgstr "Показать/скрыть блок с социальными ссылками публикации поста"
+
+#~ msgid "Blog layout"
+#~ msgstr "Макет блога"
+
+#~ msgid "Layout type"
+#~ msgstr "Тип макета"
+
+#~ msgid "Blog posts layout"
+#~ msgstr "Расположение записей блога"
+
+#~ msgid "Regular layout (thumbs + excerpt)"
+#~ msgstr "Обычный макет (миниатюры + цитата)"
+
+#~ msgid "Magazine layout"
+#~ msgstr "Журнальный вид"
+
+#~ msgid "Wide thumbnails"
+#~ msgstr "Широкие миниатюры"
+
+#~ msgid "Excerpt only"
+#~ msgstr "Только цитата"
+
+#~ msgid "Layout 3 thumb height"
+#~ msgstr "Высота миниатюр для 3-го макета"
+
+#~ msgid "For layout 3 only"
+#~ msgstr "Только при использовании макета 3"
+
+#~ msgid "Blog sidebar position"
+#~ msgstr "Положение боковой колонки блога"
+
+#~ msgid "Portfolio"
+#~ msgstr "Портфолио"
+
+#~ msgid "Portfolio page settings"
+#~ msgstr "Настройки страницы портфолио"
+
+#~ msgid "Items per page"
+#~ msgstr "Работ на страницу"
+
+#~ msgid "How much items show per page"
+#~ msgstr "Сколько работ показывать на одной странице портфолио"
+
+#~ msgid "Columns"
+#~ msgstr "Колонок"
+
+#~ msgid "Number columns in portfolio"
+#~ msgstr "Число колонок для работ в портфолио"
+
+#~ msgid "One column"
+#~ msgstr "Одна колонка"
+
+#~ msgid "Two columns"
+#~ msgstr "Две колонки"
+
+#~ msgid "Three columns"
+#~ msgstr "Три колонки"
+
+#~ msgid "Four columns"
+#~ msgstr "Четыре колонки"
+
+#~ msgid "Images"
+#~ msgstr "Изображения"
+
+#~ msgid "Thumbnails"
+#~ msgstr "Миниатюры"
+
+#~ msgid ""
+#~ "If you already have posts with thumbnails, than you can change custom "
+#~ "field name for thumbnails here"
+#~ msgstr ""
+#~ "Если вы уже имеете записи с установленными миниатюрами, то здесь вы "
+#~ "можете указать  имя произвольного поля, в котором содержатся ссылки на "
+#~ "изображения миниатюр"
+
+#~ msgid ""
+#~ "Blog posts layout.<br/>1 - simple blog, thumbnails + excerpt<br/>2 - "
+#~ "magazine layout<br/>3 - wide thumbnails + excerpt<br/>4 - excerpt only"
+#~ msgstr ""
+#~ "Расположение записей блога.<br/>1 - простой блог, миниатюры + цитата<br/"
+#~ ">2 - журнальный макет<br/>3 - широкие миниатюры + цитата<br/>4 - только "
+#~ "цитата"

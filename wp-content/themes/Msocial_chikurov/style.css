@@ -1,0 +1,48 @@
+/*
+Theme Name: Msocial_chikurov
+Theme URI: http://gavick.com
+Description: (M)Social WordPress theme is designed to support BuddyPress plugin which lets you to create profiles, post messages and make connections with all community. With it’s trendy and metro design concept, it has been created for business as well as for social community needs. This modern and mind-blowing responsive theme, which adapts perfectly to all device resolutions, comes with numerous stylish features such as: 6 preset styles, 12 background patterns, 2 menu types, price table, typography and much more! Exclusively for this BuddyPress solution, we used the brand new GK Grid module which allows you to freely place any content you want. But this is not the end! (M)Social theme was built with attention to details and made to support lots of other widgets such as: GK News Show Pro,  GK Comments, GK Tabs, GK Title Overlay and BP Latest Photos.
+License: GNU GPL v.2.0
+License URI: LICENSE.txt
+Version: 1.1.4 (based on GavernWP 1.9.2)
+Author: GavickPro
+Author URI: http://gavick.com
+Tags: buddypress, gray, two-columns, flexible-width
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+/* Open Sans Font */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+/* Bootstrap v3.2.0 */
+@import url("css/bootstrap/bootstrap.min.css");
+
+/* Main Stylesheet */
+@import url("stylesheet.css");
+
+/* CUSTOM LAYOUT Stylesheet */
+@import url("css/custom-layout.css");
+
+/* Custome Fonts Stylesheet */
+@import url("css/fonts.css");
+
+/* Animation Style */
+@import url("css/animation.css");
+
+/* PrettyPhoto Style */
+@import url("css/prettyPhoto.css");
+
+/* FontAwesome Icons */
+@import url("../fonts/font-awesome/css/font-awesome.css");
+@import url("../fonts/font-awesome/css/font-awesome.min.css");
+
+/* Owl Carousel */
+@import url("owl-carousel/owl.carousel.css");
+@import url("owl-carousel/owl.theme.css");
+@import url("owl-carousel/owl.transitions.css");
+@import url("owl-carousel/animate.css");
+
+/* Mobile css */
+@import url("mobile.css");
