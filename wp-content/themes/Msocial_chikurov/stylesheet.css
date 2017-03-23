@@ -3019,6 +3019,7 @@ ul.pagination li a
     font-size: 35px;
     color: #ABABAB;
     font-weight: 700;
+    position: relative;
 }
 .post.category-master-class
 {
@@ -3036,6 +3037,7 @@ ul.pagination li a
 .rasp-date 
 {
     position: relative;
+    padding-top: 10px;
 }
 span.rasp_d 
 {
