@@ -120,7 +120,7 @@
                                     </div>
                                     <div class="rasp-content">
                                         <div class="rasp-time">
-                                            <span class="fa fa-phone"></span><b>Запись: </b> <?php bp_group_master_telephone(); ?> | <span class="fa fa-envelope"></span> 
+                                            <span class="fa fa-phone" style="margin-right: 5px;"></span><b>Запись: </b> <?php bp_group_master_telephone(); ?> | <span class="fa fa-envelope"></span> 
                                             <?php if (bp_get_group_master_email()) { ?>
                                               <a href="mailto:<?php bp_group_master_email(); ?>"><?php bp_group_master_email(); ?></a>
                                             <?php } else if ($org_yes) { ?>
@@ -132,8 +132,7 @@
                                     </div>
                                     <div class="rasp-content">
                                         <div class="rasp-time">
-                                            <span class="fa fa-user"></span><b>Читает: </b>
-                                            <a href="<?php echo bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = false, $just_link = true); ?>"><?php echo bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = true, $just_link = false); ?></a>
+                                            <span class="fa fa-user" style="margin-right: 5px;"></span><b>Читает: </b> <a href="<?php echo bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = false, $just_link = true); ?>"><?php echo bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = true, $just_link = false); ?></a>
                                         </div>
                                     </div>
                                 </div>
