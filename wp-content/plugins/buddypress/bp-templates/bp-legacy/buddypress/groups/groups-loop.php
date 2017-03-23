@@ -75,6 +75,8 @@
                 $date = groups_get_groupmeta( bp_get_group_id(), 'group_plus_header_fieldone');
                 $min_date = strtotime($date);
                 $date_seminar = rdate('d M, Y', $min_date);
+                $date_seminar_day = rdate('d', $min_date);
+                $date_seminar_month = rdate('m', $min_date);
                 $master_id = $group->admins[0]->user_id;
                 if ($master_id == 1){
                     $master_filter = 'chicurov';
@@ -94,22 +96,31 @@
                 if(bp_displayed_user_id() == 0 || bp_displayed_user_id() == $group->admins[0]->user_id){ ?>
                     <?php if ($master_id == 1 || $master_id == 7 || $master_id == 11 || $master_id == 9 || $master_id == 5 || $master_id == 4149 || $master_id == 1033) { ?>
                         <div class="porfolio_smallbox seminar_linear" data-filter="<?php echo $master_filter; ?>">
-                            <div class="top-section seminar_section">
-                                <a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( 'type=full&width=false&height=false' ); ?></a>
-                                <div class="seminar_sum">
-                                    <div class="seminar_name"><a href="<?php bp_group_permalink(); ?>"><?php bp_group_name(); ?></a></div>
-                                    <div class="seminar_autor">Ведущий: <?php echo bp_core_get_userlink($group->admins[0]->user_id); if($group->admins[1]->user_id){ echo ', '.bp_core_get_userlink($group->admins[1]->user_id); } ?></div>
-                                    <div class="seminar_description hidden">
-                                        <?php
-                                            $comment = bp_group_description_excerpt();
-                                            if (mb_strlen($comment) > 80) {
-                                               $comment = rtrim(mb_substr($comment, 0, 80)) . '&hellip;';
-                                            }
-                                            echo $comment;
-                                        ?>
+                            <div class="row">
+                                <div class="col-md-2 col-sm-2 col-xs-2 text-center rasp-date">
+                                    <div class="rasp_d_i_m">
+                                        <span class="rasp_d">$date_seminar_day</span> 
+                                        <span class="devider">/</span>
+                                        <span class="devider_small">—</span> 
+                                        <span class="rasp_m">$date_seminar_month</span>
                                     </div>
-                                    <div class="seminar_location"><?= $city; ?> | <span class="seminar_date"><?= $date_seminar; ?> - <?= $date_end; ?></span></div>
                                 </div>
+                                <div class="col-md-8 col-sm-7 col-xs-7" style="padding-top: 10px;">
+                                    <div class="rasp-title"><a href="<?php bp_group_permalink(); ?>"><?php bp_group_name(); ?></a></div>
+                                    <div class="rasp-content">
+                                        <div class="rasp-time">
+                                            <span class="fa fa-clock-o"></span> $date_seminar_day — $date_seminar_month | 
+                                        </div>
+                                        <div class="rasp-adress">
+                                            <span class="fa fa-map-marker"></span>  Москва, ул. Сельскохозяйственная 17, корпус 5, оф. 128.                    </div>
+                                    </div>
+                                    <div class="rasp-content">
+                                        <div class="rasp-time">
+                                            <span class="fa fa-phone"></span> +7 (495) 135-25-48 | <span class="fa fa-envelope"></span> <a href="mailto:yuchikurov@gmail.com">yuchikurov@gmail.com</a> | <b>Запиcь обязательна</b>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                             <!--showcasebox--> 
 

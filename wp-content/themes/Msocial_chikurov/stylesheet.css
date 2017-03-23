@@ -3200,6 +3200,10 @@ span.rasp_m
     text-align: center;
     font-size: 13px;
 }
+.porfolio_smallbox.seminar_linear 
+{
+    width: 100%;
+}
 @media (max-width: 992px) {
     .rasp-date div 
     {
