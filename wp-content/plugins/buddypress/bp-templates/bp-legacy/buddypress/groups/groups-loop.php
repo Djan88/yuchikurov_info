@@ -192,7 +192,7 @@
                                 <div class="rasp-details">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_time">
-                                            <div class="rasp-details_title"><span class="fa fa-money"></span> НА КОГО ОРИЕНТИРОВАН?</div>
+                                            <div class="rasp-details_title"><span class="fa fa-users"></span> НА КОГО ОРИЕНТИРОВАН?</div>
                                             <div class="rasp-details_content">
                                                 <?php bp_group_for_whom(); ?>
                                             </div>
@@ -225,7 +225,7 @@
                                 <div class="rasp-details">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_time">
-                                            <div class="rasp-details_title"><span class="fa fa-clock-o"></span> ДАТЫ СЕМИНАРА</div>
+                                            <div class="rasp-details_title"><span class="fa fa-calendar"></span> ДАТЫ СЕМИНАРА</div>
                                             <div class="rasp-details_content"><?php echo $date_seminar;?> — <?php echo $date_end;?></div>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_location">
@@ -245,7 +245,7 @@
                                 </div>
                                 <div class="rasp-order-title">
                                     <div class="rasp-details_title" style="padding-top: 10px;text-align: center;
-                                    "><span class="fa fa-pencil"></span> ЗАПИСАТЬСЯ НА МЕРОПРИЯТИЕ</div>
+                                    "><span class="fa fa-pencil"></span> ЗАДАТЬ ВОПРОС И ОСТАВИТЬ ЗАЯВКУ</div>
                                 </div>
                                 <div class="rasp_order">
                                     <div class="row">
