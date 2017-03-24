@@ -245,7 +245,7 @@
                                 </div>
                                 <div class="rasp-order-title">
                                     <div class="rasp-details_title" style="padding-top: 10px;text-align: center;
-                                    "><span class="fa fa-pencil"></span> ЗАДАТЬ ВОПРОС И ОСТАВИТЬ ЗАЯВКУ</div>
+                                    "><span class="fa fa-pencil"></span> ЗАДАТЬ ВОПРОС ИЛИ ОСТАВИТЬ ЗАЯВКУ</div>
                                 </div>
                                 <div class="rasp_order">
                                     <div class="row">
