@@ -240,11 +240,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="rasp-map">
-                                    <?php $coords_seminar = bp_get_group_place_coordinates();?>
-                                    <?php $seminar_map = "[showyamap] [placemark coordinates='".$coords_seminar."'/] [/showyamap]";?>
-                                    <?php echo do_shortcode($seminar_map); ?>
-                                </div>
+                                <?php $coords_seminar = bp_get_group_place_coordinates();?>
+                                <?php if ($coords_seminar) { ?>
+                                    <div class="rasp-map">
+                                        <?php $seminar_map = "[showyamap] [placemark coordinates='".$coords_seminar."'/] [/showyamap]";?>
+                                        <?php echo do_shortcode($seminar_map); ?>
+                                    </div>
+                                <?php } ?>
                                 <div class="rasp-order-title">
                                     <div class="rasp-details_title" style="padding-top: 10px;text-align: center;
                                     "><span class="fa fa-pencil"></span> ЗАДАТЬ ВОПРОС ИЛИ ОСТАВИТЬ ЗАЯВКУ</div>
