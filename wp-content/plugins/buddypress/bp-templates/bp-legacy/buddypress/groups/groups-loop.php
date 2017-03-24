@@ -242,7 +242,7 @@
                                 </div>
                                 <div class="rasp-map">
                                     <?php $coords_seminar = bp_group_place_coordinates();?>
-                                    <?php $seminar_map = '[showyamap] [placemark coordinates="'.echo $coords_seminar.'"/] [/showyamap]';?>
+                                    <?php $seminar_map = "[showyamap] [placemark coordinates='".$coords_seminar."'/] [/showyamap]";?>
                                     <?php echo do_shortcode($seminar_map); ?>
                                 </div>
                                 <div class="rasp-order-title">
