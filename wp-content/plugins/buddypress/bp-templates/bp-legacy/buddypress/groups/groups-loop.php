@@ -241,7 +241,9 @@
                                     </div>
                                 </div>
                                 <div class="rasp-map">
-                                    <?php $coords_seminar = bp_group_place_coordinates();?>
+                                    <?php $coords_seminar = bp_get_group_place_coordinates();?>
+                                    <?php $seminar_map = "[showyamap] [placemark coordinates='".$coords_seminar."'/] [/showyamap]";?>
+                                    <?php echo do_shortcode($seminar_map); ?>
                                 </div>
                                 <div class="rasp-order-title">
                                     <div class="rasp-details_title" style="padding-top: 10px;text-align: center;
@@ -249,7 +251,6 @@
                                 </div>
                                 <div class="rasp_order">
                                     <div class="row">
-                                        <?php bp_group_place_coordinates(); ?>
                                         <?php //echo do_shortcode('[contact-form-7 id="3503" title="Запись на мастер класс"]'); ?>
                                     </div>
                                 </div>
