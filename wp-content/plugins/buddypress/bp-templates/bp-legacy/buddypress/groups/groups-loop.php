@@ -201,7 +201,6 @@
                                             <div class="rasp-details_title"><span class="fa fa-pencil-square-o"></span> КАК ЗАПИСАТЬСЯ?</div>
                                             <div class="rasp-details_content">
                                                 <b style="font-size: 12px;">Предварительная запиcь обязательна</b></br>
-                                                <span class="fa fa-phone"></span>
                                                 <?php if (bp_get_group_master_telephone()) { ?>
                                                   <i class="icon-phone" style="margin-right: 10px;"></i><?php bp_group_master_telephone(); ?>
                                                 <?php } else if ($org_yes) { ?>
