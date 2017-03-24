@@ -120,7 +120,16 @@
                                     </div>
                                     <div class="rasp-content">
                                         <div class="rasp-time">
-                                            <span class="fa fa-phone" style="margin-right: 5px;"></span><b>Запись: </b> <?php bp_group_master_telephone(); ?> | <span class="fa fa-envelope"></span> 
+                                            <span class="fa fa-phone" style="margin-right: 5px;"></span>
+                                            <b>Запись: </b> 
+                                            <?php if (bp_get_group_master_telephone()) { ?>
+                                              <i class="icon-phone" style="margin-right: 10px;"></i><?php bp_group_master_telephone(); ?>
+                                            <?php } else if ($org_yes) { ?>
+                                              <i class="icon-phone" style="margin-right: 10px;"></i><?php echo xprofile_get_field_data(9, $group->mods[0]->user_id); ?>
+                                            <?php } else { ?>
+                                              <i class="icon-phone" style="margin-right: 10px;"></i><?php echo xprofile_get_field_data(9, $group->admins[0]->user_id); ?>
+                                            <?php } ?> 
+                                            | <span class="fa fa-envelope"></span> 
                                             <?php if (bp_get_group_master_email()) { ?>
                                               <a href="mailto:<?php bp_group_master_email(); ?>"><?php bp_group_master_email(); ?></a>
                                             <?php } else if ($org_yes) { ?>
@@ -144,6 +153,111 @@
                             <!--showcasebox--> 
 
                             <div class="clear"></div>
+                        </div>
+                        <!-- Modal seminar -->
+                        <div class="modal fade rasp-modal" id="myModal-<?php echo $seminar_id;?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2 col-xs-2 text-center rasp-date">
+                                        <div class="rasp_d_i_m"><span class="rasp_d"><?php echo $date_seminar_day; ?></span> <span class="devider">/</span><span class="devider_small">—</span> <span class="rasp_m"><?php echo $date_seminar_month; ?></span></div>
+                                    </div>
+                                    <div class="col-md-8 col-sm-7 col-xs-7">
+                                        <div class="rasp-title"><?php bp_group_name(); ?></div>
+                                        <div class="rasp-content">
+                                            <div class="rasp-time">
+                                                <span class="fa fa-calendar"></span> <?php echo $date_seminar;?> — <?php echo $date_end;?>
+                                            </div>
+                                            <div class="rasp-adress">
+                                                <span class="fa fa-map-marker"></span> 
+                                                <?php if ( bp_get_group_place()) { ?>
+                                                 <?php bp_group_place(); ?>
+                                                <?php } else { ?>
+                                                  <?php echo $city; ?>
+                                                <?php } ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-3 text-center rasp-img">
+                                        <?php bp_group_avatar( 'type=thumbnail&width=100&height=100' ); ?>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="modal-body">
+                                <div class="rasp-content">
+                                    <?php bp_group_description(); ?>
+                                </div>
+                                <div class="rasp-details">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_time">
+                                            <div class="rasp-details_title"><span class="fa fa-money"></span> НА КОГО ОРИЕНТИРОВАН?</div>
+                                            <div class="rasp-details_content">
+                                                <?php bp_group_for_whom(); ?>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_location">
+                                            <div class="rasp-details_title"><span class="fa fa-pencil-square-o"></span> КАК ЗАПИСАТЬСЯ?</div>
+                                            <div class="rasp-details_content">
+                                                <b style="font-size: 12px;">Предварительная запиcь обязательна</b></br>
+                                                <span class="fa fa-phone"></span>
+                                                <?php if (bp_get_group_master_telephone()) { ?>
+                                                  <i class="icon-phone" style="margin-right: 10px;"></i><?php bp_group_master_telephone(); ?>
+                                                <?php } else if ($org_yes) { ?>
+                                                  <i class="icon-phone" style="margin-right: 10px;"></i><?php echo xprofile_get_field_data(9, $group->mods[0]->user_id); ?>
+                                                <?php } else { ?>
+                                                  <i class="icon-phone" style="margin-right: 10px;"></i><?php echo xprofile_get_field_data(9, $group->admins[0]->user_id); ?>
+                                                <?php } ?> 
+                                                </br>
+                                                <span class="fa fa-envelope"></span> 
+                                                <?php if (bp_get_group_master_email()) { ?>
+                                                  <a href="mailto:<?php bp_group_master_email(); ?>"><?php bp_group_master_email(); ?></a>
+                                                <?php } else if ($org_yes) { ?>
+                                                  <a href="mailto:<?php echo xprofile_get_field_data(8, $group->mods[0]->user_id); ?>"><?php echo xprofile_get_field_data(8, $group->mods[0]->user_id); ?></a>
+                                                <?php } else { ?>
+                                                  <a href="mailto:<?php echo xprofile_get_field_data(8, $group->admins[0]->user_id); ?>"><?php echo xprofile_get_field_data(8, $group->admins[0]->user_id); ?></a>
+                                                <?php } ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rasp-details">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_time">
+                                            <div class="rasp-details_title"><span class="fa fa-clock-o"></span> ДАТЫ СЕМИНАРА</div>
+                                            <div class="rasp-details_content"><?php echo $date_seminar;?> — <?php echo $date_end;?></div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_location">
+                                            <div class="rasp-details_title"><span class="fa fa-map-marker"></span> МЕСТО ПРОВЕДЕНИЯ</div>
+                                            <div class="rasp-details_content">
+                                                <?php if ( bp_get_group_place()) { ?>
+                                                 <?php bp_group_place(); ?>
+                                                <?php } else { ?>
+                                                  <?php echo $city; ?>
+                                                <?php } ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rasp-map">
+                                    <?php echo do_shortcode('[showyamap] [placemark coordinates="55.837287, 37.633060"/] [/showyamap]'); ?>
+                                </div>
+                                <div class="rasp-order-title">
+                                    <div class="rasp-details_title" style="padding-top: 10px;text-align: center;
+                                    "><span class="fa fa-pencil"></span> ЗАПИСАТЬСЯ НА МЕРОПРИЯТИЕ</div>
+                                </div>
+                                <div class="rasp_order">
+                                    <div class="row">
+                                        <?php //echo do_shortcode('[contact-form-7 id="3503" title="Запись на мастер класс"]'); ?>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                     <?php } ?>
 
