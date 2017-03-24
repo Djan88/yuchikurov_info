@@ -249,6 +249,7 @@
                                 </div>
                                 <div class="rasp_order">
                                     <div class="row">
+                                        <?php bp_group_place_coordinates(); ?>
                                         <?php //echo do_shortcode('[contact-form-7 id="3503" title="Запись на мастер класс"]'); ?>
                                     </div>
                                 </div>
