@@ -241,7 +241,7 @@
                                     </div>
                                 </div>
                                 <div class="rasp-map">
-                                    <?php echo do_shortcode('[showyamap] [placemark coordinates="'.bp_group_place_coordinates().'"/] [/showyamap]'); ?>
+                                    <?php echo do_shortcode('[showyamap] [placemark coordinates="44.741156, 37.743110"/] [/showyamap]'); ?>
                                 </div>
                                 <div class="rasp-order-title">
                                     <div class="rasp-details_title" style="padding-top: 10px;text-align: center;
