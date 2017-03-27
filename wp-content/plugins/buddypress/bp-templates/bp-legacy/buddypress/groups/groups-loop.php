@@ -251,7 +251,7 @@
                                 </div>
                                 <div class="rasp_order">
                                     <div class="row">
-                                        <?php //echo do_shortcode('[contact-form-7 id="3503" title="Запись на мастер класс"]'); ?>
+                                        <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
                                     </div>
                                 </div>
                               </div>
