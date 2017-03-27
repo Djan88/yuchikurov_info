@@ -165,7 +165,7 @@
                                         <div class="rasp_d_i_m"><span class="rasp_d"><?php echo $date_seminar_day; ?></span> <span class="devider">/</span><span class="devider_small">—</span> <span class="rasp_m"><?php echo $date_seminar_month; ?></span></div>
                                     </div>
                                     <div class="col-md-8 col-sm-7 col-xs-7">
-                                        <div class="rasp-title"><?php bp_group_name(); ?></div>
+                                        <div class="rasp-title"><a href="<?php bp_group_permalink(); ?>"><?php bp_group_name(); ?></a></div>
                                         <div class="rasp-content">
                                             <div class="rasp-time">
                                                 <span class="fa fa-calendar"></span> <?php echo $date_seminar;?> — <?php echo $date_end;?>
