@@ -110,7 +110,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-sm-7 col-xs-7" style="padding-top: 10px; text-align: left;">
-                                    <div class="rasp-title"><a href="<?php bp_group_permalink(); ?>"><?php bp_group_name(); ?></a></div>
+                                    <div class="rasp-title"><?php bp_group_name(); ?></div>
                                     <div class="rasp-content">
                                         <div class="rasp-time">
                                             <span class="fa fa-calendar"></span> <?php echo $date_seminar;?> — <?php echo $date_end;?> | 
@@ -146,7 +146,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-2 col-sm-3 col-xs-3 text-center rasp-img">
-                                    <a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( 'type=thumbnail&width=100&height=100' ); ?></a>           
+                                    <?php bp_group_avatar( 'type=thumbnail&width=100&height=100' ); ?>           
                                 </div>
 
                             </div>
@@ -253,6 +253,12 @@
                                     <div class="row">
                                         <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
                                     </div>
+                                </div>
+                                <div class="rasp-link">
+                                    <div class="rasp-details_title" style="
+                                        padding-bottom: 10px;
+                                    "><span class="fa fa-link"></span> УЗНАТЬ БОЛЬШЕ</div>
+                                    <span class="cur_mc_link"><a href="<?php bp_group_permalink(); ?>">Перейте на страницу семинара</a></span>
                                 </div>
                               </div>
                               <div class="modal-footer">
