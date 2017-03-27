@@ -258,7 +258,7 @@
                                     <div class="rasp-details_title" style="
                                         padding-bottom: 10px;
                                     "><span class="fa fa-link"></span> УЗНАТЬ БОЛЬШЕ</div>
-                                    <span class="cur_mc_link"><a href="<?php bp_group_permalink(); ?>">Перейте на страницу семинара</a></span>
+                                    <span class="cur_mc_link"><a style="font-size: 16px;font-weight: 600;" href="<?php bp_group_permalink(); ?>">Перейте на страницу семинара</a></span>
                                 </div>
                               </div>
                               <div class="modal-footer">
