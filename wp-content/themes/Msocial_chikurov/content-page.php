@@ -130,9 +130,6 @@ if(is_page() && get_option($tpl->name . '_template_show_details_on_pages', 'Y') 
         </div> 
     </div>
     <?php endif; ?>
-<?php } else if (is_page(3494)) { ?>
-    <div class="ess">ess</div>
-    <?php bp_get_template_part( 'groups/groups-loop-chikurov' ); ?>
 <?php } else { ?>
       <!-- BANNER STARTS
         ========================================================================= -->
@@ -150,6 +147,8 @@ if(is_page() && get_option($tpl->name . '_template_show_details_on_pages', 'Y') 
             <?php include(TEMPLATEPATH . '/tpl_formula.php'); ?>
         <?php } else if (is_page(3206)) { ?>
             <?php include(TEMPLATEPATH . '/tpl_bc.php'); ?>
+        <?php } else if (is_page(3494)) { ?>
+            <?php bp_get_template_part( 'groups/groups-loop-chikurov' ); ?>
         <?php } else { ?>
             <?php the_content(); ?>
         <?php } ?>
