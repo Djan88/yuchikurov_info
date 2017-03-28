@@ -148,7 +148,9 @@ if(is_page() && get_option($tpl->name . '_template_show_details_on_pages', 'Y') 
         <?php } else if (is_page(3206)) { ?>
             <?php include(TEMPLATEPATH . '/tpl_bc.php'); ?>
         <?php } else if (is_page(3494)) { ?>
-            <?php bp_get_template_part( 'groups/groups-loop-chikurov' ); ?>
+            <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2 rasp-wrap masonry-portfolio" id="porfolio-masonry">
+                <?php bp_get_template_part( 'groups/groups-loop-chikurov' ); ?>
+            </div>
         <?php } else { ?>
             <?php the_content(); ?>
         <?php } ?>
