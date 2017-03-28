@@ -67,7 +67,7 @@
                 $group = groups_get_group( array( 'group_id' => bp_get_group_id() ) );
                 
                 $date_end = strtotime(groups_get_groupmeta( bp_get_group_id(), 'group_plus_header_fieldtwo'));
-                
+                $seminar_id = bp_get_group_id();
                 $date_now = date('Y-m-d');
                 $dateNow = strtotime($date_now);
                 if($date_end > $dateNow){
@@ -76,26 +76,194 @@
                 $date = groups_get_groupmeta( bp_get_group_id(), 'group_plus_header_fieldone');
                 $min_date = strtotime($date);
                 $date_seminar = rdate('d M, Y', $min_date);
+                $date_seminar_day = rdate('d', $min_date);
+                $date_seminar_month = rdate('m', $min_date);
                 $chikurov_id = $group->admins[0]->user_id;
                 if(bp_displayed_user_id() == 0 || bp_displayed_user_id() == $group->admins[0]->user_id){
             ?>
 
         <?php if($chikurov_id == 1) { ?>
-		<div class="porfolio_smallbox col-sm-4 col-xs-12" data-filter="development">
-			<div class="top-section seminar_section">
-                <a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( 'type=full&width=false&height=false' ); ?></a>
-                <div class="seminar_sum">
-                    <div class="seminar_name"><a href="<?php bp_group_permalink(); ?>"><?php bp_group_name(); ?></a></div>
-                    <div class="seminar_autor">Ведущий: <?php echo bp_core_get_userlink($group->admins[0]->user_id); if($group->admins[1]->user_id){ echo ', '.bp_core_get_userlink($group->admins[1]->user_id); } ?></div>
-                    <div class="seminar_description hidden"><?php bp_group_description_excerpt(); ?></div>
-                    <div class="seminar_location"><?= $city; ?> | <span class="seminar_date"><?= $date_seminar; ?> - <?= $date_end; ?></span></div>
+		<div data-toggle="modal" data-target="#myModal-<?php echo $seminar_id;?>" class="porfolio_smallbox seminar_linear" data-filter="<?php echo $master_filter; ?>">
+            <div class="row">
+                <div class="col-md-2 col-sm-2 col-xs-2 text-center rasp-date">
+                    <div class="rasp_d_i_m">
+                        <span class="rasp_d">
+                            <?php echo $date_seminar_day;?>
+                        </span> 
+                        <span class="devider">/</span>
+                        <span class="devider_small">—</span> 
+                        <span class="rasp_m">
+                            <?php echo $date_seminar_month;?>
+                        </span>
+                    </div>
                 </div>
+                <div class="col-md-8 col-sm-7 col-xs-7" style="padding-top: 10px; text-align: left;">
+                    <div class="rasp-title"><?php bp_group_name(); ?></div>
+                    <div class="rasp-content">
+                        <div class="rasp-time">
+                            <span class="fa fa-calendar"></span> <?php echo $date_seminar;?> — <?php echo $date_end;?> | 
+                        </div>
+                        <div class="rasp-adress">
+                            <span class="fa fa-map-marker"></span>  <?= $city; ?></div>
+                    </div>
+                    <div class="rasp-content">
+                        <div class="rasp-time">
+                            <span class="fa fa-phone" style="margin-right: 5px;"></span>
+                            <b>Запись: </b> 
+                            <?php if (bp_get_group_master_telephone()) { ?>
+                              <i class="icon-phone" style="margin-right: 10px;"></i><?php bp_group_master_telephone(); ?>
+                            <?php } else if ($org_yes) { ?>
+                              <i class="icon-phone" style="margin-right: 10px;"></i><?php echo xprofile_get_field_data(9, $group->mods[0]->user_id); ?>
+                            <?php } else { ?>
+                              <i class="icon-phone" style="margin-right: 10px;"></i><?php echo xprofile_get_field_data(9, $group->admins[0]->user_id); ?>
+                            <?php } ?> 
+                            | <span class="fa fa-envelope"></span> 
+                            <?php if (bp_get_group_master_email()) { ?>
+                              <a href="mailto:<?php bp_group_master_email(); ?>"><?php bp_group_master_email(); ?></a>
+                            <?php } else if ($org_yes) { ?>
+                              <a href="mailto:<?php echo xprofile_get_field_data(8, $group->mods[0]->user_id); ?>"><?php echo xprofile_get_field_data(8, $group->mods[0]->user_id); ?></a>
+                            <?php } else { ?>
+                              <a href="mailto:<?php echo xprofile_get_field_data(8, $group->admins[0]->user_id); ?>"><?php echo xprofile_get_field_data(8, $group->admins[0]->user_id); ?></a>
+                            <?php } ?>
+                        </div>
+                    </div>
+                    <div class="rasp-content">
+                        <div class="rasp-time">
+                            <span class="fa fa-user" style="margin-right: 5px;"></span><b>Читает: </b> <a href="<?php echo bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = false, $just_link = true); ?>"><?php echo bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = true, $just_link = false); ?></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 text-center rasp-img">
+                    <?php bp_group_avatar( 'type=thumbnail&width=100&height=100' ); ?>           
+                </div>
+
             </div>
             <!--showcasebox--> 
 
-			<div class="clear"></div>
-		</div>
-        <?php $seminar_count +=1 ;?>
+            <div class="clear"></div>
+        </div>
+        <!-- Modal seminar -->
+        <div class="modal fade rasp-modal" id="myModal-<?php echo $seminar_id;?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-2 text-center rasp-date">
+                        <div class="rasp_d_i_m"><span class="rasp_d"><?php echo $date_seminar_day; ?></span> <span class="devider">/</span><span class="devider_small">—</span> <span class="rasp_m"><?php echo $date_seminar_month; ?></span></div>
+                    </div>
+                    <div class="col-md-8 col-sm-7 col-xs-7">
+                        <div class="rasp-title"><a href="<?php bp_group_permalink(); ?>"><?php bp_group_name(); ?></a></div>
+                        <div class="rasp-content">
+                            <div class="rasp-time">
+                                <span class="fa fa-calendar"></span> <?php echo $date_seminar;?> — <?php echo $date_end;?>
+                            </div>
+                            <div class="rasp-adress">
+                                <span class="fa fa-map-marker"></span> 
+                                <?php if ( bp_get_group_place()) { ?>
+                                 <?php bp_group_place(); ?>
+                                <?php } else { ?>
+                                  <?php echo $city; ?>
+                                <?php } ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-3 text-center rasp-img">
+                        <?php bp_group_avatar( 'type=thumbnail&width=100&height=100' ); ?>
+                    </div>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div class="rasp-content">
+                    <?php bp_group_description(); ?>
+                </div>
+                <div class="rasp-details">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_time" style="border-right: 1px solid #e5e5e5;">
+                            <div class="rasp-details_title"><span class="fa fa-users"></span> НА КОГО ОРИЕНТИРОВАН?</div>
+                            <div class="rasp-details_content">
+                                <?php bp_group_for_whom(); ?>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_location" style="border: none;">
+                            <div class="rasp-details_title"><span class="fa fa-pencil-square-o"></span> КАК ЗАПИСАТЬСЯ?</div>
+                            <div class="rasp-details_content">
+                                <?php if (bp_get_group_master_telephone()) { ?>
+                                  <i class="icon-phone" style="margin-right: 10px;"></i><?php bp_group_master_telephone(); ?>
+                                <?php } else if ($org_yes) { ?>
+                                  <i class="icon-phone" style="margin-right: 10px;"></i><?php echo xprofile_get_field_data(9, $group->mods[0]->user_id); ?>
+                                <?php } else { ?>
+                                  <i class="icon-phone" style="margin-right: 10px;"></i><?php echo xprofile_get_field_data(9, $group->admins[0]->user_id); ?>
+                                <?php } ?> 
+                                </br>
+                                <span class="fa fa-envelope"></span> 
+                                <?php if (bp_get_group_master_email()) { ?>
+                                  <a href="mailto:<?php bp_group_master_email(); ?>"><?php bp_group_master_email(); ?></a>
+                                <?php } else if ($org_yes) { ?>
+                                  <a href="mailto:<?php echo xprofile_get_field_data(8, $group->mods[0]->user_id); ?>"><?php echo xprofile_get_field_data(8, $group->mods[0]->user_id); ?></a>
+                                <?php } else { ?>
+                                  <a href="mailto:<?php echo xprofile_get_field_data(8, $group->admins[0]->user_id); ?>"><?php echo xprofile_get_field_data(8, $group->admins[0]->user_id); ?></a>
+                                <?php } ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rasp-details" style="border-bottom: 1px solid #e5e5e5;">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_time" style="border-right: 1px solid #e5e5e5;">
+                            <div class="rasp-details_title"><span class="fa fa-calendar"></span> ДАТЫ СЕМИНАРА</div>
+                            <div class="rasp-details_content"><?php echo $date_seminar;?> — <?php echo $date_end;?></div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_location" style="border: none;">
+                            <div class="rasp-details_title"><span class="fa fa-map-marker"></span> МЕСТО ПРОВЕДЕНИЯ</div>
+                            <div class="rasp-details_content">
+                                <?php if ( bp_get_group_place()) { ?>
+                                 <?php bp_group_place(); ?>
+                                <?php } else { ?>
+                                  <?php echo $city; ?>
+                                <?php } ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <?php $coords_seminar = bp_get_group_place_coordinates();?>
+                <?php if ($coords_seminar) { ?>
+                    <div class="rasp-map">
+                        <?php $seminar_map = "[showyamap] [placemark coordinates='".$coords_seminar."'/] [/showyamap]";?>
+                        <?php echo do_shortcode($seminar_map); ?>
+                    </div>
+                <?php } ?>
+                <div class="rasp-order-title">
+                    <div class="rasp-details_title" style="padding-top: 10px;text-align: center;
+                    "><span class="fa fa-pencil"></span> ЗАПИСАТЬСЯ НА СЕМИНАР</div>
+                </div>
+                <div class="rasp_order">
+                    <div class="row">
+                        <?php $master_name = bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = true, $just_link = false); ?>
+                        <?php if ($master_name == 'Юрий Чикуров') { ?>
+                          <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                        <?php } else if ($master_name == 'Доктор Петр Волошин') { ?>
+                          <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                        <?php } else if ($master_name == 'Ирина Иванова') { ?>
+                          <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                        <?php } else if ($master_name == 'Галина Серегина') { ?>
+                          <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                        <?php } ?>
+                    </div>
+                </div>
+                <div class="rasp-link">
+                    <div class="rasp-details_title" style="
+                        padding-bottom: 10px;
+                    "><span class="fa fa-link"></span> УЗНАТЬ БОЛЬШЕ</div>
+                    <span class="cur_mc_link"><a style="font-size: 16px;font-weight: 600;" href="<?php bp_group_permalink(); ?>">Перейти на страницу семинара</a></span>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <?php } ?>
 
     <?php } } endwhile; ?>
