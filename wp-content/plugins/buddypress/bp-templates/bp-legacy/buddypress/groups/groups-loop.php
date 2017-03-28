@@ -197,7 +197,7 @@
                                                 <?php bp_group_for_whom(); ?>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_location"  style="border: none;">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_location" style="border: none;">
                                             <div class="rasp-details_title"><span class="fa fa-pencil-square-o"></span> КАК ЗАПИСАТЬСЯ?</div>
                                             <div class="rasp-details_content">
                                                 <?php if (bp_get_group_master_telephone()) { ?>
@@ -222,11 +222,11 @@
                                 </div>
                                 <div class="rasp-details" style="border-bottom: 1px solid #e5e5e5;">
                                     <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_time">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_time" style="border-right: 1px solid #e5e5e5;">
                                             <div class="rasp-details_title"><span class="fa fa-calendar"></span> ДАТЫ СЕМИНАРА</div>
                                             <div class="rasp-details_content"><?php echo $date_seminar;?> — <?php echo $date_end;?></div>
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_location">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 rasp-details_location" style="border: none;">
                                             <div class="rasp-details_title"><span class="fa fa-map-marker"></span> МЕСТО ПРОВЕДЕНИЯ</div>
                                             <div class="rasp-details_content">
                                                 <?php if ( bp_get_group_place()) { ?>
