@@ -158,7 +158,7 @@ gk_load('header');
 </div>
 <!-- WELCOME MESSAGE END
 ========================================================================= -->
-<div class="grey-color" id="formuls">
+<div id="formuls" style="border-bottom: 1px solid #477ab9;">
   <div class="container padding-box">
     <div class="row header">
       <div class="col-xs-12">
