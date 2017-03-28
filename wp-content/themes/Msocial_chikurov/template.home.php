@@ -106,16 +106,6 @@ gk_load('header');
 <!-- WELCOME MESSAGE STARTS
 ========================================================================= -->
 <div class="clear"></div>
-<div class="container padding-box" id="about-us">
-  <div class="row header">
-    <article class="col-xs-12 textbox text-center">
-      <h2 class="black">Школа доктора Чикурова</h2>
-      <p>Доктор Ю. Чикуров, канд. мед. наук, доцент, специалист в области неврологии и нейрофизиологии. Основоположник новых прогрессивных направлений - Биологическое Центрирование, которое основано на концепте мирового эфира и его механизмах формирования материального мира. Визард-терапия, интерактивный вебпроект braincleaner.ru  , терапевтическая дефрагментация ума, игровая терапевтическая машина Marakata и многое другое. Руководитель Школы Соматической Интеграции.</p>
-      <a href="/members/admin/" class="btn btn-primary" type="button">Узнать больше</a>
-    </article>
-  </div>
-  <!--container--> 
-</div>
 <div class="blue-color padding-box">
   <div class="container">
     <div class="row header">
@@ -131,6 +121,43 @@ gk_load('header');
     <!--container--> 
   </div>
 </div>
+<!-- PORTFOLIO STARTS
+========================================================================= -->
+<div class="container padding-box" id="portfolio">
+  <div class="row header">
+    <article class="col-xs-12">
+      <figure class="col-sm-4 col-xs-4 pull-left"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/bc_2.png" alt></figure>
+      <aside class="col-sm-6 col-xs-12 textbox text-center">
+        <h2 class="black">Семинары доктора Чикурова</h2>
+        <p class="black" style="text-align: justify;">
+          Расписание грядущих семинаров доктора Юрия Чикурова. Кликнув по интересующему мероприятию вы получите информацию о тематике семинара, его продолжительности. Можете записаться на прямую с сайта, увидеть карту проезда.
+        </p>
+        <a href="/seminar/" class="btn btn-primary" type="button">Страница семинаров</a>
+      </aside>
+      </div>
+    </article>
+  </div>
+  <!--container--> 
+</div>
+<!-- PORTFOLIO END
+========================================================================= -->
+<div class="blue-color padding-box">
+  <div class="container">
+    <div class="row header">
+      <div class="col-xs-12 text-white-color">
+        <aside class="col-sm-6 col-xs-12 textlt">
+          <h2 class="white">Мастер классы</h2>
+          <p class="white">Мастер классы доктора Чикурова это однодневные практические мероприятия рассчитанные на небольшие группы. </p>
+          <a href="/category/master-class" class="btn transparent-btn" type="button">Страница мастер классов</a>
+        </aside>
+        <figure class="col-sm-4 col-xs-4 pull-right"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/calendar.png" alt></figure>
+      </div>
+    </div>
+    <!--container--> 
+  </div>
+</div>
+<!-- WELCOME MESSAGE END
+========================================================================= -->
 <div class="grey-color" id="formuls">
   <div class="container padding-box">
     <div class="row header">
@@ -149,38 +176,6 @@ gk_load('header');
     <!--container--> 
   </div>
 </div>
-<div class="blue-color padding-box">
-  <div class="container">
-    <div class="row header">
-      <div class="col-xs-12 text-white-color">
-        <aside class="col-sm-6 col-xs-12 textlt">
-          <h2 class="white">Мастер классы</h2>
-          <p class="white">Мастер классы доктора Чикурова это однодневные практические мероприятия рассчитанные на небольшие группы. </p>
-          <a href="/category/master-class" class="btn transparent-btn" type="button">Страница мастер классов</a>
-        </aside>
-        <figure class="col-sm-4 col-xs-4 pull-right"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/calendar.png" alt></figure>
-      </div>
-    </div>
-    <!--container--> 
-  </div>
-</div>
-<!-- WELCOME MESSAGE END
-========================================================================= -->
-<!-- PORTFOLIO STARTS
-========================================================================= -->
-<div class="container padding-box" id="portfolio">
-  <div class="row header">
-    <article class="col-xs-12 textbox text-center">
-      <h2 class="black">Семинары доктора Чикурова</h2>
-        <?php bp_get_template_part( 'groups/groups-loop-chikurov' ); ?>
-        <!--design_showcase--> 
-      </div>
-    </article>
-  </div>
-  <!--container--> 
-</div>
-<!-- PORTFOLIO END
-========================================================================= -->
 <!-- PLANS PRICING STARTS
 ========================================================================= -->
 <div class="grey-color">
