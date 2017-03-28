@@ -275,23 +275,8 @@
         <div class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
             <li><a href="/"><span class="fa fa-home"></span></a></li>
-            <!-- <li class="current"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Страница <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="team-members.html">Team Members</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="404.html">Not Found</a></li>
-                <li><a href="sitemap.html">Sitemap Page</a></li>
-                <li><a href="faq.html">FAQ Page</a></li>
-                <li><a href="left-sidebar.html">Left Sidebar</a></li>
-                <li><a href="right-sidebar.html">Right Sidebar</a></li>
-                <li><a href="fullwidth.html">Full Width</a></li>
-                <li><a href="login.html">Login / Register</a></li>
-                <li><a href="contact-us.html">Contact</a></li>
-              </ul>
-            </li> -->
-            <li><a href="/seminar">Семинары</a></li>
+            <li><a href="/seminar">Семинары доктора Чикурова</a></li>
+            <li><a href="/seminar">Семинары мастеров</a></li>
             <li><a href="/category/master-class">Мастер классы</a></li>
             <li><a href="/biologicheskoe-centrirovanie/">Биологическое центрирование</a></li>
             <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Проекты<b class="caret"></b></a>
@@ -306,18 +291,8 @@
             </li>
             <?php if (is_user_logged_in()) { ?>
             <?php $current_user = wp_get_current_user();?>
-            <li><a href="<?php echo '/members/';?><?php echo $current_user->user_login;?>"><?php echo $current_user->display_name; ?></a></li>
+            <li><a href="<?php echo '/members/';?><?php echo $current_user->user_login;?>"><span class="fa fa-user"></span></a></li>
             <?php } ?>
-            <!-- <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Элемент 3 <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                <li><a href="blog-full-width.html">Blog Full Width</a></li>
-                <li><a href="single-with-sidebar.html">Single with Sidebar</a></li>
-                <li><a href="single-without-sidebar.html">Single without Sidebar</a></li>
-              </ul>
-            </li>
-            <li><a href="pricing.html">Контакты</a></li> -->
           </ul>
           <ul class="nav navbar-nav nav_top_rt">
             <?php if(is_user_logged_in()){ ?>
