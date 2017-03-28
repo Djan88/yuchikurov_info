@@ -251,7 +251,16 @@
                                 </div>
                                 <div class="rasp_order">
                                     <div class="row">
-                                        <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                                        <?php $master_name = bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = true, $just_link = false); ?>
+                                        <?php if ($master_name == 'Юрий Чикуров') { ?>
+                                          <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                                        <?php } else if ($master_name == 'Доктор Петр Волошин') { ?>
+                                          <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                                        <?php } else if ($master_name == 'Ирина Иванова') { ?>
+                                          <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                                        <?php } else if ($master_name == 'Галина Серегина') { ?>
+                                          <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                                        <?php } ?>
                                     </div>
                                 </div>
                                 <div class="rasp-link">
