@@ -241,13 +241,13 @@
                     <div class="row">
                         <?php $master_name = bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = true, $just_link = false); ?>
                         <?php if ($master_name == 'Юрий Чикуров') { ?>
-                          <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                          <?php echo do_shortcode('[contact-form-7 id="3520" title="Короткая запись. Чикуров"]'); ?>
                         <?php } else if ($master_name == 'Доктор Петр Волошин') { ?>
-                          <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                          <?php echo do_shortcode('[contact-form-7 id="3521" title="Короткая запись. Волошин"]'); ?>
                         <?php } else if ($master_name == 'Ирина Иванова') { ?>
-                          <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                          <?php echo do_shortcode('[contact-form-7 id="3522" title="Короткая запись. Иванова"]'); ?>
                         <?php } else if ($master_name == 'Галина Серегина') { ?>
-                          <?php echo do_shortcode('[contact-form-7 id="3493" title="Короткая запись. Чикуров"]'); ?>
+                          <?php echo do_shortcode('[contact-form-7 id="3523" title="Короткая запись. Серегина"]'); ?>
                         <?php } ?>
                     </div>
                 </div>

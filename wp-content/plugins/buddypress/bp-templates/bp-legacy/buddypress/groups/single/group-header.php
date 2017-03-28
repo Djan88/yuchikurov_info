@@ -191,6 +191,8 @@ do_action( 'bp_before_group_header' );
             <?php echo do_shortcode( '[contact-form-7 id="3221" title="Запись. Волошин"]' ); ?>
           <?php } else if ($master_name == 'Ирина Иванова') { ?>
             <?php echo do_shortcode( '[contact-form-7 id="3220" title="Запись. Иванова"]' ); ?>
+          <?php } else if ($master_name == 'Галина Серегина') { ?>
+            <?php echo do_shortcode( '[contact-form-7 id="3517" title="Запись. Серегина"]' ); ?>
           <?php } ?>
           <p style="padding-top: 20px;">
             Либо напишите организатору:
