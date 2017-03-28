@@ -130,6 +130,9 @@ if(is_page() && get_option($tpl->name . '_template_show_details_on_pages', 'Y') 
         </div> 
     </div>
     <?php endif; ?>
+<?php } else if (is_page(3494)) { ?>
+    <div class="ess">ess</div>
+    <?php bp_get_template_part( 'groups/groups-loop-chikurov' ); ?>
 <?php } else { ?>
       <!-- BANNER STARTS
         ========================================================================= -->

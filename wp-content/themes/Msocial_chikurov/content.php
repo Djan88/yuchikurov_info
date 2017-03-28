@@ -153,9 +153,6 @@ if($_POST['submit-subscribe']){
         </div>
       </div>
     </div>
-<?php } else if (is_page(3494)) { ?>
-    <div class="ess">ess</div>
-    <?php bp_get_template_part( 'groups/groups-loop-chikurov' ); ?>
 <?php } else { ?>
     <article id="post-<?php the_ID();?>" <?php post_class(); ?>>
         <?php get_template_part( 'layouts/content.post.featured' ); ?>
