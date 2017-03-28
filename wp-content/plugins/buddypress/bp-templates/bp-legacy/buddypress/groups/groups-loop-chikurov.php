@@ -80,7 +80,7 @@
                 if(bp_displayed_user_id() == 0 || bp_displayed_user_id() == $group->admins[0]->user_id){
             ?>
 
-        <?php if($seminar_count <= 5 && $chikurov_id == 1) { ?>
+        <?php if($chikurov_id == 1) { ?>
 		<div class="porfolio_smallbox col-sm-4 col-xs-12" data-filter="development">
 			<div class="top-section seminar_section">
                 <a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( 'type=full&width=false&height=false' ); ?></a>
@@ -101,7 +101,6 @@
     <?php } } endwhile; ?>
 
 	</div>
-    <a href="/members/admin/groups/" class="btn btn-primary btn-lg" style="margin-top: 20px;">Посмотреть все семинары</a>
     <!--design_showcase--> 
 
 	<?php do_action( 'bp_after_directory_groups_list' ); ?>
