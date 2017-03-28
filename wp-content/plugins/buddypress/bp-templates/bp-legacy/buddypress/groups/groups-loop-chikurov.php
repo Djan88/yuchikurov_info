@@ -111,11 +111,11 @@
                             <span class="fa fa-phone" style="margin-right: 5px;"></span>
                             <b>Запись: </b> 
                             <?php if (bp_get_group_master_telephone()) { ?>
-                              <i class="icon-phone" style="margin-right: 10px;"></i><?php bp_group_master_telephone(); ?>
+                              <?php bp_group_master_telephone(); ?>
                             <?php } else if ($org_yes) { ?>
-                              <i class="icon-phone" style="margin-right: 10px;"></i><?php echo xprofile_get_field_data(9, $group->mods[0]->user_id); ?>
+                              <?php echo xprofile_get_field_data(9, $group->mods[0]->user_id); ?>
                             <?php } else { ?>
-                              <i class="icon-phone" style="margin-right: 10px;"></i><?php echo xprofile_get_field_data(9, $group->admins[0]->user_id); ?>
+                              <?php echo xprofile_get_field_data(9, $group->admins[0]->user_id); ?>
                             <?php } ?> 
                             | <span class="fa fa-envelope"></span> 
                             <?php if (bp_get_group_master_email()) { ?>
