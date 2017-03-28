@@ -147,7 +147,7 @@ if(is_page() && get_option($tpl->name . '_template_show_details_on_pages', 'Y') 
             <?php include(TEMPLATEPATH . '/tpl_formula.php'); ?>
         <?php } else if (is_page(3206)) { ?>
             <?php include(TEMPLATEPATH . '/tpl_bc.php'); ?>
-        <?php } else if (is_page(3494)) { ?>
+        <?php } else if (is_page(3518)) { ?>
             <div class="col-md-12 container padding-box" id="about-us">
               <div class="row header">
                 <article class="col-xs-12 textbox text-center">
