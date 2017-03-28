@@ -247,7 +247,7 @@
                                 <?php } ?>
                                 <div class="rasp-order-title">
                                     <div class="rasp-details_title" style="padding-top: 10px;text-align: center;
-                                    "><span class="fa fa-pencil"></span> ЗАДАТЬ ВОПРОС ИЛИ ОСТАВИТЬ ЗАЯВКУ</div>
+                                    "><span class="fa fa-pencil"></span> ЗАПИСАТЬСЯ НА СЕМИНАР</div>
                                 </div>
                                 <div class="rasp_order">
                                     <div class="row">
@@ -258,7 +258,7 @@
                                     <div class="rasp-details_title" style="
                                         padding-bottom: 10px;
                                     "><span class="fa fa-link"></span> УЗНАТЬ БОЛЬШЕ</div>
-                                    <span class="cur_mc_link"><a style="font-size: 16px;font-weight: 600;" href="<?php bp_group_permalink(); ?>">Перейте на страницу семинара</a></span>
+                                    <span class="cur_mc_link"><a style="font-size: 16px;font-weight: 600;" href="<?php bp_group_permalink(); ?>">Перейти на страницу семинара</a></span>
                                 </div>
                               </div>
                               <div class="modal-footer">
