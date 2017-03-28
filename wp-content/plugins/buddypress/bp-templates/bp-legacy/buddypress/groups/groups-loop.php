@@ -56,16 +56,6 @@
 
 	<?php do_action( 'bp_before_directory_groups_list' ); ?>
     <input type="hidden" name="user_id" id="user-id" value="<?php echo $user_id;?>">
-    <div class="col-md-12 container padding-box" id="about-us">
-      <div class="row header">
-        <article class="col-xs-12 textbox text-center">
-          <h2 class="black">Школа доктора Чикурова</h2>
-          <p>Доктор Ю. Чикуров, канд. мед. наук, доцент, специалист в области неврологии и нейрофизиологии. Основоположник новых прогрессивных направлений - Биологическое Центрирование, которое основано на концепте мирового эфира и его механизмах формирования материального мира. Визард-терапия, интерактивный вебпроект braincleaner.ru  , терапевтическая дефрагментация ума, игровая терапевтическая машина Marakata и многое другое. Руководитель Школы Соматической Интеграции.</p>
-          <a href="/members/admin/" class="btn btn-primary" type="button">Узнать больше</a>
-        </article>
-      </div>
-      <!--container--> 
-    </div>
 	<div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2 rasp-wrap masonry-portfolio" id="porfolio-masonry">
 
 	<?php while ( bp_groups() ) : bp_the_group(); ?>
