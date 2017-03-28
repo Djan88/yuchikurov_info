@@ -275,9 +275,9 @@
         <div class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
             <li><a href="/"><span class="fa fa-home"></span></a></li>
-            <li><a href="/seminar">Семинары доктора Чикурова</a></li>
-            <li><a href="/seminar">Семинары мастеров</a></li>
+            <li><a href="/seminar">Семинары</a></li>
             <li><a href="/category/master-class">Мастер классы</a></li>
+            <li><a href="/seminar">Семинары мастеров</a></li>
             <li><a href="/biologicheskoe-centrirovanie/">Биологическое центрирование</a></li>
             <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Проекты<b class="caret"></b></a>
               <ul class="dropdown-menu">
