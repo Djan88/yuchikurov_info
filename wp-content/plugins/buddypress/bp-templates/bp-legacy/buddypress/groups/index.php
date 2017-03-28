@@ -14,7 +14,6 @@
           <p>Для отображения семинаров конкретного мастера кликните на имя</p>
           <ul id="cartegories" class="list-inline">
             <li><a data-filter="" class="filter active">Все</a></li>
-            <li><a data-filter="chicurov" class="filter">Юрий Чикуров</a></li>
             <li><a data-filter="voloshin" class="filter">Петр Волошин</a></li>
             <li><a data-filter="ivanova" class="filter">Ирина Иванова</a></li>
             <!-- <li><a data-filter="milakova" class="filter">Светлана Милакова</a></li> -->

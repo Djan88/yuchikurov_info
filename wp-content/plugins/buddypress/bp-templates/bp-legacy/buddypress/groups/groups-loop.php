@@ -92,7 +92,7 @@
                     $master_filter = 'malyy';
                 }
                 if(bp_displayed_user_id() == 0 || bp_displayed_user_id() == $group->admins[0]->user_id){ ?>
-                    <?php if ($master_id == 1 || $master_id == 7 || $master_id == 11 || $master_id == 9 || $master_id == 5 || $master_id == 4149 || $master_id == 1033) { ?>
+                    <?php if ($master_id == 7 || $master_id == 11 || $master_id == 9 || $master_id == 5 || $master_id == 4149 || $master_id == 1033) { ?>
                         <div data-toggle="modal" data-target="#myModal-<?php echo $seminar_id;?>" class="porfolio_smallbox seminar_linear" data-filter="<?php echo $master_filter; ?>">
                             <div class="row">
                                 <div class="col-md-2 col-sm-2 col-xs-2 text-center rasp-date">
@@ -121,11 +121,11 @@
                                             <span class="fa fa-phone" style="margin-right: 5px;"></span>
                                             <b>Запись: </b> 
                                             <?php if (bp_get_group_master_telephone()) { ?>
-                                              <i class="icon-phone" style="margin-right: 10px;"></i><?php bp_group_master_telephone(); ?>
+                                              <?php bp_group_master_telephone(); ?>
                                             <?php } else if ($org_yes) { ?>
-                                              <i class="icon-phone" style="margin-right: 10px;"></i><?php echo xprofile_get_field_data(9, $group->mods[0]->user_id); ?>
+                                              <?php echo xprofile_get_field_data(9, $group->mods[0]->user_id); ?>
                                             <?php } else { ?>
-                                              <i class="icon-phone" style="margin-right: 10px;"></i><?php echo xprofile_get_field_data(9, $group->admins[0]->user_id); ?>
+                                              <?php echo xprofile_get_field_data(9, $group->admins[0]->user_id); ?>
                                             <?php } ?> 
                                             | <span class="fa fa-envelope"></span> 
                                             <?php if (bp_get_group_master_email()) { ?>
