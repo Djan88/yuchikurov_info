@@ -28,3 +28,5 @@
 [14-Mar-2016 02:00:42 Europe/Simferopol] PHP Fatal error:  Call to undefined function is_child_theme() in /home/chikurov/public_html/wp-content/themes/Msocial/functions.php on line 23
 [14-Mar-2016 02:00:42 Europe/Simferopol] PHP Fatal error:  Call to undefined function gk_load() in /home/chikurov/public_html/wp-content/themes/Msocial/404.php on line 11
 [14-Mar-2016 02:00:42 Europe/Simferopol] PHP Fatal error:  Call to undefined function gk_load() in /home/chikurov/public_html/wp-content/themes/Msocial/footer.php on line 5
+[31-Mar-2017 22:50:15 Europe/Simferopol] PHP Fatal error:  Call to undefined function gk_load() in /home/chikurov/public_html/wp-content/themes/Msocial_chikurov/404.php on line 11
+[01-Apr-2017 18:49:27 Europe/Simferopol] PHP Fatal error:  Call to undefined function gk_load() in /home/chikurov/public_html/wp-content/themes/Msocial_chikurov/404.php on line 11
