@@ -3215,6 +3215,15 @@ span.rasp_m
 {
     background-color: #fff;
 }
+.book_item .item-avatar 
+{
+    text-align: center;
+}
+.book_item .item-title, .book_item .item-date
+{
+    text-align: center;
+    width: 100%;
+}
 @media (max-width: 992px) {
     .rasp-date div 
     {
