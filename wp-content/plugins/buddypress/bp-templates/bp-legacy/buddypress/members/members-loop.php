@@ -42,7 +42,7 @@
             ?>
 
 		<li>
-			<div class="item-avatar test">
+			<div class="item-avatar">
 				<a href="<?php bp_member_permalink(); ?>"><?php bp_member_avatar(); ?></a>
 			</div>
 
