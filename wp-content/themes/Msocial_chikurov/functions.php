@@ -1263,9 +1263,9 @@ function show_author_books(){
     
 <div id="groups-dir-list" class="groups dir-list">
     
-    <ul id="groups-list" class="item-list" role="main">
+    <ul id="groups-list" class="item-list row" role="main">
         <?php foreach ($news as $new){ ?>
-        <li class="test">
+        <li class="col-md-4">
             <div class="item-avatar">
                 <?php if(get_the_post_thumbnail($new->ID)){ ?>
                     <a href="<?php echo $new->guid; ?>"><?php echo get_the_post_thumbnail($new->ID, array(50,50)); ?></a>
