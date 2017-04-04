@@ -47,7 +47,7 @@ do_action( 'bp_before_directory_members_page' ); ?>
                     <?php foreach ($masters as $master){ ?>
                         <?php if(!empty($master['name'])){ ?>
                         <li>
-                                <div class="item-avatar test">
+                                <div class="item-avatar">
                                     <a href="<?php echo $master['link']; ?>"><?php echo $master['avatar']; ?></a>
                                 </div>
 
