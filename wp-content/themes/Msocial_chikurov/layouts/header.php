@@ -287,6 +287,7 @@
                 <li><a href="http://wizardduos.ru/">Wizard Duos</a></li>
                 <li><a href="http://wizardtarot.ru/">Wizard Tarot</a></li>
                 <li><a href="http://braincleaner.ru/">Braincleaner</a></li>
+                <li><a href="http://wizardknife.ru/">Wizard Knife</a></li>
               </ul>
             </li>
             <?php if (is_user_logged_in()) { ?>
