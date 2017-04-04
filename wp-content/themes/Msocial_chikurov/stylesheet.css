@@ -3219,10 +3219,10 @@ span.rasp_m
 {
     text-align: center;
 }
-.book_item .item-title, .book_item .item-date
+.book_item .item-title, .book_item .seminar-date
 {
     text-align: center;
-    width: 100%;
+    width: 100%!important;
 }
 @media (max-width: 992px) {
     .rasp-date div 
