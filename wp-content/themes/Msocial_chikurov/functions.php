@@ -1261,7 +1261,7 @@ function show_author_books(){
 //    echo '</pre>';
     ?>
     
-<div id="groups-dir-list" class="groups dir-list">
+<div id="groups-dir-list" class="groups dir-list container">
     
     <ul id="groups-list" class="item-list row" role="main">
         <?php foreach ($news as $new){ ?>
