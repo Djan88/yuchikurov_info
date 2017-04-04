@@ -3223,6 +3223,7 @@ span.rasp_m
 {
     text-align: center;
     width: 100%!important;
+    display: inherit;
 }
 @media (max-width: 992px) {
     .rasp-date div 
