@@ -1285,7 +1285,7 @@ function show_author_news(){
     <ul id="groups-list" class="item-list" role="main">
         <?php foreach ($news as $new){ ?>
         <li>
-            <div class="item-avatar test">
+            <div class="item-avatar">
                 <?php if(get_the_post_thumbnail($new->ID)){ ?>
                     <a href="<?php echo $new->guid; ?>"><?php echo get_the_post_thumbnail($new->ID, array(50,50)); ?></a>
                 <?php } else { ?>
