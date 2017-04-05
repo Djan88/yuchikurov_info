@@ -1268,7 +1268,7 @@ function show_author_books(){
         <li class="col-md-4 book_item">
             <div class="item-avatar">
                 <?php if(get_the_post_thumbnail($new->ID)){ ?>
-                    <a href="<?php echo $new->guid; ?>"><?php echo get_the_post_thumbnail($new->ID, array(250,350)); ?></a>
+                    <a href="<?php echo $new->guid; ?>"><?php echo get_the_post_thumbnail($new->ID, array(350,500)); ?></a>
                 <?php } else { ?>
                     <?php echo get_avatar( $new->post_author, 50 ); ?>
                 <?php } ?>
