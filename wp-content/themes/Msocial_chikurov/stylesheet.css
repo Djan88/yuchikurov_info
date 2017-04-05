@@ -3231,6 +3231,11 @@ span.rasp_m
     height: 460px;
     max-width: 86%;
 }
+.book_item .item-desc
+{
+    width: 100%;
+    margin: 0;
+}
 @media (max-width: 992px) {
     .rasp-date div 
     {
