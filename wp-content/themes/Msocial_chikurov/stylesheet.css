@@ -3225,6 +3225,12 @@ span.rasp_m
     width: 100%!important;
     display: inherit;
 }
+.book_item .item-avatar img 
+{
+    width: auto;
+    height: 460px;
+    max-width: 100%;
+}
 @media (max-width: 992px) {
     .rasp-date div 
     {
