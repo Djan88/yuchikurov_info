@@ -3241,7 +3241,7 @@ li.col-md-4.book_item
     padding: 25px;
     margin: 0;
 }
-#groups-personal-li
+#groups-personal-li, #author_news-personal-li
 {
     display: none;
 }
