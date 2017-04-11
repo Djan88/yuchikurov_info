@@ -176,7 +176,7 @@ gk_load('header');
     <!--container--> 
   </div>
 </div>
-<div class="blue-color padding-box" style="padding-bottom: 100px;">
+<div class="blue-color padding-box" style="padding-bottom: 80px;">
   <div class="container">
     <div class="row header">
       <div class="col-xs-12 text-white-color">
