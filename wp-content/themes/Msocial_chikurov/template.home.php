@@ -185,7 +185,7 @@ gk_load('header');
           <p class="white">Прейдя по ссылке вы сможете скачать все книги доктора Чикурова. Книга "Биологическое центрирование" доступна так-же для чтения в удобном формате на сайте </p>
           <a href="/members/admin/author_books/" class="btn transparent-btn" type="button">Страница книг</a>
         </aside>
-        <figure class="col-sm-4 col-xs-4 pull-right"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/calendar.png" alt></figure>
+        <figure class="col-sm-4 col-xs-4 pull-right"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/book.png" alt></figure>
       </div>
     </div>
     <!--container--> 
