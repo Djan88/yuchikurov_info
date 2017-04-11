@@ -810,7 +810,7 @@ function bp_get_displayed_user_nav() {
 		}
 
                 if($user_nav_item['css_id'] == 'groups'){
-                    $user_nav_item['name'] = 'Семинары';
+                    //$user_nav_item['name'] = 'Семинары';
                 }
                 
                 if($user_nav_item['css_id'] == 'xprofile'){

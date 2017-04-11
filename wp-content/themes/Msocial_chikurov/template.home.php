@@ -176,6 +176,21 @@ gk_load('header');
     <!--container--> 
   </div>
 </div>
+<div class="blue-color padding-box">
+  <div class="container">
+    <div class="row header">
+      <div class="col-xs-12 text-white-color">
+        <aside class="col-sm-6 col-xs-12 textlt">
+          <h2 class="white">Книги доктора Чикурова</h2>
+          <p class="white">Прейдя по ссылке вы сможете скачать все книги доктора Чикурова. Книга "Биологическое центрирование" доступна так-же для чтения в удобном формате на сайте </p>
+          <a href="/members/admin/author_books/" class="btn transparent-btn" type="button">Страница книг</a>
+        </aside>
+        <figure class="col-sm-4 col-xs-4 pull-right"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/calendar.png" alt></figure>
+      </div>
+    </div>
+    <!--container--> 
+  </div>
+</div>
 <!-- PLANS PRICING STARTS
 ========================================================================= -->
 <div class="grey-color">
