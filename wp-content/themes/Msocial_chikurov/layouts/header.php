@@ -272,6 +272,11 @@
           </a> 
           <!-- Logo Ends --> 
         </div>
+        <div class="consultaiton pull-right">
+            <a href="mailto:info@chikurov.com">
+            <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>info@chikurov.com</a> | 
+            <span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 135-25-48</span>
+        </div>
         <div class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
             <li><a href="/"><span class="fa fa-home"></span></a></li>
