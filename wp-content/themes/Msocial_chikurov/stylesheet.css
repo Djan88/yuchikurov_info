@@ -3258,6 +3258,14 @@ li.col-md-4.book_item
 {
     color: #fff;
 }
+@media (max-width: 1040px) {
+    .consultaiton 
+    {
+        float: none!important;
+        border: none;
+        text-align: center;
+    }
+}
 @media (max-width: 992px) {
     .rasp-date div 
     {
