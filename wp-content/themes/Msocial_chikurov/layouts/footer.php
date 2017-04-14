@@ -21,7 +21,14 @@
         </div>
         <div class=" col-sm-6 col-xs-12 sitemap">
           <h5 class="white">КОНТАКТЫ</h5>
-          <p><a href="mailto:info@bablosstudio.ru"><i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>info@chikurov.com</a></br><span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 255-05-61</span></p>
+          <p>
+            <a href="mailto:info@chikurov.com">
+            <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>info@chikurov.com</a>
+          </p>
+          <h5 class="white">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</h5>
+          <p>
+            <span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 135-25-48</span>
+          </p>
           <p>
             <a class="hidden btn btn-block btn-warning" href="#">Cоздать личную страницу</a>
           </p>
