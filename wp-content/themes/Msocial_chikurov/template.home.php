@@ -198,7 +198,7 @@ gk_load('header');
                   <div class="row">
                     <div class="col-md-6 terapevtic_text">
                       Терапевтическая машина для коррекции психосоматики.
-                      <div><a target="_blank" href="http://wizardmachine.ru/">ПЕРЕЙТИ НА СТРАНИЦУ ПРОЕКТА</a></div>
+                      <div><a target="_blank" href="http://wizardmachine.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                     </div>
                     <div class="col-md-6 terapevtic_image">
                       <img src="/wp-content/themes/Msocial_chikurov/images/wm_home.png" alt="">
@@ -209,7 +209,7 @@ gk_load('header');
                   <div class="row">
                     <div class="col-md-6 terapevtic_text">
                       Терапевтическая машина для коррекции партнерских, семейных и бизнес взаимоотношений.
-                      <div><a target="_blank" href="http://wizardduos.ru/">ПЕРЕЙТИ НА СТРАНИЦУ ПРОЕКТА</a></div>
+                      <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                     </div>
                     <div class="col-md-6 terapevtic_image">
                       <img src="/wp-content/themes/Msocial_chikurov/images/wd_home.png" alt="">
@@ -220,7 +220,7 @@ gk_load('header');
                   <div class="row">
                     <div class="col-md-6 terapevtic_text">
                       Терапевтическая машина для коррекции взаимодействия человека и архетипов.
-                      <div><a target="_blank" href="http://wizardduos.ru/">ПЕРЕЙТИ НА СТРАНИЦУ ПРОЕКТА</a></div>
+                      <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                     </div>
                     <div class="col-md-6 terapevtic_image">
                       <img src="/wp-content/themes/Msocial_chikurov/images/wt_home.png" alt="">
@@ -230,8 +230,8 @@ gk_load('header');
                 <div class="tab-pane" id="settings">
                   <div class="row">
                     <div class="col-md-6 terapevtic_text">
-                      Терапевтическая машина для коррекции партнерских, семейных и бизнес взаимоотношений.
-                      <div><a target="_blank" href="http://wizardduos.ru/">ПЕРЕЙТИ НА СТРАНИЦУ ПРОЕКТА</a></div>
+                      Психодинамическая машина для инверсии травм личной истории в ресурс жизненной силы.
+                      <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                     </div>
                     <div class="col-md-6 terapevtic_image">
                       <img src="/wp-content/themes/Msocial_chikurov/images/marakata_home.png" alt="">
