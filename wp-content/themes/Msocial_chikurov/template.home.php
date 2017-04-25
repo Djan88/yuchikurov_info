@@ -176,7 +176,6 @@ gk_load('header');
     <!--container--> 
   </div>
 </div>
-<?php if (current_user_can('administrator')) { ?>
   <!-- WELCOME MESSAGE END
   ========================================================================= -->
   <div id="formuls" class="grey-color terapevtic" style="border-bottom: 1px solid #477ab9;">
@@ -245,7 +244,6 @@ gk_load('header');
       <!--container--> 
     </div>
   </div>
-<?php } ?>
 <div class="blue-color padding-box" style="padding-bottom: 80px;">
   <div class="container">
     <div class="row header">
