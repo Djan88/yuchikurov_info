@@ -176,6 +176,33 @@ gk_load('header');
     <!--container--> 
   </div>
 </div>
+<?php if (condition) { ?>
+  <!-- WELCOME MESSAGE END
+  ========================================================================= -->
+  <div id="formuls" class="grey-color" style="border-bottom: 1px solid #477ab9;">
+    <div class="container padding-box">
+      <div class="row header">
+        <div class="col-xs-12">
+          <h2 class="black">Терапевтические программы</h2>
+          <div class="col-sm-4 col-xs-4 social-icons">
+            <ul class="list-inline">
+              <li><a href="#"><span class="fa fa-facebook"></span>facebook</a></li>
+              <li><a href="#"><span class="fa fa-twitter"></span>Twitter</a></li>
+              <li><a href="#"><span class="fa fa-google-plus"></span>Google+</a></li>
+              <li><a href="#"><span class="fa fa-dribbble"></span>Dribble</a></li>
+              <li><a href="#"><span class="fa fa-linkedin"></span>Linkedin</a></li>
+              <li><a href="#"><span class="fa fa-instagram"></span>Instagram</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-xs-12 pull-right textbox text-center">
+              
+          </div>
+        </div>
+      </div>
+      <!--container--> 
+    </div>
+  </div>
+<?php } ?>
 <div class="blue-color padding-box" style="padding-bottom: 80px;">
   <div class="container">
     <div class="row header">
