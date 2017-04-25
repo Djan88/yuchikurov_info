@@ -3272,6 +3272,12 @@ li.col-md-4.book_item
     border: 1px solid #ddd;
     display: block;
     padding: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.terapevtic_btn a:hover
+{
+    text-decoration: none;
 }
 .terapevtic_btn 
 {
