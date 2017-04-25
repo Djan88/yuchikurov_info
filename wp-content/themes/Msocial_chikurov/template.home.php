@@ -184,14 +184,12 @@ gk_load('header');
       <div class="row header">
         <div class="col-xs-12 textbox text-center">
           <h2 class="black">Терапевтические программы</h2>
-          <div class="">
+          <div class="col-sm-4 col-xs-4">
             <!-- Nav tabs -->
-            <ul class="nav nav-tabs">
-              <li class="active"><a href="#home" data-toggle="tab">Главная</a></li>
-              <li><a href="#profile" data-toggle="tab">Профиль</a></li>
-              <li><a href="#messages" data-toggle="tab">Сообщения</a></li>
-              <li><a href="#settings" data-toggle="tab">Настройки</a></li>
-            </ul>
+              <div class="active"><a href="#home" data-toggle="tab">Главная</a></div>
+              <div><a href="#profile" data-toggle="tab">Профиль</a></div>
+              <div><a href="#messages" data-toggle="tab">Сообщения</a></div>
+              <div><a href="#settings" data-toggle="tab">Настройки</a></div>
           </div>
           <div class="col-sm-6 col-xs-12 pull-right textbox text-center">
               <!-- Tab panes -->
