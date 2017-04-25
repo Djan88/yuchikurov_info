@@ -184,15 +184,22 @@ gk_load('header');
       <div class="row header">
         <div class="col-xs-12 textbox text-center">
           <h2 class="black">Терапевтические программы</h2>
-          <div class="social-icons">
-            <ul class="list-inline">
-              <li><a href="#"><span class="fa fa-facebook"></span>facebook</a></li>
-              <li><a href="#"><span class="fa fa-twitter"></span>Twitter</a></li>
-              <li><a href="#"><span class="fa fa-google-plus"></span>Google+</a></li>
-              <li><a href="#"><span class="fa fa-dribbble"></span>Dribble</a></li>
-              <li><a href="#"><span class="fa fa-linkedin"></span>Linkedin</a></li>
-              <li><a href="#"><span class="fa fa-instagram"></span>Instagram</a></li>
+          <div class="">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#home" data-toggle="tab">Главная</a></li>
+              <li><a href="#profile" data-toggle="tab">Профиль</a></li>
+              <li><a href="#messages" data-toggle="tab">Сообщения</a></li>
+              <li><a href="#settings" data-toggle="tab">Настройки</a></li>
             </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane active" id="home">...</div>
+              <div class="tab-pane" id="profile">...</div>
+              <div class="tab-pane" id="messages">...</div>
+              <div class="tab-pane" id="settings">...</div>
+            </div>
           </div>
           <div class="col-sm-6 col-xs-12 pull-right textbox text-center">
               
