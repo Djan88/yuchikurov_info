@@ -3280,7 +3280,7 @@ li.col-md-4.book_item
     -o-transition: background 0.6s ease-in-out;
     transition: background 0.6s ease-in-out;
 }
-.terapevtic_btn a:hover, .terapevtic_btn.active
+.terapevtic_btn a:hover, .terapevtic_btn a.active
 {
     text-decoration: none;
     color: #fff;
