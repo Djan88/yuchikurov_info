@@ -3270,6 +3270,8 @@ li.col-md-4.book_item
 .terapevtic_btn 
 {
     border: 1px solid #ddd;
+    display: block;
+    padding: 20px;
 }
 .terapevtic_btn 
 {
