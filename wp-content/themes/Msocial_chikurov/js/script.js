@@ -139,4 +139,9 @@ jQuery( function() {
       jQuery(el).find('.cur_mc').val(jQuery(el).find('.cur_mc_link').text());
       jQuery(el).find('.cur_mc_title').val(jQuery(el).find('.rasp-title').text());
     });
+    //Программы на главной
+    jQuery('.terapevtic_btn a').on('click', function(event) {
+      jQuery('.terapevtic_btn a').removeClass('active');
+      jQuery(this).addClass('active');
+    });
 });

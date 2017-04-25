@@ -3296,6 +3296,11 @@ li.col-md-4.book_item
     width: 100%;
     height: auto;
 }
+.terapevtic_text a 
+{
+    padding-top: 10px;
+    display: block;
+}
 @media (max-width: 1040px) {
     .consultaiton 
     {
