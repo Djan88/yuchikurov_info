@@ -103,24 +103,6 @@ gk_load('header');
   </div>
 </div>
 <!--section-home-->
-<!-- WELCOME MESSAGE STARTS
-========================================================================= -->
-<div class="clear"></div>
-<div class="blue-color padding-box">
-  <div class="container">
-    <div class="row header">
-      <div class="col-xs-12 text-white-color">
-        <aside class="col-sm-6 col-xs-12 textlt">
-          <h2 class="white">Биологическое центрирование</h2>
-          <p class="white">Биологическое Центрирование (БЦ) является учением о принципах формирования здорового и успешного жизнеустройства, проистекающих из него физического здоровья, личностного развития, успешной самореализации в жизни...</p>
-          <a href="/biologicheskoe-centrirovanie/" class="btn transparent-btn" type="button">Читать книгу</a>
-        </aside>
-        <figure class="col-sm-4 col-xs-4 pull-right"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/bc.png" alt></figure>
-      </div>
-    </div>
-    <!--container--> 
-  </div>
-</div>
 <!-- PORTFOLIO STARTS
 ========================================================================= -->
 <div class="container padding-box" id="portfolio">
@@ -156,21 +138,19 @@ gk_load('header');
     <!--container--> 
   </div>
 </div>
-<!-- WELCOME MESSAGE END
+<!-- WELCOME MESSAGE STARTS
 ========================================================================= -->
-<div id="formuls" style="border-bottom: 1px solid #477ab9;">
-  <div class="container padding-box">
+<div class="clear"></div>
+<div class="blue-color padding-box">
+  <div class="container">
     <div class="row header">
-      <div class="col-xs-12">
-        <figure class="col-sm-4 col-xs-4 pull-left"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/formuls.png" alt></figure>
-        <aside class="col-sm-6 col-xs-12 textbox text-center">
-          <h2 class="black">Формулы</h2>
-          <p class="black" style="text-align: justify;">
-            На сайте доступен специальный интерфейс: "Лечебный диск".<br>
-            Формулы с этого интерфейса можно использовать как для работы, так и в образовательных целях. Кликая на ту или иную формулу вы переводите ее в активированное состояние, при наведении мышки на активированную формулу всплывает ее название, а так же полное описание со всеми оказываемыми эффектами.
-          </p>
-          <a href="/formuly-bc/" class="btn btn-primary" type="button">Увидеть в действии</a>
+      <div class="col-xs-12 text-white-color">
+        <aside class="col-sm-6 col-xs-12 textlt">
+          <h2 class="white">Биологическое центрирование</h2>
+          <p class="white">Биологическое Центрирование (БЦ) является учением о принципах формирования здорового и успешного жизнеустройства, проистекающих из него физического здоровья, личностного развития, успешной самореализации в жизни...</p>
+          <a href="/biologicheskoe-centrirovanie/" class="btn transparent-btn" type="button">Читать книгу</a>
         </aside>
+        <figure class="col-sm-4 col-xs-4 pull-right"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/bc.png" alt></figure>
       </div>
     </div>
     <!--container--> 
@@ -191,59 +171,81 @@ gk_load('header');
             <div class="col-md-6 terapevtic_btn"><a href="#settings" data-toggle="tab">Marakata</a></div>
           </div>
           <div class="col-sm-6 col-xs-12 pull-right textbox text-center">
-              <!-- Tab panes -->
-              <div class="tab-content" style="border-top: 1px solid #ddd;border-top: 1px solid #ddd;">
-                <div class="tab-pane active" id="home">
-                  <div class="row">
-                    <div class="col-md-6 terapevtic_text">
-                      Терапевтическая машина для коррекции психосоматики.
-                      <div><a target="_blank" href="http://wizardmachine.ru/">СТРАНИЦА ПРОЕКТА</a></div>
-                    </div>
-                    <div class="col-md-6 terapevtic_image">
-                      <img src="/wp-content/themes/Msocial_chikurov/images/wm_home.png" alt="">
-                    </div>
+            <!-- Tab panes -->
+            <div class="tab-content" style="border-top: 1px solid #ddd;border-top: 1px solid #ddd;">
+              <div class="tab-pane active" id="home">
+                <div class="row">
+                  <div class="col-md-6 terapevtic_text">
+                    Терапевтическая машина для коррекции психосоматики.
+                    <div><a target="_blank" href="http://wizardmachine.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
-                </div>
-                <div class="tab-pane" id="profile">
-                  <div class="row">
-                    <div class="col-md-6 terapevtic_text">
-                      Терапевтическая машина для коррекции партнерских, семейных и бизнес взаимоотношений.
-                      <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
-                    </div>
-                    <div class="col-md-6 terapevtic_image">
-                      <img src="/wp-content/themes/Msocial_chikurov/images/wd_home.png" alt="">
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane" id="messages">
-                  <div class="row">
-                    <div class="col-md-6 terapevtic_text">
-                      Терапевтическая машина для коррекции взаимодействия человека и архетипов.
-                      <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
-                    </div>
-                    <div class="col-md-6 terapevtic_image">
-                      <img src="/wp-content/themes/Msocial_chikurov/images/wt_home.png" alt="">
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane" id="settings">
-                  <div class="row">
-                    <div class="col-md-6 terapevtic_text">
-                      Психодинамическая машина для инверсии травм личной истории в ресурс жизненной силы.
-                      <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
-                    </div>
-                    <div class="col-md-6 terapevtic_image">
-                      <img src="/wp-content/themes/Msocial_chikurov/images/marakata_home.png" alt="">
-                    </div>
+                  <div class="col-md-6 terapevtic_image">
+                    <img src="/wp-content/themes/Msocial_chikurov/images/wm_home.png" alt="">
                   </div>
                 </div>
               </div>
-          </div>
+              <div class="tab-pane" id="profile">
+                <div class="row">
+                  <div class="col-md-6 terapevtic_text">
+                    Терапевтическая машина для коррекции партнерских, семейных и бизнес взаимоотношений.
+                    <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
+                  </div>
+                  <div class="col-md-6 terapevtic_image">
+                    <img src="/wp-content/themes/Msocial_chikurov/images/wd_home.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="messages">
+                <div class="row">
+                  <div class="col-md-6 terapevtic_text">
+                    Терапевтическая машина для коррекции взаимодействия человека и архетипов.
+                    <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
+                  </div>
+                  <div class="col-md-6 terapevtic_image">
+                    <img src="/wp-content/themes/Msocial_chikurov/images/wt_home.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="settings">
+                <div class="row">
+                  <div class="col-md-6 terapevtic_text">
+                    Психодинамическая машина для инверсии травм личной истории в ресурс жизненной силы.
+                    <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
+                  </div>
+                  <div class="col-md-6 terapevtic_image">
+                    <img src="/wp-content/themes/Msocial_chikurov/images/marakata_home.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
-      <!--container--> 
     </div>
+    <!--container--> 
   </div>
+</div>
+<!-- WELCOME MESSAGE END
+========================================================================= -->
+<div id="formuls" style="border-bottom: 1px solid #477ab9;">
+  <div class="container padding-box">
+    <div class="row header">
+      <div class="col-xs-12">
+        <figure class="col-sm-4 col-xs-4 pull-left"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/formuls.png" alt></figure>
+        <aside class="col-sm-6 col-xs-12 textbox text-center">
+          <h2 class="black">Формулы</h2>
+          <p class="black" style="text-align: justify;">
+            На сайте доступен специальный интерфейс: "Лечебный диск".<br>
+            Формулы с этого интерфейса можно использовать как для работы, так и в образовательных целях. Кликая на ту или иную формулу вы переводите ее в активированное состояние, при наведении мышки на активированную формулу всплывает ее название, а так же полное описание со всеми оказываемыми эффектами.
+          </p>
+          <a href="/formuly-bc/" class="btn btn-primary" type="button">Увидеть в действии</a>
+        </aside>
+      </div>
+    </div>
+    <!--container--> 
+  </div>
+</div>
+<!-- WELCOME MESSAGE END
+========================================================================= -->
 <div class="blue-color padding-box" style="padding-bottom: 80px;">
   <div class="container">
     <div class="row header">
