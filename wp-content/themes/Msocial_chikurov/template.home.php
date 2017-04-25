@@ -192,7 +192,7 @@ gk_load('header');
           </div>
           <div class="col-sm-6 col-xs-12 pull-right textbox text-center">
               <!-- Tab panes -->
-              <div class="tab-content" style="border-top: 1px solid #ddd;border-color: transparent;">
+              <div class="tab-content" style="border-top: 1px solid #ddd;border-top: 1px solid #ddd;">
                 <div class="tab-pane active" id="home">
                   <div class="row">
                     <div class="col-md-6 terapevtic_text">
