@@ -192,17 +192,15 @@ gk_load('header');
               <li><a href="#messages" data-toggle="tab">Сообщения</a></li>
               <li><a href="#settings" data-toggle="tab">Настройки</a></li>
             </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-              <div class="tab-pane active" id="home">...</div>
-              <div class="tab-pane" id="profile">...</div>
-              <div class="tab-pane" id="messages">...</div>
-              <div class="tab-pane" id="settings">...</div>
-            </div>
           </div>
           <div class="col-sm-6 col-xs-12 pull-right textbox text-center">
-              
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane active" id="home">1</div>
+                <div class="tab-pane" id="profile">2</div>
+                <div class="tab-pane" id="messages">3</div>
+                <div class="tab-pane" id="settings">4</div>
+              </div>
           </div>
         </div>
       </div>
