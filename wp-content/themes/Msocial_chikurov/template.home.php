@@ -176,7 +176,7 @@ gk_load('header');
     <!--container--> 
   </div>
 </div>
-<?php if (condition) { ?>
+<?php if (current_user_can('administrator')) { ?>
   <!-- WELCOME MESSAGE END
   ========================================================================= -->
   <div id="formuls" class="grey-color" style="border-bottom: 1px solid #477ab9;">
