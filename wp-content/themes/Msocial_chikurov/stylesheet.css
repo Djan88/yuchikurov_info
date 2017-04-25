@@ -3267,6 +3267,10 @@ li.col-md-4.book_item
     float: none;
     display: inline-block;
 }
+.terapevtic_btn 
+{
+    border: 1px solid #ddd;
+}
 @media (max-width: 1040px) {
     .consultaiton 
     {

@@ -184,12 +184,12 @@ gk_load('header');
       <div class="row header">
         <div class="col-xs-12 textbox text-center">
           <h2 class="black">Терапевтические программы</h2>
-          <div class="col-sm-4 col-xs-4 terapevtic_btns">
+          <div class="col-sm-4 col-xs-4 terapevtic_btns row">
             <!-- Nav tabs -->
-              <div class="terapevtic_btn active"><a href="#home" data-toggle="tab">Главная</a></div>
-              <div class="terapevtic_btn"><a href="#profile" data-toggle="tab">Профиль</a></div>
-              <div class="terapevtic_btn"><a href="#messages" data-toggle="tab">Сообщения</a></div>
-              <div class="terapevtic_btn"><a href="#settings" data-toggle="tab">Настройки</a></div>
+              <div class="col-md-6 terapevtic_btn active"><a href="#home" data-toggle="tab">Главная</a></div>
+              <div class="col-md-6 terapevtic_btn"><a href="#profile" data-toggle="tab">Профиль</a></div>
+              <div class="col-md-6 terapevtic_btn"><a href="#messages" data-toggle="tab">Сообщения</a></div>
+              <div class="col-md-6 terapevtic_btn"><a href="#settings" data-toggle="tab">Настройки</a></div>
           </div>
           <div class="col-sm-6 col-xs-12 pull-right textbox text-center">
               <!-- Tab panes -->
