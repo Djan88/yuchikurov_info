@@ -3267,7 +3267,7 @@ li.col-md-4.book_item
     float: none;
     display: inline-block;
 }
-.terapevtic_btn 
+.terapevtic_btn a 
 {
     border: 1px solid #ddd;
     display: block;
