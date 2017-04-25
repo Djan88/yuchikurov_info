@@ -179,12 +179,12 @@ gk_load('header');
 <?php if (current_user_can('administrator')) { ?>
   <!-- WELCOME MESSAGE END
   ========================================================================= -->
-  <div id="formuls" class="grey-color" style="border-bottom: 1px solid #477ab9;">
+  <div id="formuls" class="grey-color terapevtic" style="border-bottom: 1px solid #477ab9;">
     <div class="container padding-box">
       <div class="row header">
         <div class="col-xs-12 textbox text-center">
           <h2 class="black">Терапевтические программы</h2>
-          <div class="col-sm-4 col-xs-4 social-icons">
+          <div class="social-icons">
             <ul class="list-inline">
               <li><a href="#"><span class="fa fa-facebook"></span>facebook</a></li>
               <li><a href="#"><span class="fa fa-twitter"></span>Twitter</a></li>

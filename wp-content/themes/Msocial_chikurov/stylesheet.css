@@ -3258,6 +3258,10 @@ li.col-md-4.book_item
 {
     color: #fff;
 }
+.terapevtic .social-icons
+{
+    margin: 0;
+}
 @media (max-width: 1040px) {
     .consultaiton 
     {
