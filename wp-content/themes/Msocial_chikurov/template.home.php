@@ -186,10 +186,10 @@ gk_load('header');
           <h2 class="black">Терапевтические программы</h2>
           <div class="col-sm-4 col-xs-12 terapevtic_btns row">
             <!-- Nav tabs -->
-            <div class="col-md-6 terapevtic_btn active"><a href="#home" data-toggle="tab">Главная</a></div>
-            <div class="col-md-6 terapevtic_btn"><a href="#profile" data-toggle="tab">Профиль</a></div>
-            <div class="col-md-6 terapevtic_btn"><a href="#messages" data-toggle="tab">Сообщения</a></div>
-            <div class="col-md-6 terapevtic_btn"><a href="#settings" data-toggle="tab">Настройки</a></div>
+            <div class="col-md-6 terapevtic_btn active"><a href="#home" data-toggle="tab">Wizard Machine</a></div>
+            <div class="col-md-6 terapevtic_btn"><a href="#profile" data-toggle="tab">Wizard Duos</a></div>
+            <div class="col-md-6 terapevtic_btn"><a href="#messages" data-toggle="tab">Wizard Tarot</a></div>
+            <div class="col-md-6 terapevtic_btn"><a href="#settings" data-toggle="tab">Marakata</a></div>
           </div>
           <div class="col-sm-8 col-xs-12 pull-right textbox text-center">
               <!-- Tab panes -->
