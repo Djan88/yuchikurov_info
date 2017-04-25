@@ -184,7 +184,7 @@ gk_load('header');
       <div class="row header">
         <div class="col-xs-12 textbox text-center">
           <h2 class="black">Терапевтические программы</h2>
-          <div class="col-sm-4 col-xs-4">
+          <div class="col-sm-4 col-xs-4 terapevtic_btns">
             <!-- Nav tabs -->
               <div class="active"><a href="#home" data-toggle="tab">Главная</a></div>
               <div><a href="#profile" data-toggle="tab">Профиль</a></div>
