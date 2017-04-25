@@ -196,12 +196,12 @@ gk_load('header');
               <div class="tab-content" style="border-top: 1px solid #ddd;margin-top: 15px;">
                 <div class="tab-pane active" id="home">
                   <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8 terapevtic_text">
                       Терапевтический интерактивный проект для коррекции актуальных личностных и психосоматических проблем.
                       <div><a target="_blank" href="http://wizardmachine.ru/">www.wizardmachine.ru</a></div>
                     </div>
-                    <div class="col-md-4">
-                      
+                    <div class="col-md-4 terapevtic_image">
+                      <img src="/wp-content/themes/Msocial_chikurov/images/wm_home.png" alt="">
                     </div>
                   </div>
                 </div>
