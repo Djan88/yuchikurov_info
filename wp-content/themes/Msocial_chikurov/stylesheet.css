@@ -3291,6 +3291,11 @@ li.col-md-4.book_item
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.terapevtic_image img 
+{
+    width: 100%;
+    height: auto;
+}
 @media (max-width: 1040px) {
     .consultaiton 
     {
