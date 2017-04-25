@@ -3262,9 +3262,10 @@ li.col-md-4.book_item
 {
     margin: 0;
 }
-.terapevtic .social-icons ul li
+.terapevtic .nav-tabs>li 
 {
-    background: #477ab9;
+    float: none;
+    display: inline-block;
 }
 @media (max-width: 1040px) {
     .consultaiton 
