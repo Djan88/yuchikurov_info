@@ -194,7 +194,17 @@ gk_load('header');
           <div class="col-sm-6 col-xs-12 pull-right textbox text-center">
               <!-- Tab panes -->
               <div class="tab-content" style="border-top: 1px solid #ddd;margin-top: 15px;">
-                <div class="tab-pane active" id="home">1</div>
+                <div class="tab-pane active" id="home">
+                  <div class="row">
+                    <div class="col-md-8">
+                      Терапевтический интерактивный проект для коррекции актуальных личностных и психосоматических проблем.
+                      <div><a target="_blank" href="http://wizardmachine.ru/">www.wizardmachine.ru</a></div>
+                    </div>
+                    <div class="col-md-4">
+                      
+                    </div>
+                  </div>
+                </div>
                 <div class="tab-pane" id="profile">2</div>
                 <div class="tab-pane" id="messages">3</div>
                 <div class="tab-pane" id="settings">4</div>
