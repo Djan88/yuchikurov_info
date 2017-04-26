@@ -147,8 +147,8 @@ gk_load('header');
           <h2 class="black">Терапевтические программы</h2>
           <div class="col-sm-6 col-xs-12 terapevtic_btns row">
             <!-- Nav tabs -->
-            <div class="col-md-6 terapevtic_btn"><a class="active" href="#home" data-toggle="tab">Wizard Machine</a></div>
-            <div class="col-md-6 terapevtic_btn"><a href="#profile" data-toggle="tab">Wizard Duos</a></div>
+            <div class="col-md-6 terapevtic_btn"><a class="active" href="#home" data-toggle="tab">Wizard Duos</a></div>
+            <div class="col-md-6 terapevtic_btn"><a href="#profile" data-toggle="tab">Wizard Machine</a></div>
             <div class="col-md-6 terapevtic_btn"><a href="#messages" data-toggle="tab">Wizard Tarot</a></div>
             <div class="col-md-6 terapevtic_btn"><a href="#settings" data-toggle="tab">Marakata</a></div>
           </div>
@@ -158,22 +158,22 @@ gk_load('header');
               <div class="tab-pane active" id="home">
                 <div class="row">
                   <div class="col-md-6 terapevtic_text">
-                    Терапевтическая машина для коррекции психосоматики.
-                    <div><a target="_blank" href="http://wizardmachine.ru/">СТРАНИЦА ПРОЕКТА</a></div>
+                    Терапевтическая машина для коррекции партнерских, семейных и бизнес взаимоотношений.
+                    <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
                   <div class="col-md-6 terapevtic_image">
-                    <img src="/wp-content/themes/Msocial_chikurov/images/wm_home.png" alt="">
+                    <img src="/wp-content/themes/Msocial_chikurov/images/wd_home.png" alt="">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="profile">
                 <div class="row">
                   <div class="col-md-6 terapevtic_text">
-                    Терапевтическая машина для коррекции партнерских, семейных и бизнес взаимоотношений.
-                    <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
+                    Терапевтическая машина для коррекции психосоматики.
+                    <div><a target="_blank" href="http://wizardmachine.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
                   <div class="col-md-6 terapevtic_image">
-                    <img src="/wp-content/themes/Msocial_chikurov/images/wd_home.png" alt="">
+                    <img src="/wp-content/themes/Msocial_chikurov/images/wm_home.png" alt="">
                   </div>
                 </div>
               </div>
