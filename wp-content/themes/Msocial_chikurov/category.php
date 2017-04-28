@@ -25,7 +25,7 @@ gk_load('before');
       <div class="row">
         <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2 rasp-wrap">
     <?php } else if (is_category(157)) { ?>
-      <div class="row">
+      <div class="row" style="background-color: #fff;">
         <div class="padding-box">
           <div class="container clearfix">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
