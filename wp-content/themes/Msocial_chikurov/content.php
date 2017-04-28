@@ -153,6 +153,11 @@ if($_POST['submit-subscribe']){
         </div>
       </div>
     </div>
+<?php } else if (is_category(157)) { ?>
+    <h4 class="title"><?php the_title();?></h4>
+    <div class="image-container he-wrap tpl2" data-effect="slide-top">
+        <?php the_content();?>
+    </div>
 <?php } else { ?>
     <article id="post-<?php the_ID();?>" <?php post_class(); ?>>
         <?php get_template_part( 'layouts/content.post.featured' ); ?>
