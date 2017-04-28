@@ -155,7 +155,7 @@ if($_POST['submit-subscribe']){
     </div>
 <?php } else if (is_category(157)) { ?>
     <h4 class="title"><?php the_title();?></h4>
-    <div class="image-container he-wrap tpl2" data-effect="slide-top">
+    <div class="image-container he-wrap tpl2">
         <?php the_content();?>
     </div>
 <?php } else { ?>
