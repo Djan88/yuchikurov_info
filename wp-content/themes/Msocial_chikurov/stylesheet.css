@@ -1856,7 +1856,7 @@ a.readmore {
     -moz-transition: background 0.3s ease-out 0s;
     -ms-transition: background 0.3s ease-out 0s;
 }
-.nav-tabs.nav-stacked > li.active > a, .nav-tabs.nav-stacked > li.active > a:hover, .nav-tabs.nav-stacked > li.active > a:focus {
+.nav-tabs.nav-stacked > li.active > a, .nav-tabs.nav-stacked > li.active > a:hover, .nav-tabs.nav-stacked > li.active > a:focus,.nav-tabs.nav-stacked > li.current-menu-item > a {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
