@@ -3301,6 +3301,12 @@ li.col-md-4.book_item
     padding-top: 10px;
     display: block;
 }
+.materials-block img
+{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
 @media (max-width: 1040px) {
     .consultaiton 
     {
