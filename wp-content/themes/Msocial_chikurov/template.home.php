@@ -250,12 +250,18 @@ gk_load('header');
   <div class="container">
     <div class="row header">
       <div class="col-xs-12 text-white-color">
-        <aside class="col-sm-6 col-xs-12 textlt">
+        <aside class="col-sm-6 col-xs-12 text-center">
           <h2 class="white">Книги доктора Чикурова</h2>
           <p class="white">Перейдя по ссылке вы сможете скачать все книги доктора Чикурова. Книга "Биологическое центрирование" доступна для чтения в удобном формате</p>
           <a href="/members/admin/author_books/" class="btn transparent-btn" type="button">Страница книг</a>
+          <img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/book.png" alt>
         </aside>
-        <figure class="col-sm-4 col-xs-4 pull-right"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/book.png" alt></figure>
+        <aside class="col-sm-6 col-xs-12 pull-right text-center">
+          <h2 class="white">Видео доктора Чикурова</h2>
+          <p class="white">Видео по Биологичкскому центрированию, мягким мануальным техникам, эстетике лица, "WizardMachine" а так же психодинамическим играм "Девяточка", "Marakata".</p>
+          <a href="/category/video/" class="btn transparent-btn" type="button">Видео архив</a>
+          <img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/yt.png" alt>
+        </aside>
       </div>
     </div>
     <!--container--> 
