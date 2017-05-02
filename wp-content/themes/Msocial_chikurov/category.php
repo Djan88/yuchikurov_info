@@ -34,7 +34,7 @@ gk_load('before');
                 echo $menu;
               ?>
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" style="background: #eee;">
     <?php } ?>
 
     <?php do_action('gavernwp_before_loop'); ?>
