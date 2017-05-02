@@ -24,23 +24,21 @@ gk_load('before');
     <?php if (is_category(156)) { ?>
       <div class="row">
         <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2 rasp-wrap">
-    <?php } else if (is_category(157)) { ?>
+    <?php } else if (is_category(157)||is_category(158)||is_category(161)||is_category(159)||is_category(162)||is_category(160)) { ?>
       <div class="row" style="background-color: #fff;">
         <div class="padding-box">
           <div class="container clearfix">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <?php 
+                $menu = wp_nav_menu(array('menu' => 'Main Navigation', 'container' => false, menu_class => 'nav nav-tabs nav-stacked' ));
+                echo $menu;
+              ?>
               <ul class="nav nav-tabs nav-stacked">
-                <li class="active"><a href="#">Биологическое центрирование</a></li>
-                <li><a href="#">Мягкие мануальные техники</a></li>
-                <li><a href="#">"Девяточка"</a></li>
-                <li><a href="#">"MARAKATA"</a></li>
-                <li><a href="#">Лечебные ножи</a></li>
-                <li><a href="#">Тело ума</a></li>
-                <li><a href="#">"WizardMachine"</a></li>
-                <li><a href="#">"WizardDuos"</a></li>
-                <li><a href="#">"TarotMachine"</a></li>
-                <li><a href="#">Коррекция через натальную карту</a></li>
-                <li><a href="#">Лицевые техники</a></li>
+                <li class="active"><a href="http://www.chikurov.com/category/biologicheskoe-centrirovanie">Биологическое центрирование</a></li>
+                <li><a href="http://www.chikurov.com/category/myagkie-manualnye-texniki">Мягкие мануальные техники</a></li>
+                <li><a href="http://www.chikurov.com/category/esteticheskoe-modelirovanie-lica">Эстетическое моделирование лица</a></li>
+                <li><a href="http://www.chikurov.com/category/virtualnye-terapevtieskie-proekty">Виртуальные терапевтиеские проекты</a></li>
+                <li><a href="http://www.chikurov.com/category/psixodinamicheskie-igry">Психодинамические игры</a></li>
               </ul>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">

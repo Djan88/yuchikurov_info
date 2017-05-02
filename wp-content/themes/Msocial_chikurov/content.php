@@ -153,7 +153,7 @@ if($_POST['submit-subscribe']){
         </div>
       </div>
     </div>
-<?php } else if (is_category(157)) { ?>
+<?php } else if (is_category(157)||is_category(158)||is_category(161)||is_category(159)||is_category(162)||is_category(160)) { ?>
     <h4 class="title"><?php the_title();?></h4>
     <div class="image-container he-wrap tpl2">
         <?php the_content();?>
