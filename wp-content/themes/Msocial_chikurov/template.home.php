@@ -246,7 +246,7 @@ gk_load('header');
 </div>
 <!-- WELCOME MESSAGE END
 ========================================================================= -->
-<div class="blue-color materials-block padding-box" style="padding-bottom: 80px;">
+<div class="blue-color materials-block padding-box">
   <div class="container">
     <div class="row header">
       <div class="col-xs-12 text-white-color">
@@ -254,7 +254,7 @@ gk_load('header');
           <h2 class="white">Книги доктора Чикурова</h2>
           <p class="white">Перейдя по ссылке вы сможете скачать все книги доктора Чикурова. Книга "Биологическое центрирование" доступна для чтения в удобном формате</p>
           <a href="/members/admin/author_books/" class="btn transparent-btn" type="button">Страница книг</a>
-          <img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/book.png" alt>
+          <img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/book_2.png" alt>
         </aside>
         <aside class="col-sm-6 col-xs-12 pull-right text-center">
           <h2 class="white">Видео доктора Чикурова</h2>
