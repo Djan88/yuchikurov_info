@@ -33,13 +33,6 @@ gk_load('before');
                 $menu = wp_nav_menu(array('menu' => 'Main Navigation', 'container' => false, menu_class => 'nav nav-tabs nav-stacked' ));
                 echo $menu;
               ?>
-              <ul class="nav nav-tabs nav-stacked">
-                <li class="active"><a href="http://www.chikurov.com/category/biologicheskoe-centrirovanie">Биологическое центрирование</a></li>
-                <li><a href="http://www.chikurov.com/category/myagkie-manualnye-texniki">Мягкие мануальные техники</a></li>
-                <li><a href="http://www.chikurov.com/category/esteticheskoe-modelirovanie-lica">Эстетическое моделирование лица</a></li>
-                <li><a href="http://www.chikurov.com/category/virtualnye-terapevtieskie-proekty">Виртуальные терапевтиеские проекты</a></li>
-                <li><a href="http://www.chikurov.com/category/psixodinamicheskie-igry">Психодинамические игры</a></li>
-              </ul>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
     <?php } ?>
