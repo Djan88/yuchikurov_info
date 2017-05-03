@@ -3307,6 +3307,10 @@ li.col-md-4.book_item
     margin: auto;
     margin-top: 20px;
 }
+button, input, select, textarea 
+{
+    max-width: 100%;
+}
 @media (max-width: 1040px) {
     .consultaiton 
     {
