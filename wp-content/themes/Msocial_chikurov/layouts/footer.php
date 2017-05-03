@@ -43,9 +43,6 @@
                   <div class="modal-body">
                     <?php echo do_shortcode('[contact-form-7 id="3605" title="Заказ видео курса"]')?>
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-                  </div>
                 </div>
               </div>
             </div>
