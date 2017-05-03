@@ -3321,6 +3321,7 @@ button, input, select, textarea
     margin: auto;
     border-radius: 6px;
     position: relative;
+    font-weight: 600;
 }
 .yt_subscribe:hover
 {
