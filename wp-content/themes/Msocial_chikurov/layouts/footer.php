@@ -32,6 +32,29 @@
           <p>
             <a class="hidden btn btn-block btn-warning" href="#">Cоздать личную страницу</a>
           </p>
+          <p>
+            <div class="consultaiton pull-right">
+              <a href="#" style="color: #f6cd80;" data-toggle="modal" data-target="#videoCours">
+                <i class="fa fa-play fa-fw" style="margin-right: 5px;"></i>ЗАКАЗАТЬ ВИДЕОКУРС
+              </a>
+            </div>
+            <div class="modal fade bs-example-modal-sm" id="videoCours" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="videoCoursLabel">Заказать видеокурс</h4>
+                  </div>
+                  <div class="modal-body">
+                    <?php echo do_shortcode('[contact-form-7 id="3605" title="Заказ видео курса"]')?>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </p>
         </div>
       </aside>
       <aside class="col-sm-5 contact-form col-xs-12 pull-right">
