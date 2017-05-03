@@ -3320,6 +3320,7 @@ button, input, select, textarea
     padding: 10px 5px;
     margin: auto;
     border-radius: 6px;
+    position: relative;
 }
 .yt_subscribe:hover
 {
