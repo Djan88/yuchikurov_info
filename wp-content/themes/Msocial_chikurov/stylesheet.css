@@ -3327,6 +3327,14 @@ button, input, select, textarea
     background: #cc181e;
     text-decoration: none;
 }
+.yt_subscribe i:bofore
+{
+    position: absolute;
+    left: 0px;
+    top: -3px;
+    font-size: 45px;
+}
+
 @media (max-width: 1040px) {
     .consultaiton 
     {

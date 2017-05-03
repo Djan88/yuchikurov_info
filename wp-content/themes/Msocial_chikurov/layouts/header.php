@@ -275,7 +275,7 @@
         <div class="consultaiton pull-right">
             <a href="mailto:info@chikurov.com">
             <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>info@chikurov.com</a> | 
-            <span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 135-25-48</span>
+            <span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 15px;"></i>+7 (495) 135-25-48</span>
         </div>
         <div class="consultaiton pull-right">
           <a href="https://www.youtube.com/user/ThePractik01" target="_blank" style="color: #f6cd80;" data-toggle="modal" data-target="#videoCours">
