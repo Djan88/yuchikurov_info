@@ -21,7 +21,7 @@ gk_load('before');
           </h1>
           <?php if (is_category(157)||is_category(158)||is_category(161)||is_category(159)||is_category(162)||is_category(160)) { ?>
             <a href="#" class="yt_subscribe">
-              <i class="fa fa-youtube-square fa-fw" style="margin-right: 5px;"></i>ПОДПИСАТЬСЯ НА КАНАЛ
+              <i class="fa fa-youtube-square fa-fw" style="margin-right: 15px;"></i>ПОДПИСАТЬСЯ НА КАНАЛ
             </a>
           <?php } ?>
     </aside>

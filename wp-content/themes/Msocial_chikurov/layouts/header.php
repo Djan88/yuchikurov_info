@@ -279,7 +279,7 @@
         </div>
         <div class="consultaiton pull-right">
           <a href="https://www.youtube.com/user/ThePractik01" target="_blank" style="color: #f6cd80;" data-toggle="modal" data-target="#videoCours">
-            <i class="fa fa-play fa-fw" style="margin-right: 15px;"></i>ЗАКАЗАТЬ ВИДЕОКУРС
+            <i class="fa fa-play fa-fw" style="margin-right: 5px;"></i>ЗАКАЗАТЬ ВИДЕОКУРС
           </a>
         </div>
         <div class="collapse navbar-collapse pull-right">
