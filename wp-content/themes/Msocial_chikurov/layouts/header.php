@@ -282,7 +282,7 @@
                 <i class="fa fa-play fa-fw" style="margin-right: 5px;"></i>ЗАКАЗАТЬ ВИДЕОКУРС
             </a>
         </div>
-        <div class="modal fade" id="myModal-video" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal" id="myModal-video" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
