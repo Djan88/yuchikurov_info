@@ -205,7 +205,6 @@ function bb_ksd_stats_display()
 	$site = urlencode( bb_get_uri( null, null, BB_URI_CONTEXT_TEXT + BB_URI_CONTEXT_AKISMET ) );
 	$url = "http://".bb_get_option( 'akismet_key' ).".web.akismet.com/1.0/user-stats.php?blog={$site}&amp;type=forum";
 ?>
-	<iframe src="<?php echo $url; ?>" id="bb-ksd-stats-frame"></iframe>
 <?php
 }
 
