@@ -22,12 +22,13 @@
         <meta name='yandex-verification' content='67af68895907f13a' />
 	<link href="<?php bloginfo('template_url'); ?>/css/all-stylesheets.css" rel="stylesheet" type="text/css">
 	<link href="<?php bloginfo('template_url'); ?>/css/rs-slider/settings.css" rel="stylesheet" type="text/css">
-      <link href="<?php bloginfo('template_url'); ?>/css/rs-slider/extralayers.css" rel="stylesheet" type="text/css">
-      <link href="<?php bloginfo('template_url'); ?>/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
-      <link href="<?php bloginfo('template_url'); ?>/css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php bloginfo('template_url'); ?>/css/rs-slider/extralayers.css" rel="stylesheet" type="text/css">
+    <link href="<?php bloginfo('template_url'); ?>/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php bloginfo('template_url'); ?>/css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
     <link href="<?php bloginfo('template_url'); ?>/css/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
 	<link href="<?php bloginfo('template_url'); ?>/css/style_formula.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico" type="image/ico">
+    <meta name="yandex-verification" content="f7486773bdfff0eb" />
 	<!--[if IE 9]>
 	<link rel="stylesheet" href="<?php echo gavern_file_uri('css/ie9.css'); ?>" />
 	<![endif]-->
