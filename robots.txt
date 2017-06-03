@@ -1,2 +1,31 @@
+User-Agent: *
+Allow: /wp-content/uploads/
+Allow: /wp-content/*.js$
+Allow: /wp-content/*.css$
+Allow: /wp-includes/*.js$
+Allow: /wp-includes/*.css$
+Allow: /wp-includes/*.png$
+Allow: /wp-content/*.png$
+Allow: /page-sitemap.xml
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /xmlrpc.php
+Disallow: /template.html
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content
+Disallow: /archive
+Disallow: /page*
+Disallow: /author*
+Disallow: */trackback/
+Disallow: */feed/
+Disallow: /?feed=
+Disallow: /job
+Disallow: /?s=
+Host: staurus.net
 User-agent: bingbot
 Crawl-delay: 40
+
+
+User-agent: RankSonicSiteAuditor
+Disallow: /
