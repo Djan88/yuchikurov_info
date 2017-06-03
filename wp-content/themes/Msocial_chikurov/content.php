@@ -128,6 +128,13 @@ if($_POST['submit-subscribe']){
                     </div>
                 </div>
             </div>
+            <?php $coords_seminar = get_field('coords');?>
+            <?php if ($coords_seminar) { ?>
+                <div class="rasp-map">
+                    <?php $seminar_map = "[showyamap] [placemark coordinates='".$coords_seminar."'/] [/showyamap]";?>
+                    <?php echo do_shortcode($seminar_map); ?>
+                </div>
+            <?php } ?>
             <div class="rasp-map">
                 <?php echo do_shortcode('[showyamap] [placemark coordinates="55.837287, 37.633060"/] [/showyamap]'); ?>
             </div>
