@@ -135,9 +135,6 @@ if($_POST['submit-subscribe']){
                     <?php echo do_shortcode($seminar_map); ?>
                 </div>
             <?php } ?>
-            <div class="rasp-map">
-                <?php echo do_shortcode('[showyamap] [placemark coordinates="55.837287, 37.633060"/] [/showyamap]'); ?>
-            </div>
             <div class="rasp-order-title">
                 <div class="rasp-details_title" style="padding-top: 10px;text-align: center;
                 "><span class="fa fa-pencil"></span> ЗАПИСАТЬСЯ НА МЕРОПРИЯТИЕ</div>
