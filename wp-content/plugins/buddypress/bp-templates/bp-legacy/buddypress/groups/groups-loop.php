@@ -87,11 +87,11 @@
                     $master_filter = 'seregina';
                 } else if ($master_id == 4149){
                     $master_filter = 'kislitsin';
-                } else if ($master_id == 1033){
+                } else if ($master_id == 4957){
                     $master_filter = 'malyy';
                 }
                 if(bp_displayed_user_id() == 0 || bp_displayed_user_id() == $group->admins[0]->user_id){ ?>
-                    <?php if ($master_id == 7 || $master_id == 11 || $master_id == 9 || $master_id == 5 || $master_id == 4149 || $master_id == 1033) { ?>
+                    <?php if ($master_id == 7 || $master_id == 11 || $master_id == 9 || $master_id == 5 || $master_id == 4149 || $master_id == 4957) { ?>
                         <div data-toggle="modal" data-target="#myModal-<?php echo $seminar_id;?>" class="porfolio_smallbox seminar_linear" data-filter="<?php echo $master_filter; ?>">
                             <div class="row">
                                 <div class="col-md-2 col-sm-2 col-xs-2 text-center rasp-date">
