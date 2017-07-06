@@ -138,6 +138,7 @@ jQuery( function() {
     jQuery('.modal').each(function(index, el) {
       jQuery(el).find('.cur_mc').val(jQuery(el).find('.cur_mc_link').text());
       jQuery(el).find('.cur_mc_title').val(jQuery(el).find('.rasp-title').text());
+      console.log(jQuery('.cur_mc').val());
     });
     //Программы на главной
     jQuery('.terapevtic_btn a').on('click', function(event) {
