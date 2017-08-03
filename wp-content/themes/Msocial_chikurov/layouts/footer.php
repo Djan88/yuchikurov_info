@@ -24,9 +24,7 @@
           <p>
             <a href="mailto:info@chikurov.com">
             <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>info@chikurov.com</a>
-          </p>
-          <h5 class="white">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</h5>
-          <p>
+            <br>
             <span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 135-25-48</span>
           </p>
           <p>
