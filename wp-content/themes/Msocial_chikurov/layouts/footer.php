@@ -93,6 +93,10 @@
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/buzz.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script_formula.js"></script>
+<?php if (is_page(3746)) { ?>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/roundslider.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script_el.js"></script>
+<?php } ?>
 <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
 <script src="//yastatic.net/share2/share.js"></script>
 <?php if(is_front_page()) { ?>

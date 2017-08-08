@@ -145,6 +145,8 @@ if(is_page() && get_option($tpl->name . '_template_show_details_on_pages', 'Y') 
     <div class="page_content">
         <?php if (is_page(3312)) { ?>
             <?php include(TEMPLATEPATH . '/tpl_formula.php'); ?>
+        <?php } else if (is_page(3746)) { ?>
+            <?php include(TEMPLATEPATH . '/tpl_el.php'); ?>
         <?php } else if (is_page(3206)) { ?>
             <?php include(TEMPLATEPATH . '/tpl_bc.php'); ?>
         <?php } else if (is_page(3518)) { ?>

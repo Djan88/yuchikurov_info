@@ -27,6 +27,10 @@
     <link href="<?php bloginfo('template_url'); ?>/css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
     <link href="<?php bloginfo('template_url'); ?>/css/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
 	<link href="<?php bloginfo('template_url'); ?>/css/style_formula.css" rel="stylesheet" type="text/css">
+    <?php if (is_page(3746)) { ?>
+        <link href="<?php bloginfo('template_url'); ?>/css/roundslider.css" rel="stylesheet" type="text/css">
+        <link href="<?php bloginfo('template_url'); ?>/css/style_el.css" rel="stylesheet" type="text/css">
+    <?php } ?>
 	<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico" type="image/ico">
     <meta name="yandex-verification" content="f7486773bdfff0eb" />
 	<!--[if IE 9]>
