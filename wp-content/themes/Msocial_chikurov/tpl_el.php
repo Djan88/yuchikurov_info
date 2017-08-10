@@ -3,7 +3,7 @@
         <div class="row header">
             <div class="content col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix">
                 <div class="disc_wrap">
-                    <div class="elem_pos elem_pos_one elem_pos_d elem_pos_active" style="left: 167px;top: -12px;">
+                    <div class="elem_pos elem_pos_one elem_pos_d elem_pos_active">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
                             <g>
@@ -28,7 +28,7 @@
                             </g>
                         </svg>
                     </div>
-                    <div class="elem_pos elem_pos_two elem_pos_d elem_pos_active" style="left: 47px;top: 363px;">
+                    <div class="elem_pos elem_pos_two elem_pos_d elem_pos_active">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
                       <g>
@@ -53,7 +53,7 @@
                       </g>
                       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_three elem_pos_d elem_pos_active" style="left: 445px;top: 262px;">
+                    <div class="elem_pos elem_pos_three elem_pos_d elem_pos_active">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -78,7 +78,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_four elem_pos_t" style="left: 273px;top: -16px;">
+                    <div class="elem_pos elem_pos_four elem_pos_t">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -92,7 +92,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_five elem_pos_t" style="left: 2px;top: 266px;">
+                    <div class="elem_pos elem_pos_five elem_pos_t">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -106,7 +106,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_six elem_pos_t" style="left: 389px;top: 353px;">
+                    <div class="elem_pos elem_pos_six elem_pos_t">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -120,7 +120,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_seven elem_pos_s" style="left: 67px;top: 33px;">
+                    <div class="elem_pos elem_pos_seven elem_pos_s">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -145,7 +145,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_eight elem_pos_s" style="left: 444px;top: 148px;">
+                    <div class="elem_pos elem_pos_eight elem_pos_s">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -170,7 +170,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_nine elem_pos_s" style="left: 156px;top: 425px;">
+                    <div class="elem_pos elem_pos_nine elem_pos_s">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -195,7 +195,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_ten elem_pos_r" style="left: 2px;top: 151px;">
+                    <div class="elem_pos elem_pos_ten elem_pos_r">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -209,7 +209,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_eleven elem_pos_r" style="left: 383px;top: 54px;">
+                    <div class="elem_pos elem_pos_eleven elem_pos_r">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -223,7 +223,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_twelve elem_pos_r" style="left: 280px;top: 433px;">
+                    <div class="elem_pos elem_pos_twelve elem_pos_r">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
