@@ -1,20 +1,35 @@
 jQuery(document).ready(function() {
     var valueNow,
         highlighter,
+        scr_w = jQuery(window).width(),
         tickSound = new buzz.sound( "/wp-content/themes/Msocial_chikurov/sound/seif", {
             formats: [ "ogg", "mp3" ]
         });
-    $("#handle1").roundSlider({
-        min: 0,
-        max: 12000,
-        step: 1000,
-        value: 0,
-        radius: 200,
-        sliderType: "min-range",
-        editableTooltip: false,
-        handleSize: 0,
-        tooltipFormat: "changeTooltip"
-    });
+    if (scr_w <= 720) {
+        $("#handle1").roundSlider({
+            min: 0,
+            max: 12000,
+            step: 1000,
+            value: 0,
+            radius: 100,
+            sliderType: "min-range",
+            editableTooltip: false,
+            handleSize: 0,
+            tooltipFormat: "changeTooltip"
+        });
+    } else {
+        $("#handle1").roundSlider({
+            min: 0,
+            max: 12000,
+            step: 1000,
+            value: 0,
+            radius: 200,
+            sliderType: "min-range",
+            editableTooltip: false,
+            handleSize: 0,
+            tooltipFormat: "changeTooltip"
+        });
+    }
     highlighter = function(){
         console.log(jQuery('.rs-handle').attr('aria-valuenow'));
         tickSound.play();
