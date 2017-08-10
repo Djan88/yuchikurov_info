@@ -11,7 +11,7 @@ jQuery(document).ready(function() {
             max: 12000,
             step: 1000,
             value: 0,
-            radius: 100,
+            radius: 125,
             sliderType: "min-range",
             editableTooltip: false,
             handleSize: 0,
