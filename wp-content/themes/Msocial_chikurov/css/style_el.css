@@ -1,5 +1,5 @@
 #handle1 .rs-handle  {
-    background: url(../images/tr.png) center center no-repeat;
+    background: url(tr.png) center center no-repeat;
     width: 400px!important;
     height: 400px!important;
     position: absolute;
@@ -24,33 +24,40 @@
     position: absolute;
     width: 80px;
 }
+.rs-bar {
+    /*transition: all 0.1s linear!important;*/
+}
 svg path
 {
     stroke-width: 10px;
 }
 .elem_pos_t.elem_pos_active svg path
 {
-    stroke: #ff0000;
+    /*stroke: #ff0000;*/
+    stroke: #fdb435;
     stroke-width: 10px;
 }
 .elem_pos_r.elem_pos_active svg path
 {
-    stroke: #0072ff;
+    /*stroke: #0072ff;*/
+    stroke: #fdb435;
     stroke-width: 10px;
 }
 .elem_pos_s.elem_pos_active svg path
 {
-    stroke: #00f3ff;
+    /*stroke: #00f3ff;*/
+    stroke: #fdb435;
     stroke-width: 10px;
 }
 .elem_pos_d.elem_pos_active svg path
 {
-    stroke: #501414;
+    /*stroke: #501414;*/
+    stroke: #fdb435;
     stroke-width: 10px;
 }
 .elem_pos svg {
-    width: 100%;
-    height: auto;
+    width: 80px;
+    height: 100px;
 }
 span.rs-tooltip.rs-tooltip-text {
     display: none;
