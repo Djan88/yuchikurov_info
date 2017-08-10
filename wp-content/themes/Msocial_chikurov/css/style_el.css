@@ -87,7 +87,13 @@ span.rs-seperator.rs-border {
 }
 @media (max-width: 720px) {
     #handle1 .rs-handle {
-        width: 250px !important;
-        height: 250px !important;
+        width: 240px !important;
+        height: 240px !important;
+        left: -3px;
+        top: -123px;
+        background-position: 15px -12px;
+    }
+    .disc_wrap {
+        width: 372px;
     }
 }
