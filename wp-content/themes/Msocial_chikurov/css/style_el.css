@@ -147,73 +147,73 @@ span.rs-seperator.rs-border {
 }
 @media (max-width: 720px) {
     #handle1 .rs-handle {
-        width: 240px !important;
-        height: 240px !important;
-        left: -3px;
-        top: -123px;
+        width: 220px !important;
+        height: 220px !important;
+        left: -12px;
+        top: -111px;
         background-position: 15px -12px;
     }
     .disc_wrap {
-        width: 372px;
+        width: 342px;
     }
     .elem_pos_one
     {
-        left: 113px;
+        left: 100px;
         top: -14px;
     }
     .elem_pos_two
     {
-        left: 42px;
-        top: 258px;
+        left: 24px;
+        top: 219px;
     }
     .elem_pos_three
     {
-        left: 295px;
-        top: 185px;
+        left: 265px;
+        top: 168px;
     }
     .elem_pos_four
     {
-        left: 188px;
-        top: -16px;
+        left: 166px;
+        top: -19px;
     }
     .elem_pos_five
     {
-        left: 0px;
-        top: 175px;
+        left: -2px;
+        top: 153px;
     }
     .elem_pos_six
     {
-        left: 260px;
-        top: 230px;
+        left: 233px;
+        top: 207px;
     }
     .elem_pos_seven
     {
-        left: 30px;
-        top: 23px;
+        left: 24px;
+        top: 20px;
     }
     .elem_pos_eight
     {
-        left: 297px;
-        top: 100px;
+        left: 268px;
+        top: 91px;
     }
     .elem_pos_nine
     {
-        left: 110px;
-        top: 286px;
+        left: 99px;
+        top: 255px;
     }
     .elem_pos_ten
     {
-        left: -3px;
-        top: 108px;
+        left: -4px;
+        top: 95px;
     }
     .elem_pos_eleven
     {
-        left: 258px;
-        top: 38px;
+        left: 232px;
+        top: 33px;
     }
     .elem_pos_twelve
     {
-        left: 190px;
-        top: 284px;
+        left: 166px;
+        top: 256px;
     }
 }
