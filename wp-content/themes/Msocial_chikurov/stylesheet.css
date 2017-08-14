@@ -2876,7 +2876,7 @@ a.btn.btn-warning {
 {
   width: 120px;
 }
-path, #treangle svg path
+path, svg#treangle path
 {
   stroke: #fff!important;
   stroke-width: 80px;
