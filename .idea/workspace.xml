@@ -59,8 +59,8 @@
       <file leaf-file-name="template.home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="241" column="271" lean-forward="true" selection-start-line="241" selection-start-column="271" selection-end-line="241" selection-end-column="271" />
+            <state relative-caret-position="297">
+              <caret line="241" column="211" lean-forward="false" selection-start-line="241" selection-start-column="211" selection-end-line="241" selection-end-column="211" />
               <folding />
             </state>
           </provider>
@@ -498,12 +498,12 @@
       <workItem from="1499349871064" duration="6707000" />
       <workItem from="1501772114831" duration="1064000" />
       <workItem from="1502117634984" duration="649000" />
-      <workItem from="1502119210488" duration="24808000" />
+      <workItem from="1502119210488" duration="25051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33228000" />
+    <option name="totallyTimeSpent" value="33471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -763,8 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="241" column="271" lean-forward="true" selection-start-line="241" selection-start-column="271" selection-end-line="241" selection-end-column="271" />
+        <state relative-caret-position="297">
+          <caret line="241" column="211" lean-forward="false" selection-start-line="241" selection-start-column="211" selection-end-line="241" selection-end-column="211" />
           <folding />
         </state>
       </provider>
