@@ -235,7 +235,7 @@ gk_load('header');
           <p>На сайте доступен специальный интерфейс: "Лечебный диск".<br>
               Формулы можно использовать как для работы, так и в образовательных целях. Кликая на ту или иную формулу вы переводите ее в активированное состояние, при наведении мышки на активированную формулу всплывает ее название, а так же полное описание со всеми оказываемыми эффектами.</p>
           <a href="/formuly-bc/" class="btn transparent-btn" type="button">Увидеть в действии</a>
-          <img class="img-responsive" src=/wp-content/themes/Msocial_chikurov/images/formuls.png" alt>
+          <img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/formuls.png" alt>
         </aside>
         <aside class="col-sm-6 col-xs-12 pull-right text-center">
           <h2>Первоэлементы</h2>
