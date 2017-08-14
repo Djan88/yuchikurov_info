@@ -229,17 +229,17 @@ gk_load('header');
 <div class="materials-block padding-box">
   <div class="container">
     <div class="row header">
-      <div class="col-xs-12 text-white-color">
+      <div class="col-xs-12">
         <aside class="col-sm-6 col-xs-12 text-center">
-          <h2 class="white">Формулы</h2>
-          <p class="white">На сайте доступен специальный интерфейс: "Лечебный диск".<br>
+          <h2>Формулы</h2>
+          <p>На сайте доступен специальный интерфейс: "Лечебный диск".<br>
               Формулы можно использовать как для работы, так и в образовательных целях. Кликая на ту или иную формулу вы переводите ее в активированное состояние, при наведении мышки на активированную формулу всплывает ее название, а так же полное описание со всеми оказываемыми эффектами.</p>
           <a href="/formuly-bc/" class="btn transparent-btn" type="button">Увидеть в действии</a>
           <img class="img-responsive" src=/wp-content/themes/Msocial_chikurov/images/formuls.png" alt>
         </aside>
         <aside class="col-sm-6 col-xs-12 pull-right text-center">
-          <h2 class="white">Первоэлементы</h2>
-          <p class="white">Описание блока</p>
+          <h2>Первоэлементы</h2>
+          <p>Описание блока</p>
           <a href="/pervoelementy/" class="btn transparent-btn" type="button">Видео архив</a>
           <img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/elems.png" alt>
         </aside>
