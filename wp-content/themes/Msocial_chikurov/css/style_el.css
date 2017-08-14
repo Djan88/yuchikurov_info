@@ -29,11 +29,6 @@
 svg path
 {
     stroke-width: 10px;
-    stroke: #777!important;
-}
-svg path
-{
-    stroke-width: 10px;
     stroke: #777;
 }
 .elem_pos_t.elem_pos_active svg path
