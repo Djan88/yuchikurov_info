@@ -29,31 +29,36 @@
 svg path
 {
     stroke-width: 10px;
-    stroke: #fdb435!important;
+    stroke: #777!important;
+}
+svg path
+{
+    stroke-width: 10px;
+    stroke: #777!important;
 }
 .elem_pos_t.elem_pos_active svg path
 {
     /*stroke: #ff0000;*/
     stroke: #fdb435;
-    stroke-width: 10px;
+    stroke-width: 25px;
 }
 .elem_pos_r.elem_pos_active svg path
 {
     /*stroke: #0072ff;*/
     stroke: #fdb435;
-    stroke-width: 10px;
+    stroke-width: 25px;
 }
 .elem_pos_s.elem_pos_active svg path
 {
     /*stroke: #00f3ff;*/
     stroke: #fdb435;
-    stroke-width: 10px;
+    stroke-width: 25px;
 }
 .elem_pos_d.elem_pos_active svg path
 {
     /*stroke: #501414;*/
     stroke: #fdb435;
-    stroke-width: 10px;
+    stroke-width: 25px;
 }
 .elem_pos svg {
     width: 80px;
