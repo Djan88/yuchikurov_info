@@ -23,6 +23,7 @@
     position: absolute;
     width: 80px;
     z-index: 50;
+    cursor: pointer;
 }
 .rs-bar {
     /*transition: all 0.1s linear!important;*/
