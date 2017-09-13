@@ -3,7 +3,7 @@
         <div class="row header">
             <div class="content col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix">
                 <div class="disc_wrap">
-                    <div class="elem_pos elem_pos_one elem_pos_d elem_pos_active" data-ring="rotate(0deg)">
+                    <div class="elem_pos elem_pos_one elem_pos_d elem_pos_active" data-ring="rotate(0deg)" data-el="1">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
                             <g>
@@ -28,7 +28,7 @@
                             </g>
                         </svg>
                     </div>
-                    <div class="elem_pos elem_pos_two elem_pos_d elem_pos_active" data-ring="rotate(240deg)">
+                    <div class="elem_pos elem_pos_two elem_pos_d elem_pos_active" data-ring="rotate(240deg)" data-el="1">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
                       <g>
@@ -53,7 +53,7 @@
                       </g>
                       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_three elem_pos_d elem_pos_active" data-ring="rotate(120deg)">
+                    <div class="elem_pos elem_pos_three elem_pos_d elem_pos_active" data-ring="rotate(120deg)" data-el="1">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -78,7 +78,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_four elem_pos_t" data-ring="rotate(30deg)">
+                    <div class="elem_pos elem_pos_four elem_pos_t" data-ring="rotate(30deg)" data-el="2">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -92,7 +92,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_five elem_pos_t" data-ring="rotate(270deg)">
+                    <div class="elem_pos elem_pos_five elem_pos_t" data-ring="rotate(270deg)" data-el="2">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -106,7 +106,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_six elem_pos_t" data-ring="rotate(150deg)">
+                    <div class="elem_pos elem_pos_six elem_pos_t" data-ring="rotate(150deg)" data-el="2">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -120,7 +120,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_seven elem_pos_s" data-ring="rotate(330deg)">
+                    <div class="elem_pos elem_pos_seven elem_pos_s" data-ring="rotate(330deg)" data-el="3">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -145,7 +145,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_eight elem_pos_s" data-ring="rotate(90deg)">
+                    <div class="elem_pos elem_pos_eight elem_pos_s" data-ring="rotate(90deg)" data-el="3">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -170,7 +170,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_nine elem_pos_s" data-ring="rotate(210deg)">
+                    <div class="elem_pos elem_pos_nine elem_pos_s" data-ring="rotate(210deg)" data-el="3">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -195,7 +195,7 @@
       </g>
       </svg>
     </div>
-    <div class="elem_pos elem_pos_ten elem_pos_r" data-ring="rotate(300deg)">
+    <div class="elem_pos elem_pos_ten elem_pos_r" data-ring="rotate(300deg)" data-el="4">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -209,7 +209,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_eleven elem_pos_r" data-ring="rotate(60deg)">
+                    <div class="elem_pos elem_pos_eleven elem_pos_r" data-ring="rotate(60deg)" data-el="4">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>
@@ -223,7 +223,7 @@
       </g>
       </svg>
                     </div>
-                    <div class="elem_pos elem_pos_twelve elem_pos_r" data-ring="rotate(180deg)">
+                    <div class="elem_pos elem_pos_twelve elem_pos_r" data-ring="rotate(180deg)" data-el="4">
                         <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
       <g>

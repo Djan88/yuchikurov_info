@@ -61,7 +61,17 @@ jQuery(document).ready(function() {
 
     jQuery('.elem_pos').on("click", function (e) {
         var elPos = jQuery(this).data('ring');
-        console.log(elPos);
+        var elNum = jQuery(this).data('el');
+        jQuery('.elem_pos').removeClass('elem_pos_active');
+        if(elNum == 1){
+            jQuery('.elem_pos_d').addClass('elem_pos_active');
+        } else if(elNum == 2){
+            jQuery('.elem_pos_t').addClass('elem_pos_active');
+        } else if(elNum == 3){
+            jQuery('.elem_pos_s').addClass('elem_pos_active');
+        } else if(elNum == 4){
+            jQuery('.elem_pos_r').addClass('elem_pos_active');
+        }
         jQuery('.rs-bar').css('transform', elPos);
         valueNow = jQuery('.rs-handle').attr('aria-valuenow');
         highlighter();
