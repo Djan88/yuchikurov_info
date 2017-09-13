@@ -58,4 +58,12 @@ jQuery(document).ready(function() {
         valueNow = jQuery('.rs-handle').attr('aria-valuenow');
         highlighter();
     })
+
+    jQuery('.elem_pos').on("click", function (e) {
+        var elPos = jQuery(this).data('ring');
+        console.log(elPos);
+        valueNow = jQuery('.rs-handle').attr('aria-valuenow');
+        highlighter();
+    })
+
 });
