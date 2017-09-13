@@ -62,6 +62,7 @@ jQuery(document).ready(function() {
     jQuery('.elem_pos').on("click", function (e) {
         var elPos = jQuery(this).data('ring');
         console.log(elPos);
+        jQuery('.rs-bar').css('transform', elPos);
         valueNow = jQuery('.rs-handle').attr('aria-valuenow');
         highlighter();
     })
