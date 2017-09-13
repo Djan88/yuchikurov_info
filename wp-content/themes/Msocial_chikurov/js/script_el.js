@@ -73,8 +73,6 @@ jQuery(document).ready(function() {
             jQuery('.elem_pos_r').addClass('elem_pos_active');
         }
         jQuery('.rs-bar').css('transform', elPos);
-        valueNow = jQuery('.rs-handle').attr('aria-valuenow');
-        highlighter();
     })
 
 });
