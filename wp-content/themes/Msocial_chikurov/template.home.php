@@ -9,6 +9,99 @@ gk_load('header');
 ?>
 
 <?php if ( bp_has_members( bp_ajax_querystring( 'members' ) ) ) : ?>
+/*<div id="members-wrap">
+  <?php $master = get_userdata(1); ?>
+    <?php if(get_field('slider_fields')): ?>
+      <?php $slidecount = 0 ?>
+      <!-- SLIDER STARTS
+        ========================================================================= -->
+      <div id="slider" class="hidden">
+        <div class="tp-banner-container">
+          <div class="tp-banner" >
+            <ul>
+              <?php while(has_sub_field('slider_fields')): ?>
+                <!-- SLIDE  -->
+                <li data-transition="slideleft" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-delay="5500" >
+                  <!-- LAYERS -->
+                  <!-- LAYER NR. 1 -->
+                  <h1 class="tp-caption lft customout rs-parallaxlevel-0"
+                  data-x="left"
+                  data-y="100"
+                  data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                  data-speed="700"
+                  data-start="1550"
+                  data-easing="Power3.easeInOut"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  style="z-index: 2; font-size: 35px;">
+                    <span style="color:#f6be60;"><?php the_sub_field('title_one') ?></span><br>
+                    <?php the_sub_field('title_two') ?><br>
+                    <?php the_sub_field('title_three') ?><br>
+                    <?php the_sub_field('title_four') ?></h1>
+                  <?php if(get_sub_field('slide_btn_one')) { ?>
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption tp-resizeme customout rs-parallaxlevel-0"
+                    data-x="left"
+                    data-y="300"
+                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                    data-speed="700"
+                    data-start="1400"
+                    data-easing="Power3.easeInOut"
+                    data-elementdelay="0.1"
+                    data-endelementdelay="0.1"
+                    style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a class="largeredbtn" target="_blank" href="<?php the_sub_field('slide_btn_link_one') ?>"><?php the_sub_field('slide_btn_one') ?></a></div>
+                  <?php } ?>
+
+                  <?php if(get_sub_field('slide_btn_two')) { ?>
+                  <!-- LAYER NR. 3 -->
+                  <div class="tp-caption tp-resizeme customout rs-parallaxlevel-0"
+                  data-x="140"
+                  data-y="300"
+                  data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                  data-speed="700"
+                  data-start="1100"
+                  data-easing="Power3.easeInOut"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a class="largeredbtn" target="_blank" href="<?php the_sub_field('slide_btn_link_two') ?>"><?php the_sub_field('slide_btn_two') ?></a></div>
+                  <?php } ?>
+
+                  <?php if(get_sub_field('slide_img')) { ?>
+                  <!-- LAYER NR. 5 -->
+                  <div class="tp-caption medium_text customin"
+                  data-x="600"
+                  data-y="80"
+                  data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                  data-speed="500"
+                  data-start="2000"
+                  data-easing="Power3.easeInOut"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  style="z-index: 6;"><img style="height: 400px; width: auto;" src="<?php the_sub_field('slide_img') ?>" alt=""></div>
+                  <?php } ?>
+                </li>
+                <?php
+                  if ($slidecount == 1) {
+                    $slidecount = 0;
+                  } else {
+                    $slidecount = 1;
+                  }
+                ?>
+            <?php endwhile; ?>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-md-offset-5" style="position:relative;">
+          <div class="scroll_block"></div>
+        </div>
+      </div>
+    </div>
+    <!-- /. SLIDER ENDS
+      ========================================================================= -->
+    <?php endif; ?>
+  </div>
+</div>
 <!--section-home-->
 <!-- PORTFOLIO STARTS
 ========================================================================= -->
