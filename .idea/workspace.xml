@@ -87,9 +87,17 @@
       <file leaf-file-name="template.home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="1500">
+              <caret line="102" column="8" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="102" selection-end-column="8" />
+              <folding>
+                <element signature="e#1363#1399#0#HTML" expanded="true" />
+                <element signature="e#1427#1449#0#HTML" expanded="true" />
+                <element signature="e#2360#2436#0#HTML" expanded="true" />
+                <element signature="e#3264#3340#0#HTML" expanded="true" />
+                <element signature="e#4136#4155#0#HTML" expanded="true" />
+                <element signature="e#4161#4196#0#HTML" expanded="true" />
+                <element signature="e#4653#4679#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -554,12 +562,12 @@
       <workItem from="1505295457413" duration="6115000" />
       <workItem from="1506931242055" duration="718000" />
       <workItem from="1507716136072" duration="298000" />
-      <workItem from="1509210587760" duration="2142000" />
+      <workItem from="1509210587760" duration="2199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43945000" />
+    <option name="totallyTimeSpent" value="44002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -995,9 +1003,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="1500">
+          <caret line="102" column="8" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="102" selection-end-column="8" />
+          <folding>
+            <element signature="e#1363#1399#0#HTML" expanded="true" />
+            <element signature="e#1427#1449#0#HTML" expanded="true" />
+            <element signature="e#2360#2436#0#HTML" expanded="true" />
+            <element signature="e#3264#3340#0#HTML" expanded="true" />
+            <element signature="e#4136#4155#0#HTML" expanded="true" />
+            <element signature="e#4161#4196#0#HTML" expanded="true" />
+            <element signature="e#4653#4679#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
