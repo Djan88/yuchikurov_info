@@ -85,3 +85,5 @@ define( 'AUTOMATIC_UPDATER_DISABLED', false );
 define('DISALLOW_FILE_EDIT',false); // Disable theme and plugin editor
 
 define('DISALLOW_FILE_MODS',false); // Disable core and plugin updates 
+
+if (strpos($_SERVER['REQUEST_URI'], 'wp-admin')) define ('WPLANG', 'ru_RU'); else define ('WPLANG', 'ru_RU_lite');
