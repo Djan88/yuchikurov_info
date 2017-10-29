@@ -9,7 +9,10 @@ gk_load('header');
 ?>
 
 <?php if ( bp_has_members( bp_ajax_querystring( 'members' ) ) ) : ?>
-
+<div id="members-wrap">
+  
+</div>
+<!--section-home-->
 <!-- PORTFOLIO STARTS
 ========================================================================= -->
 <div class="container padding-box" id="portfolio">
