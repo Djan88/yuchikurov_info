@@ -10,7 +10,7 @@ gk_load('header');
 
 <?php if ( bp_has_members( bp_ajax_querystring( 'members' ) ) ) : ?>
 <div id="members-wrap">
-  
+
   </div>
 </div>
 <!--section-home-->
