@@ -2,22 +2,17 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{HTTP_REFERER} !^http://(.+.)?yandex.ru/.*$ [NC]
-RewriteCond %{HTTP_REFERER} !^http://(.+.)?undsoft.com/.*$ [NC]
-RewriteCond %{HTTP_REFERER} !^http://(.+.)?yandex.net/.*$ [NC]
-RewriteCond %{HTTP_REFERER} !^http://(.+.)?feedburner.com/.*$ [NC]
-RewriteCond %{HTTP_REFERER} !^http://(.+.)?mail.ru/.*$ [NC]
-RewriteCond %{HTTP_REFERER} !^http://(.+.)?poisk.ru/.*$ [NC]
-RewriteCond %{HTTP_REFERER} !^http://(.+.)?yourdomain.ru/.*$ [NC]
-RewriteCond %{HTTP_REFERER} !^$ [NC]
-RewriteRule .*.(jpe?g|gif|bmp|png)$ - [F]
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule . /index.php [L]
 </IfModule>
-FileETag MTime Size
-<ifmodule mod_expires.c>
-<filesmatch ".(jpg|gif|png|css|js)$">
-ExpiresActive on
-ExpiresDefault "access plus 1 year"
-</filesmatch>
-</ifmodule>
 
 # END WordPress
