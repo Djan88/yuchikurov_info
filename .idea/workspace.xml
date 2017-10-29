@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e1a322a-5d04-4e8b-b344-c9a86b95656b" name="Default" comment="" />
+    <list default="true" id="9e1a322a-5d04-4e8b-b344-c9a86b95656b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php" afterPath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,14 +84,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.min.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/js/jquery.min.js">
+      <file leaf-file-name="template.home.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="10336" column="4" lean-forward="false" selection-start-line="10336" selection-start-column="4" selection-end-line="10336" selection-end-column="4" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,13 +121,18 @@
       <find>@</find>
       <find>id=&quot;formuls&quot;</find>
       <find>class=&quot;collapse navbar-collapse pull-right&quot;</find>
-      <find>fontawesome-webfont</find>
       <find>FontAwesome</find>
+      <find>fontawesome-webfont</find>
+      <find>mrar</find>
+      <find>m</find>
+      <find>mara.pn</find>
+      <find>mara.png</find>
+      <find>id=&quot;members-wrap&quot;</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/.idea</dir>
-      <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/wp-content</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -144,13 +149,13 @@
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/js/roundslider.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/tpl_el.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/js/script_el.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/css/style_el.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Chikurov/fonts/font-awesome/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php" />
       </list>
     </option>
   </component>
@@ -549,12 +554,12 @@
       <workItem from="1505295457413" duration="6115000" />
       <workItem from="1506931242055" duration="718000" />
       <workItem from="1507716136072" duration="298000" />
-      <workItem from="1509210587760" duration="1109000" />
+      <workItem from="1509210587760" duration="1914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42912000" />
+    <option name="totallyTimeSpent" value="43717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -595,7 +600,7 @@
         <state relative-caret-position="17940">
           <caret line="1196" column="47" lean-forward="false" selection-start-line="1196" selection-start-column="47" selection-end-line="1196" selection-end-column="47" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -613,7 +618,7 @@
         <state relative-caret-position="2130">
           <caret line="146" column="64" lean-forward="false" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="64" />
           <folding>
-            <element signature="e#7#82#0#PHP" expanded="true" />
+            <element signature="e#7#82#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -670,7 +675,7 @@
         <state relative-caret-position="17895">
           <caret line="1196" column="47" lean-forward="false" selection-start-line="1196" selection-start-column="47" selection-end-line="1196" selection-end-column="47" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -688,7 +693,7 @@
         <state relative-caret-position="2130">
           <caret line="146" column="64" lean-forward="false" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="64" />
           <folding>
-            <element signature="e#7#82#0#PHP" expanded="true" />
+            <element signature="e#7#82#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -753,7 +758,7 @@
         <state relative-caret-position="17895">
           <caret line="1196" column="47" lean-forward="false" selection-start-line="1196" selection-start-column="47" selection-end-line="1196" selection-end-column="47" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -884,7 +889,7 @@
         <state relative-caret-position="2130">
           <caret line="146" column="64" lean-forward="false" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="64" />
           <folding>
-            <element signature="e#7#82#0#PHP" expanded="true" />
+            <element signature="e#7#82#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -917,13 +922,6 @@
         <state relative-caret-position="1455">
           <caret line="97" column="61" lean-forward="false" selection-start-line="97" selection-start-column="61" selection-end-line="97" selection-end-column="61" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="241" column="211" lean-forward="false" selection-start-line="241" selection-start-column="211" selection-end-line="241" selection-end-column="211" />
         </state>
       </provider>
     </entry>
@@ -964,7 +962,7 @@
         <state relative-caret-position="17895">
           <caret line="1196" column="47" lean-forward="false" selection-start-line="1196" selection-start-column="47" selection-end-line="1196" selection-end-column="47" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -977,6 +975,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="10309" column="46" lean-forward="true" selection-start-line="10309" selection-start-column="46" selection-end-line="10309" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -985,13 +993,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/js/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="10336" column="4" lean-forward="false" selection-start-line="10336" selection-start-column="4" selection-end-line="10336" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
