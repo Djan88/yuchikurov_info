@@ -49,7 +49,7 @@ gk_load('header');
           <div class="col-sm-6 col-xs-12 pull-right textbox text-center">
             <!-- Tab panes -->
             <div class="tab-content" style="margin-top: 15px;border-top: 1px solid #ddd;">
-              <div class="tab-pane active" id="home">
+              <div class="tab-pane" id="home">
                 <div class="row">
                   <div class="col-md-6 terapevtic_text">
                     Терапевтическая машина для коррекции партнерских, семейных и бизнес взаимоотношений.
@@ -60,7 +60,7 @@ gk_load('header');
                   </div>
                 </div>
               </div>
-              <div class="tab-pane" id="profile">
+              <div class="tab-pane active" id="profile">
                 <div class="row">
                   <div class="col-md-6 terapevtic_text">
                     Терапевтическая машина для коррекции психосоматики.
