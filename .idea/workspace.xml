@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e1a322a-5d04-4e8b-b344-c9a86b95656b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template-reestr.php" afterPath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template-reestr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template-specialist.php" afterPath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template-specialist.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4485">
-              <caret line="303" column="75" lean-forward="false" selection-start-line="303" selection-start-column="75" selection-end-line="303" selection-end-column="75" />
+            <state relative-caret-position="341">
+              <caret line="293" column="42" lean-forward="false" selection-start-line="293" selection-start-column="42" selection-end-line="293" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -95,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-reestr.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template-reestr.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template-reestr.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="825">
@@ -130,7 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>id=&quot;formuls&quot;</find>
       <find>class=&quot;collapse navbar-collapse pull-right&quot;</find>
       <find>FontAwesome</find>
       <find>fontawesome-webfont</find>
@@ -158,8 +156,9 @@
       <find>template-special</find>
       <find>template-speciali</find>
       <find>template-specialis</find>
-      <find>template-specialist</find>
       <find>реест</find>
+      <find>template-specialist</find>
+      <find>Мастер классы</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/.idea</dir>
@@ -186,13 +185,13 @@
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/tpl_el.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/js/script_el.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/css/style_el.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Chikurov/fonts/font-awesome/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template-specialist.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template-reestr.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php" />
       </list>
     </option>
   </component>
@@ -499,12 +498,12 @@
       <workItem from="1505295457413" duration="6115000" />
       <workItem from="1506931242055" duration="718000" />
       <workItem from="1507716136072" duration="298000" />
-      <workItem from="1509210587760" duration="5014000" />
+      <workItem from="1509210587760" duration="5123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46817000" />
+    <option name="totallyTimeSpent" value="46926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -850,14 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4485">
-          <caret line="303" column="75" lean-forward="false" selection-start-line="303" selection-start-column="75" selection-end-line="303" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/js/script_el.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -943,6 +934,14 @@
           <folding>
             <element signature="e#7#39#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="293" column="42" lean-forward="false" selection-start-line="293" selection-start-column="42" selection-end-line="293" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
