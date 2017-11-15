@@ -33,23 +33,6 @@ gk_load('header');
   <!--container--> 
 </div>
 <!-- PORTFOLIO END
-========================================================================= -->
-<div class="blue-color padding-box">
-  <div class="container">
-    <div class="row header">
-      <div class="col-xs-12 text-white-color">
-        <aside class="col-sm-6 col-xs-12 textlt">
-          <h2 class="white">Мастер классы</h2>
-          <p class="white">Мастер классы доктора Чикурова это однодневные практические мероприятия рассчитанные на небольшие группы. </p>
-          <a href="/category/master-class" class="btn transparent-btn" type="button">Страница мастер классов</a>
-        </aside>
-        <figure class="col-sm-4 col-xs-4 pull-right"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/calendar.png" alt></figure>
-      </div>
-    </div>
-    <!--container--> 
-  </div>
-</div>
-  <!-- WELCOME MESSAGE END
   ========================================================================= -->
   <div id="formuls" class="grey-color terapevtic" style="border-bottom: 1px solid #477ab9;">
     <div class="container padding-box">
@@ -58,8 +41,8 @@ gk_load('header');
           <h2 class="black">Терапевтические программы</h2>
           <div class="col-sm-6 col-xs-12 terapevtic_btns row">
             <!-- Nav tabs -->
-            <div class="col-md-6 terapevtic_btn"><a class="active" href="#home" data-toggle="tab">Wizard Duos</a></div>
-            <div class="col-md-6 terapevtic_btn"><a href="#profile" data-toggle="tab">Wizard Machine</a></div>
+            <div class="col-md-6 terapevtic_btn"><a class="active"  href="#profile" data-toggle="tab">Wizard Machine</a></div>
+            <div class="col-md-6 terapevtic_btn"><a href="#home" data-toggle="tab">Wizard Duos</a></div>
             <div class="col-md-6 terapevtic_btn"><a href="#messages" data-toggle="tab">Wizard Tarot</a></div>
             <div class="col-md-6 terapevtic_btn"><a href="#settings" data-toggle="tab">Marakata</a></div>
           </div>
@@ -181,49 +164,6 @@ gk_load('header');
     <!--container-->
   </div>
 </div>
-<!-- PLANS PRICING STARTS
-========================================================================= -->
-<div class="grey-color">
-  <div class="container padding-box" id="pricing">
-    <div class="row header">
-      <article class="col-xs-12 textbox text-center">
-        <h2 class="black">Реестр специалистов</h2>
-        <!-- <p>Подзаголовок</p> -->
-        <aside class="col-xs-12 col-sm-4 reestr">
-          <div class="col-sm-12 plan1">
-            <h3>Реестр мастеров</h3>
-            <div class="pakage_price"><img src="/wp-content/themes/Msocial/images/master.1.png" class="mastera" style="padding-top: 33px;"></div>
-            <a class="btn btn-primary btn-lg" href="/members/">Посмотреть</a>
-          </div>
-        </aside>
-        <aside class="col-xs-12 col-sm-4 reestr">
-          <div class="col-sm-12 plan1">
-            <h3>Терапевтическая дефрагментация</h3>
-            <div class="pakage_price"><img src="/wp-content/themes/Msocial/images/defra.png" class="defragments"></div>
-            <a class="btn btn-primary btn-lg" href="/терапевтическая-дефрагментация/">Посмотреть</a>
-          </div>
-        </aside>
-        <aside class="col-xs-12 col-sm-4 reestr">
-          <div class="col-sm-12 plan1">
-            <h3>Биологическое центрирование</h3>
-            <div class="pakage_price"><img src="/wp-content/themes/Msocial_chikurov/images/bc_2.png" class="mastera" style="width: 73%;padding-bottom: 19px;padding-top: 20px;"></div>
-            <a class="btn btn-primary btn-lg" href="/biologicheskoe-centrirovanie-specialisty/">Посмотреть</a>
-          </div>
-        </aside>
-        <!-- <aside class="col-xs-12 col-sm-3 reestr">
-          <div class="col-sm-12 plan1">
-            <h3>Специалисты Wizardmachine</h3>
-            <div class="pakage_price"><img src="/wp-content/themes/Msocial/images/wm_wd.png" class="mastera" style="width: 73%;padding-bottom: 19px;padding-top: 20px;"></div>
-            <a class="btn btn-primary btn-lg" href="/specialisty-wizard/">Посмотреть</a>
-          </div>
-        </aside> -->
-      </article>
-    </div>
-    <!--container--> 
-  </div>
-</div>
-<!-- PLANS PRICING END
-========================================================================= -->
 <!-- SITEMAP STARTS
     ========================================================================= -->
 <div class="service-container black2-color padding-box">
