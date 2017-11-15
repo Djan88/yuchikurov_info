@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e1a322a-5d04-4e8b-b344-c9a86b95656b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php" />
-    </list>
+    <list default="true" id="9e1a322a-5d04-4e8b-b344-c9a86b95656b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +45,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="293" column="42" lean-forward="false" selection-start-line="293" selection-start-column="42" selection-end-line="293" selection-end-column="42" />
+            <state relative-caret-position="293">
+              <caret line="296" column="57" lean-forward="false" selection-start-line="296" selection-start-column="57" selection-end-line="296" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -129,15 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class=&quot;collapse navbar-collapse pull-right&quot;</find>
-      <find>FontAwesome</find>
-      <find>fontawesome-webfont</find>
-      <find>mrar</find>
-      <find>m</find>
-      <find>mara.pn</find>
-      <find>mara.png</find>
-      <find>id=&quot;members-wrap&quot;</find>
-      <find>id=&quot;pricing&quot;</find>
       <find>\&lt;\!\-\- PLANS PRICING STARTS\n\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\= \-\-\&gt;\n\&lt;div class\=\&quot;grey\-color\&quot;\&gt;\n  \&lt;div class\=\&quot;container padding\-box\&quot; id\=\&quot;pricing\&quot;\&gt;\n    \&lt;div class\=\&quot;row header\&quot;\&gt;\n      \&lt;article class\=\&quot;col\-xs\-12 textbox text\-center\&quot;\&gt;\n        \&lt;h2 class\=\&quot;black\&quot;\&gt;Реестр специалистов\&lt;\/h2\&gt;\n        \&lt;\!\-\- \&lt;p\&gt;Подзаголовок\&lt;\/p\&gt; \-\-\&gt;\n        \&lt;aside class\=\&quot;col\-xs\-12 col\-sm\-4 reestr\&quot;\&gt;\n          \&lt;div class\=\&quot;col\-sm\-12 plan1\&quot;\&gt;\n            \&lt;h3\&gt;Реестр мастеров\&lt;\/h3\&gt;\n            \&lt;div class\=\&quot;pakage_price\&quot;\&gt;\&lt;img src\=\&quot;\/wp\-content\/themes\/Msocial\/images\/master\.1\.png\&quot; class\=\&quot;mastera\&quot; style\=\&quot;padding\-top\: 33px\;\&quot;\&gt;\&lt;\/div\&gt;\n            \&lt;a class\=\&quot;btn btn\-primary btn\-lg\&quot; href\=\&quot;\/members\/\&quot;\&gt;Посмотреть\&lt;\/a\&gt;\n          \&lt;\/div\&gt;\n        \&lt;\/aside\&gt;\n        \&lt;aside class\=\&quot;col\-xs\-12 col\-sm\-4 reestr\&quot;\&gt;\n          \&lt;div class\=\&quot;col\-sm\-12 plan1\&quot;\&gt;\n            \&lt;h3\&gt;Терапевтическая дефрагментация\&lt;\/h3\&gt;\n            \&lt;div class\=\&quot;pakage_price\&quot;\&gt;\&lt;img src\=\&quot;\/wp\-content\/themes\/Msocial\/images\/defra\.png\&quot; class\=\&quot;defragments\&quot;\&gt;\&lt;\/div\&gt;\n            \&lt;a class\=\&quot;btn btn\-primary btn\-lg\&quot; href\=\&quot;\/терапевтическая\-дефрагментация\/\&quot;\&gt;Посмотреть\&lt;\/a\&gt;\n          \&lt;\/div\&gt;\n        \&lt;\/aside\&gt;\n        \&lt;aside class\=\&quot;col\-xs\-12 col\-sm\-4 reestr\&quot;\&gt;\n          \&lt;div class\=\&quot;col\-sm\-12 plan1\&quot;\&gt;\n            \&lt;h3\&gt;Биологическое центрирование\&lt;\/h3\&gt;\n            \&lt;div class\=\&quot;pakage_price\&quot;\&gt;\&lt;img src\=\&quot;\/wp\-content\/themes\/Msocial_chikurov\/images\/bc_2\.png\&quot; class\=\&quot;mastera\&quot; style\=\&quot;width\: 73\%\;padding\-bottom\: 19px\;padding\-top\: 20px\;\&quot;\&gt;\&lt;\/div\&gt;\n            \&lt;a class\=\&quot;btn btn\-primary btn\-lg\&quot; href\=\&quot;\/biologicheskoe\-centrirovanie\-specialisty\/\&quot;\&gt;Посмотреть\&lt;\/a\&gt;\n          \&lt;\/div\&gt;\n        \&lt;\/aside\&gt;\n        \&lt;\!\-\- \&lt;aside class\=\&quot;col\-xs\-12 col\-sm\-3 reestr\&quot;\&gt;\n          \&lt;div class\=\&quot;col\-sm\-12 plan1\&quot;\&gt;\n            \&lt;h3\&gt;Специалисты Wizardmachine\&lt;\/h3\&gt;\n            \&lt;div class\=\&quot;pakage_price\&quot;\&gt;\&lt;img src\=\&quot;\/wp\-content\/themes\/Msocial\/images\/wm_wd\.png\&quot; class\=\&quot;mastera\&quot; style\=\&quot;width\: 73\%\;padding\-bottom\: 19px\;padding\-top\: 20px\;\&quot;\&gt;\&lt;\/div\&gt;\n            \&lt;a class\=\&quot;btn btn\-primary btn\-lg\&quot; href\=\&quot;\/specialisty\-wizard\/\&quot;\&gt;Посмотреть\&lt;\/a\&gt;\n          \&lt;\/div\&gt;\n        \&lt;\/aside\&gt; \-\-\&gt;\n      \&lt;\/article\&gt;\n    \&lt;\/div\&gt;\n    \&lt;\!\-\-container\-\-\&gt; \n  \&lt;\/div\&gt;\n\&lt;\/div\&gt;\n\&lt;\!\-\- PLANS PRICING END\n\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\= \-\-\&gt;</find>
       <find>3261</find>
       <find>class=&quot;team-profile</find>
@@ -159,6 +148,15 @@
       <find>реест</find>
       <find>template-specialist</find>
       <find>Мастер классы</find>
+      <find>&lt;li&gt;&lt;a href=&quot;/reestr/ &quot;&gt;Реестр&lt;/a&gt;&lt;/li&gt;</find>
+      <find>м</find>
+      <find>мастер</find>
+      <find>мастер кла</find>
+      <find>мастер клас</find>
+      <find>мастер класс</find>
+      <find>мастер классы</find>
+      <find>/category/master-class</find>
+      <find>class=&quot;nav navbar-nav&quot;</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/.idea</dir>
@@ -498,12 +496,12 @@
       <workItem from="1505295457413" duration="6115000" />
       <workItem from="1506931242055" duration="718000" />
       <workItem from="1507716136072" duration="298000" />
-      <workItem from="1509210587760" duration="5123000" />
+      <workItem from="1509210587760" duration="5386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46926000" />
+    <option name="totallyTimeSpent" value="47189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -939,8 +937,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="293" column="42" lean-forward="false" selection-start-line="293" selection-start-column="42" selection-end-line="293" selection-end-column="42" />
+        <state relative-caret-position="293">
+          <caret line="296" column="57" lean-forward="false" selection-start-line="296" selection-start-column="57" selection-end-line="296" selection-end-column="57" />
           <folding />
         </state>
       </provider>
