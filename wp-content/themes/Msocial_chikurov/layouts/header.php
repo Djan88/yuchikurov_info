@@ -277,12 +277,12 @@
           </a> 
           <!-- Logo Ends --> 
         </div>
-        <div class="consultaiton pull-right">
+        <div class="consultaiton consultaiton-one pull-right">
             <a href="mailto:info@chikurov.com">
             <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>info@chikurov.com</a> | 
             <span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 135-25-48</span>
         </div>
-        <div class="consultaiton pull-right">
+        <div class="consultaiton consultaiton-two pull-right">
           <a href="https://www.youtube.com/user/ThePractik01" target="_blank" style="color: #f6cd80;" data-toggle="modal" data-target="#videoCours">
             <i class="fa fa-play fa-fw" style="margin-right: 5px;"></i>ЗАКАЗАТЬ ВИДЕОКУРС
           </a>
