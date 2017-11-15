@@ -1,14 +1,14 @@
 <?php
 
 /*
-Template Name: Reestr specialist page
+Template Name: Reestrs
 */
 
 gk_load('header');
 
 do_action( 'bp_before_directory_members_page' ); ?>
 <aside class="col-xs-12 subbanner">
-    <h1>Реестр специалистов"</h1>
+    <h1>Реестр специалистов</h1>
 </aside>
 <div class="clear"></div>
 <!-- PLANS PRICING STARTS
