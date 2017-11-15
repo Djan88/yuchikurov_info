@@ -9,20 +9,26 @@ jQuery( function() {
       };
     };
     // Уменьшение лого при прокрутке
-    window.onscroll = function() {
-      cur_page_scroll = window.pageYOffset;
-      if (cur_page_scroll >= 50) {
-        if (jQuery('.navbar-brand').hasClass('navbar-brand_small')) {
+    var w_scr = jQuery(window).width();
+    if (w_scr >= 500) {
+        window.onscroll = function() {
+            cur_page_scroll = window.pageYOffset;
+            if (cur_page_scroll >= 50) {
+                if (jQuery('.navbar-brand').hasClass('navbar-brand_small')) {
 
-        } else {
-          jQuery('.navbar-brand').addClass('navbar-brand_small')
+                } else {
+                    jQuery('.navbar-brand').addClass('navbar-brand_small')
+                }
+            } else if (cur_page_scroll < 50) {
+                if (jQuery('.navbar-brand').hasClass('navbar-brand_small')) {
+                    jQuery('.navbar-brand').removeClass('navbar-brand_small')
+                }
+            }
         }
-      } else if (cur_page_scroll < 50) {
-        if (jQuery('.navbar-brand').hasClass('navbar-brand_small')) {
-          jQuery('.navbar-brand').removeClass('navbar-brand_small')
-        }
-      }
+    } else {
+        jQuery('.navbar-brand').addClass('navbar-brand_small')
     }
+
     // END
     // Запоминание страницы в книге
   if(supportsStorage && localStorage.getItem('cur_page')){
