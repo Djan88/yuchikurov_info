@@ -156,7 +156,7 @@ gk_load('header');
         <aside class="col-sm-6 col-xs-12 pull-right text-center">
           <h2 class="white">Видео доктора Чикурова</h2>
           <p class="white">Видео по Биологичкскому центрированию, мягким мануальным техникам, эстетике лица, "WizardMachine" а так же психодинамическим играм "Девяточка", "Marakata".</p>
-          <a href="/category/video/" class="btn transparent-btn" type="button">Видео архив</a>
+          <a target="_blank" href="https://www.youtube.com/user/ThePractik01" class="btn transparent-btn" type="button">Видеоканал</a>
           <img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/yt.png" alt>
         </aside>
       </div>
