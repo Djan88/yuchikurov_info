@@ -10,7 +10,7 @@ jQuery( function() {
     };
     // Уменьшение лого при прокрутке
     var w_scr = jQuery(window).width();
-    if (w_scr >= 500) {
+    if (w_scr >= 650) {
         window.onscroll = function() {
             cur_page_scroll = window.pageYOffset;
             if (cur_page_scroll >= 50) {
