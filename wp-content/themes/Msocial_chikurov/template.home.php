@@ -43,7 +43,7 @@ gk_load('header');
             <!-- Nav tabs -->
             <div class="col-md-6 terapevtic_btn"><a class="active"  href="#profile" data-toggle="tab">Wizard Machine</a></div>
             <div class="col-md-6 terapevtic_btn"><a href="#home" data-toggle="tab">Wizard Duos</a></div>
-            <div class="col-md-6 terapevtic_btn"><a href="#messages" data-toggle="tab">Wizard Tarot</a></div>
+            <div class="col-md-6 terapevtic_btn"><a href="#messages" data-toggle="tab">Braincleaner</a></div>
             <div class="col-md-6 terapevtic_btn"><a href="#settings" data-toggle="tab">Marakata</a></div>
           </div>
           <div class="col-sm-6 col-xs-12 pull-right textbox text-center">
@@ -75,10 +75,10 @@ gk_load('header');
                 <div class="row">
                   <div class="col-md-6 terapevtic_text">
                     Терапевтическая машина для коррекции взаимодействия человека и архетипов.
-                    <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
+                    <div><a target="_blank" href="http://braincleaner.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
                   <div class="col-md-6 terapevtic_image">
-                    <img src="/wp-content/themes/Msocial_chikurov/images/wt_home.png" alt="">
+                    <img src="/wp-content/themes/Msocial_chikurov/images/br_home.png" alt="">
                   </div>
                 </div>
               </div>
@@ -86,7 +86,7 @@ gk_load('header');
                 <div class="row">
                   <div class="col-md-6 terapevtic_text">
                     Психодинамическая машина для инверсии травм личной истории в ресурс жизненной силы.
-                    <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
+                    <div><a target="_blank" href="http://marakata.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
                   <div class="col-md-6 terapevtic_image">
                     <img src="/wp-content/themes/Msocial_chikurov/images/marakata_home.png" alt="">
