@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e1a322a-5d04-4e8b-b344-c9a86b95656b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css" afterPath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/groups/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/groups/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,16 +19,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3375">
               <caret line="225" column="106" lean-forward="false" selection-start-line="225" selection-start-column="106" selection-end-line="225" selection-end-column="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1455">
-              <caret line="97" column="61" lean-forward="false" selection-start-line="97" selection-start-column="61" selection-end-line="97" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -55,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="560">
               <caret line="3422" column="17" lean-forward="false" selection-start-line="3422" selection-start-column="17" selection-end-line="3422" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/groups/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="81" lean-forward="false" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -132,9 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>3261</find>
-      <find>class=&quot;team-profile</find>
-      <find>team-profile</find>
       <find>class=&quot;team-profile col-sm-3 col-xs-12&quot;</find>
       <find>te</find>
       <find>templ</find>
@@ -162,13 +158,16 @@
       <find>/category/master-class</find>
       <find>class=&quot;nav navbar-nav&quot;</find>
       <find>navbar-brand_small</find>
+      <find>data-filter=&quot;kislitsin</find>
+      <find>kislitsin</find>
+      <find>data-filter=&quot;kislitsin&quot;</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/.idea</dir>
-      <dir>$PROJECT_DIR$/wp-content</dir>
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts</dir>
       <dir>$PROJECT_DIR$/wp-content/themes/Msocial_chikurov</dir>
+      <dir>$PROJECT_DIR$/wp-content</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -195,6 +194,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/js/script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/groups/index.php" />
       </list>
     </option>
   </component>
@@ -501,12 +501,12 @@
       <workItem from="1505295457413" duration="6115000" />
       <workItem from="1506931242055" duration="718000" />
       <workItem from="1507716136072" duration="298000" />
-      <workItem from="1509210587760" duration="7103000" />
+      <workItem from="1509210587760" duration="7329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48906000" />
+    <option name="totallyTimeSpent" value="49132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -542,14 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/tpl_el.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3375">
-          <caret line="225" column="106" lean-forward="false" selection-start-line="225" selection-start-column="106" selection-end-line="225" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1455">
@@ -946,6 +938,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="3422" column="17" lean-forward="false" selection-start-line="3422" selection-start-column="17" selection-end-line="3422" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/groups/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="81" lean-forward="false" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
           <folding />
         </state>
       </provider>

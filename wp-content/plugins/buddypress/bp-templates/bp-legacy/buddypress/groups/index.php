@@ -18,8 +18,6 @@
             <li><a data-filter="ivanova" class="filter">Ирина Иванова</a></li>
             <!-- <li><a data-filter="milakova" class="filter">Светлана Милакова</a></li> -->
             <li><a data-filter="seregina" class="filter">Галина Серегина</a></li>
-            <li><a data-filter="kislitsin" class="filter">Максим Кислицин</a></li>
-            <li><a data-filter="malyy" class="filter">Александр Малый</a></li>
           </ul>
         <?php } ?>
         <form action="" method="post" id="groups-directory-form" class="dir-form">
