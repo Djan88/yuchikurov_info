@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e1a322a-5d04-4e8b-b344-c9a86b95656b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Chikurov/css/bootstrap/bootstrap.min.css" afterPath="$PROJECT_DIR$/wp-content/themes/Chikurov/css/bootstrap/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Msocial/css/bootstrap/bootstrap.min.css" afterPath="$PROJECT_DIR$/wp-content/themes/Msocial/css/bootstrap/bootstrap.min.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,16 +14,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style_el.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/css/style_el.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,10 +75,10 @@
         </entry>
       </file>
       <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/Chikurov/css/bootstrap/bootstrap.min.css">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial/css/bootstrap/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="3629" column="16" lean-forward="false" selection-start-line="3629" selection-start-column="16" selection-end-line="3629" selection-end-column="16" />
+              <caret line="3629" column="17" lean-forward="false" selection-start-line="3629" selection-start-column="17" selection-end-line="3629" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -195,6 +185,7 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/groups/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Chikurov/css/bootstrap/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Msocial/css/bootstrap/bootstrap.min.css" />
       </list>
     </option>
   </component>
@@ -502,12 +493,12 @@
       <workItem from="1506931242055" duration="718000" />
       <workItem from="1507716136072" duration="298000" />
       <workItem from="1509210587760" duration="7416000" />
-      <workItem from="1511172753724" duration="50000" />
+      <workItem from="1511172753724" duration="300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49269000" />
+    <option name="totallyTimeSpent" value="49519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -543,14 +534,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43170">
-          <caret line="2878" column="0" lean-forward="false" selection-start-line="2878" selection-start-column="0" selection-end-line="2878" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/css/style_formula.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3300">
@@ -907,6 +890,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Chikurov/css/bootstrap/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="3629" column="16" lean-forward="false" selection-start-line="3629" selection-start-column="16" selection-end-line="3629" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -915,10 +906,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Chikurov/css/bootstrap/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial/css/bootstrap/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="3629" column="16" lean-forward="false" selection-start-line="3629" selection-start-column="16" selection-end-line="3629" selection-end-column="16" />
+          <caret line="3629" column="17" lean-forward="false" selection-start-line="3629" selection-start-column="17" selection-end-line="3629" selection-end-column="17" />
           <folding />
         </state>
       </provider>

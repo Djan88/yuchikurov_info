@@ -3626,7 +3626,8 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	background-color: transparent;
 	background-image: none;
 	border: 1px solid transparent;
-	border-radius: 4px
+	border-radius: 4px;
+	z-index: 999;
 }
 .navbar-toggle:focus {
 	outline: 0
