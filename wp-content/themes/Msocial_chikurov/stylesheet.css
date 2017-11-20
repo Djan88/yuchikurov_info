@@ -3336,7 +3336,10 @@ button, input, select, textarea
     top: -3px;
     font-size: 45px;
 }
-
+.navbar-toggle
+{
+    z-index: 999!important;
+}
 @media (max-width: 1040px) {
     .consultaiton 
     {
