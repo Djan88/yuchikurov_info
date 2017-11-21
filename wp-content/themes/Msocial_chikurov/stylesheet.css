@@ -3349,6 +3349,19 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
     height: 80px;
     margin-bottom: 3px;
 }
+.consultaiton a, .consultaiton span {
+    padding: 5px 6px;
+    display: block;
+    -webkit-transition: color 0.6s ease-in;
+    -moz-transition: color 0.6s ease-in;
+    -ms-transition: color 0.6s ease-in;
+    -o-transition: color 0.6s ease-in;
+    transition: color 0.6s ease-in;
+}
+.consultaiton a:hover, .consultaiton span:hover
+{
+    color: #fff;
+}
 @media (max-width: 1185px) {
     .consultaiton 
     {
