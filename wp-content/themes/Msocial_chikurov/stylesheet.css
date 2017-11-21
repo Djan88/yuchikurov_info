@@ -3343,6 +3343,11 @@ button, input, select, textarea
 #wpadminbar li a {
     font-size: 12px!important;
 }
+img.wpcf7-form-control.wpcf7-captchac.wpcf7-captcha-captcha-31.pull-right {
+    margin-top: 1px;
+    height: 44px;
+    width: auto;
+}
 @media (max-width: 1040px) {
     .consultaiton 
     {
