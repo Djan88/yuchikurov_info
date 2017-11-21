@@ -3368,18 +3368,19 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
 a.header_socials {
     display: inline-block;
     border-radius: 50%;
-    width: 27px;
-    height: 27px;
+    width: 30px;
+    height: 30px;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     padding: 0;
-    padding-top: 4px;
+    padding-top: 2px;
     color: #fff;
     border: 1px solid transparent;
 }
 a.header_socials:hover {
     background: transparent;
     border-color: #fff;
+    transform: scale(1.2);
 }
 @media (max-width: 1185px) {
     .consultaiton 
