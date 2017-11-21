@@ -3354,6 +3354,10 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
     transition: all 0.2s ease-in;
     color: #f6cd80;
 }
+.consultaiton span
+{
+    color: #fff;
+}
 .consultaiton a:hover, .consultaiton span:hover
 {
     color: #fff;
@@ -3469,6 +3473,13 @@ a.header_socials:hover {
     .consultaiton_wrap
     {
         padding-top: 10px;
+    }
+    a.header_socials
+    {
+        width: 25px;
+        height: 25px;
+        font-size: 13px;
+        padding-top: 2px;
     }
 }
 @media (max-width: 600px) {
