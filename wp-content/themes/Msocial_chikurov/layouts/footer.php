@@ -31,8 +31,8 @@
             <a class="hidden btn btn-block btn-warning" href="#">Cоздать личную страницу</a>
           </p>
           <p>
-            <div class="modal fade bs-example-modal-sm" id="videoCours" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
-              <div class="modal-dialog">
+            <div class="modal fade" id="videoCours" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
+              <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -44,11 +44,11 @@
                 </div>
               </div>
             </div>
-            <div class="modal fade bs-example-modal-sm" id="request" tabindex="-1" role="dialog" aria-labelledby="requestLabel" aria-hidden="true">
-                <div class="modal-dialog">
+            <div class="modal fade" id="request" tabindex="-1" role="dialog" aria-labelledby="requestLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <button type="button" class="close" data-dismiss="modal"  aria-hidden="true">&times;</button>
                             <h4 class="modal-title" id="requestLabel">Задать вопрос</h4>
                         </div>
                         <div class="modal-body">
