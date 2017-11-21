@@ -2898,10 +2898,7 @@ svg#treangle path
 {
     font-size: 25px;
 }*/
-@media screen and (max-width: 1040px) {
-    
-}
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1185px) {
     #treangle 
     {
         left: 23px;
