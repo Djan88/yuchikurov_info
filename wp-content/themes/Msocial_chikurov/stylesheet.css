@@ -3363,6 +3363,7 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
 {
     border: none;
     margin-right: 5px;
+    margin-top: 2px;
 }
 a.header_socials {
     display: inline-block;
@@ -3374,9 +3375,11 @@ a.header_socials {
     padding: 0;
     padding-top: 4px;
     color: #477ab9;
+    border: 1px solid transparent;
 }
 a.header_socials:hover {
     background: #477ab9;
+    border-color: #fff;
 }
 @media (max-width: 1185px) {
     .consultaiton 
