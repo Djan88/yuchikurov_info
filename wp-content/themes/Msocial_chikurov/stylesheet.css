@@ -3350,8 +3350,9 @@ img.wpcf7-form-control.wpcf7-captchac.wpcf7-captcha-captcha-31 {
 }
 textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
     height: 80px;
+    margin-bottom: 3px;
 }
-@media (max-width: 1040px) {
+@media (max-width: 1185px) {
     .consultaiton 
     {
         float: none!important;
