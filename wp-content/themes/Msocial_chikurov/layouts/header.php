@@ -293,7 +293,7 @@
             </div>
             <div class="consultaiton header_media pull-right">
                 <a href="http://vk.com/id139677998" target="_blank" class="header_socials header_socials_vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100001020505956" target="_blank" class="header_socials header_socials_fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100012253260685&pnref" target="_blank" class="header_socials header_socials_fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a href="https://www.youtube.com/user/ThePractik01/" target="_blank" class="header_socials header_socials_yt"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                 <a href="https://www.instagram.com/yuchikurov/" target="_blank" class="header_socials header_socials_in"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </div>
