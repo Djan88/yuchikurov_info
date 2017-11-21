@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e1a322a-5d04-4e8b-b344-c9a86b95656b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/groups/groups-loop.php" afterPath="$PROJECT_DIR$/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/groups/groups-loop.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/content-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/content-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css" afterPath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,8 +57,8 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="3485" column="22" lean-forward="false" selection-start-line="3485" selection-start-column="22" selection-end-line="3485" selection-end-column="22" />
+            <state relative-caret-position="546">
+              <caret line="3424" column="5" lean-forward="false" selection-start-line="3424" selection-start-column="5" selection-end-line="3424" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -559,12 +557,12 @@
       <workItem from="1507716136072" duration="298000" />
       <workItem from="1509210587760" duration="7416000" />
       <workItem from="1511172753724" duration="8332000" />
-      <workItem from="1511288043898" duration="345000" />
+      <workItem from="1511288043898" duration="660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57896000" />
+    <option name="totallyTimeSpent" value="58211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -976,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="3485" column="22" lean-forward="false" selection-start-line="3485" selection-start-column="22" selection-end-line="3485" selection-end-column="22" />
+        <state relative-caret-position="546">
+          <caret line="3424" column="5" lean-forward="false" selection-start-line="3424" selection-start-column="5" selection-end-line="3424" selection-end-column="5" />
           <folding />
         </state>
       </provider>
