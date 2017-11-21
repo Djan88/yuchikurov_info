@@ -3432,7 +3432,7 @@ a.header_socials:hover {
     span.rasp_m 
     {
         top: 60px;
-        left: 30px;
+        left: 10px;
     }
     .rasp-modal span.rasp_d 
     {
@@ -3442,9 +3442,13 @@ a.header_socials:hover {
     .devider_small
     {
         display: block;
-        left: 21px;
+        left: 3px;
         font-size: 50px;
         top: 35px;
+    }
+    span.rasp_d
+    {
+        left: 10px;
     }
     .rasp-modal .devider_small 
     {
