@@ -3434,23 +3434,4 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
     {
         padding-bottom: 0;
     }
-    .consultaiton-one
-    {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        line-height: 1.3;
-    }
-    .consultaiton-one a
-    {
-        display: block;
-    }
-    .consultaiton-two
-    {
-        position: absolute;
-        top: 50px;
-        left: 0;
-        right: 0;
-    }
 }
