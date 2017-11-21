@@ -3378,7 +3378,7 @@ a.header_socials {
     border: 1px solid transparent;
 }
 a.header_socials:hover {
-    background: #477ab9;
+    background: transparent;
     border-color: #fff;
 }
 @media (max-width: 1185px) {
