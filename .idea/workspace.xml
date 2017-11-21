@@ -57,8 +57,8 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="3449" column="5" lean-forward="false" selection-start-line="3449" selection-start-column="5" selection-end-line="3449" selection-end-column="5" />
+            <state relative-caret-position="343">
+              <caret line="3362" column="21" lean-forward="false" selection-start-line="3362" selection-start-column="21" selection-end-line="3362" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -557,12 +557,12 @@
       <workItem from="1507716136072" duration="298000" />
       <workItem from="1509210587760" duration="7416000" />
       <workItem from="1511172753724" duration="8332000" />
-      <workItem from="1511288043898" duration="1054000" />
+      <workItem from="1511288043898" duration="1315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58605000" />
+    <option name="totallyTimeSpent" value="58866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -974,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="3449" column="5" lean-forward="false" selection-start-line="3449" selection-start-column="5" selection-end-line="3449" selection-end-column="5" />
+        <state relative-caret-position="343">
+          <caret line="3362" column="21" lean-forward="false" selection-start-line="3362" selection-start-column="21" selection-end-line="3362" selection-end-column="21" />
           <folding />
         </state>
       </provider>

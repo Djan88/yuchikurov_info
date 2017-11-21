@@ -3344,7 +3344,7 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
     height: 80px;
     margin-bottom: 3px;
 }
-.consultaiton a, .consultaiton span {
+.consultaiton a {
     padding: 5px 6px;
     display: block;
     -webkit-transition: all 0.2s ease-in;
@@ -3357,8 +3357,10 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
 .consultaiton span
 {
     color: #fff;
+    padding: 5px 6px;
+    display: block;
 }
-.consultaiton a:hover, .consultaiton span:hover
+.consultaiton a:hover
 {
     color: #fff;
     text-decoration: none;
