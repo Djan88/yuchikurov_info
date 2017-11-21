@@ -3354,6 +3354,11 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
     transition: all 0.2s ease-in;
     color: #f6cd80;
 }
+.consultaiton.consultaiton-two a
+{
+    color: #fff;
+    display: inline;
+}
 .consultaiton span
 {
     color: #fff;
