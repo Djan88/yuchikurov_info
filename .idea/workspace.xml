@@ -57,8 +57,8 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="3496" column="4" lean-forward="false" selection-start-line="3496" selection-start-column="4" selection-end-line="3496" selection-end-column="4" />
+            <state relative-caret-position="475">
+              <caret line="3495" column="9" lean-forward="false" selection-start-line="3495" selection-start-column="9" selection-end-line="3495" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -557,12 +557,12 @@
       <workItem from="1507716136072" duration="298000" />
       <workItem from="1509210587760" duration="7416000" />
       <workItem from="1511172753724" duration="8332000" />
-      <workItem from="1511288043898" duration="828000" />
+      <workItem from="1511288043898" duration="903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58379000" />
+    <option name="totallyTimeSpent" value="58454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -974,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="3496" column="4" lean-forward="false" selection-start-line="3496" selection-start-column="4" selection-end-line="3496" selection-end-column="4" />
+        <state relative-caret-position="475">
+          <caret line="3495" column="9" lean-forward="false" selection-start-line="3495" selection-start-column="9" selection-end-line="3495" selection-end-column="9" />
           <folding />
         </state>
       </provider>
