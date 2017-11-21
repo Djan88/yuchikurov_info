@@ -37,8 +37,8 @@
       <file leaf-file-name="groups-loop-chikurov.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/groups/groups-loop-chikurov.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-485">
-              <caret line="86" column="14" lean-forward="true" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+            <state relative-caret-position="329">
+              <caret line="87" column="59" lean-forward="false" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -503,12 +503,12 @@
       <workItem from="1507716136072" duration="298000" />
       <workItem from="1509210587760" duration="7416000" />
       <workItem from="1511172753724" duration="8332000" />
-      <workItem from="1511288043898" duration="2511000" />
+      <workItem from="1511288043898" duration="2628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60062000" />
+    <option name="totallyTimeSpent" value="60179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -921,8 +921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/groups/groups-loop-chikurov.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-485">
-          <caret line="86" column="14" lean-forward="true" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+        <state relative-caret-position="329">
+          <caret line="87" column="59" lean-forward="false" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
           <folding />
         </state>
       </provider>

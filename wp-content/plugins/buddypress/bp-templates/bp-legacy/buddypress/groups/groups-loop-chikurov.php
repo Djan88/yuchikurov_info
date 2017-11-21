@@ -85,57 +85,59 @@
         <?php if($chikurov_id == 1) { ?>
 		<div data-toggle="modal" data-target="#myModal-<?php echo $seminar_id;?>" class="porfolio_smallbox seminar_linear" data-filter="<?php echo $master_filter; ?>">
             <div class="row">
-                <div class="col-md-2 col-sm-2 col-xs-2 text-center rasp-date">
-                    <div class="rasp_d_i_m">
+                <a href="#myModal-<?php echo $seminar_id;?>">
+                    <div class="col-md-2 col-sm-2 col-xs-2 text-center rasp-date">
+                        <div class="rasp_d_i_m">
                         <span class="rasp_d">
                             <?php echo $date_seminar_day;?>
-                        </span> 
-                        <span class="devider">/</span>
-                        <span class="devider_small">—</span> 
-                        <span class="rasp_m">
+                        </span>
+                            <span class="devider">/</span>
+                            <span class="devider_small">—</span>
+                            <span class="rasp_m">
                             <?php echo $date_seminar_month;?>
                         </span>
-                    </div>
-                </div>
-                <div class="col-md-8 col-sm-7 col-xs-7" style="padding-top: 10px; text-align: left;">
-                    <div class="rasp-title"><?php bp_group_name(); ?></div>
-                    <div class="rasp-content">
-                        <div class="rasp-time">
-                            <span class="fa fa-calendar"></span> <?php echo $date_seminar;?> — <?php echo $date_end;?> | 
-                        </div>
-                        <div class="rasp-adress">
-                            <span class="fa fa-map-marker"></span>  <?= $city; ?></div>
-                    </div>
-                    <div class="rasp-content">
-                        <div class="rasp-time">
-                            <span class="fa fa-phone" style="margin-right: 5px;"></span>
-                            <b>Запись: </b> 
-                            <?php if (bp_get_group_master_telephone()) { ?>
-                              <?php bp_group_master_telephone(); ?>
-                            <?php } else if ($org_yes) { ?>
-                              <?php echo xprofile_get_field_data(9, $group->mods[0]->user_id); ?>
-                            <?php } else { ?>
-                              <?php echo xprofile_get_field_data(9, $group->admins[0]->user_id); ?>
-                            <?php } ?> 
-                            | <span class="fa fa-envelope"></span> 
-                            <?php if (bp_get_group_master_email()) { ?>
-                              <a href="mailto:<?php bp_group_master_email(); ?>"><?php bp_group_master_email(); ?></a>
-                            <?php } else if ($org_yes) { ?>
-                              <a href="mailto:<?php echo xprofile_get_field_data(8, $group->mods[0]->user_id); ?>"><?php echo xprofile_get_field_data(8, $group->mods[0]->user_id); ?></a>
-                            <?php } else { ?>
-                              <a href="mailto:<?php echo xprofile_get_field_data(8, $group->admins[0]->user_id); ?>"><?php echo xprofile_get_field_data(8, $group->admins[0]->user_id); ?></a>
-                            <?php } ?>
                         </div>
                     </div>
-                    <div class="rasp-content">
-                        <div class="rasp-time">
-                            <span class="fa fa-user" style="margin-right: 5px;"></span><b>Читает: </b> <a href="<?php echo bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = false, $just_link = true); ?>"><?php echo bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = true, $just_link = false); ?></a>
+                    <div class="col-md-8 col-sm-7 col-xs-7" style="padding-top: 10px; text-align: left;">
+                        <div class="rasp-title"><?php bp_group_name(); ?></div>
+                        <div class="rasp-content">
+                            <div class="rasp-time">
+                                <span class="fa fa-calendar"></span> <?php echo $date_seminar;?> — <?php echo $date_end;?> |
+                            </div>
+                            <div class="rasp-adress">
+                                <span class="fa fa-map-marker"></span>  <?= $city; ?></div>
+                        </div>
+                        <div class="rasp-content">
+                            <div class="rasp-time">
+                                <span class="fa fa-phone" style="margin-right: 5px;"></span>
+                                <b>Запись: </b>
+                                <?php if (bp_get_group_master_telephone()) { ?>
+                                    <?php bp_group_master_telephone(); ?>
+                                <?php } else if ($org_yes) { ?>
+                                    <?php echo xprofile_get_field_data(9, $group->mods[0]->user_id); ?>
+                                <?php } else { ?>
+                                    <?php echo xprofile_get_field_data(9, $group->admins[0]->user_id); ?>
+                                <?php } ?>
+                                | <span class="fa fa-envelope"></span>
+                                <?php if (bp_get_group_master_email()) { ?>
+                                    <a href="mailto:<?php bp_group_master_email(); ?>"><?php bp_group_master_email(); ?></a>
+                                <?php } else if ($org_yes) { ?>
+                                    <a href="mailto:<?php echo xprofile_get_field_data(8, $group->mods[0]->user_id); ?>"><?php echo xprofile_get_field_data(8, $group->mods[0]->user_id); ?></a>
+                                <?php } else { ?>
+                                    <a href="mailto:<?php echo xprofile_get_field_data(8, $group->admins[0]->user_id); ?>"><?php echo xprofile_get_field_data(8, $group->admins[0]->user_id); ?></a>
+                                <?php } ?>
+                            </div>
+                        </div>
+                        <div class="rasp-content">
+                            <div class="rasp-time">
+                                <span class="fa fa-user" style="margin-right: 5px;"></span><b>Читает: </b> <a href="<?php echo bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = false, $just_link = true); ?>"><?php echo bp_core_get_userlink($group->admins[0]->user_id, $no_anchor = true, $just_link = false); ?></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-2 col-sm-3 col-xs-3 text-center rasp-img">
-                    <?php bp_group_avatar( 'type=thumbnail&width=100&height=100' ); ?>           
-                </div>
+                    <div class="col-md-2 col-sm-3 col-xs-3 text-center rasp-img">
+                        <?php bp_group_avatar( 'type=thumbnail&width=100&height=100' ); ?>
+                    </div>
+                </a>
 
             </div>
             <!--showcasebox--> 
