@@ -3340,6 +3340,9 @@ button, input, select, textarea
 {
     z-index: 999!important;
 }
+#wpadminbar li a {
+    font-size: 12px!important;
+}
 @media (max-width: 1040px) {
     .consultaiton 
     {
