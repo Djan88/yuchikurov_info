@@ -2332,9 +2332,9 @@ body.login, html {
     line-height: 1.1;
 }
 /*************SPECIAL BACKGROUND COLORS*************************/
-.blue-color, .black-color, .black2-color, .grey-color, #about-us {
-    overflow: hidden;
-}
+/*.blue-color, .black-color, .black2-color, .grey-color, #about-us {*/
+    /*overflow: hidden;*/
+/*}*/
 .blue-color {
     background-color: #477ab9;
 }
@@ -3053,7 +3053,6 @@ span.rasp_m
     border-radius: 6px;
     border: 1px solid #eee;
     padding: 0;
-    overflow: hidden;
 }
 .rasp-img img
 {

@@ -83,7 +83,7 @@
             ?>
 
         <?php if($chikurov_id == 1) { ?>
-		<div data-toggle="modal" data-target="#myModal-<?php echo $seminar_id;?>" class="porfolio_smallbox seminar_linear" data-filter="<?php echo $master_filter; ?>">
+		<a href="<?php echo $seminar_id;?>" data-toggle="modal" data-target="#myModal-<?php echo $seminar_id;?>" class="porfolio_smallbox seminar_linear" data-filter="<?php echo $master_filter; ?>">
             <div class="row">
                 <div class="col-md-2 col-sm-2 col-xs-2 text-center rasp-date">
                     <div class="rasp_d_i_m">
@@ -141,7 +141,7 @@
             <!--showcasebox--> 
 
             <div class="clear"></div>
-        </div>
+        </a>
         <!-- Modal seminar -->
         <div class="modal fade rasp-modal" id="myModal-<?php echo $seminar_id;?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog">
