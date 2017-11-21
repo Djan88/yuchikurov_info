@@ -44,8 +44,8 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="3349" column="1" lean-forward="false" selection-start-line="3349" selection-start-column="1" selection-end-line="3349" selection-end-column="1" />
+            <state relative-caret-position="540">
+              <caret line="3345" column="62" lean-forward="false" selection-start-line="3345" selection-start-column="62" selection-end-line="3345" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -536,12 +536,12 @@
       <workItem from="1506931242055" duration="718000" />
       <workItem from="1507716136072" duration="298000" />
       <workItem from="1509210587760" duration="7416000" />
-      <workItem from="1511172753724" duration="4002000" />
+      <workItem from="1511172753724" duration="4050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53221000" />
+    <option name="totallyTimeSpent" value="53269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -977,8 +977,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="3349" column="1" lean-forward="false" selection-start-line="3349" selection-start-column="1" selection-end-line="3349" selection-end-column="1" />
+        <state relative-caret-position="540">
+          <caret line="3345" column="62" lean-forward="false" selection-start-line="3345" selection-start-column="62" selection-end-line="3345" selection-end-column="62" />
           <folding />
         </state>
       </provider>
