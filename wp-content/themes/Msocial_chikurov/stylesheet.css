@@ -3481,6 +3481,10 @@ a.header_socials:hover {
         font-size: 17px;
         padding-top: 2px;
     }
+    .nomobile
+    {
+        display: none;
+    }
 }
 @media (max-width: 600px) {
     .affix
