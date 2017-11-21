@@ -8,6 +8,7 @@
 	display: inline-block;
 	margin-left: 0px;
 	position: relative;
+	z-index: 999;
 }
 #navigation .navbar-inverse .navbar-nav > li.current::before{
 	opacity:0;
