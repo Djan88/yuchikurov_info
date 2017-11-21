@@ -3250,10 +3250,6 @@ li.col-md-4.book_item
     border-bottom: 1px solid #fff;
     border-left: 1px solid #fff;
 }
-.consultaiton a 
-{
-    color: #fff;
-}
 .terapevtic .social-icons
 {
     margin: 0;
@@ -3356,6 +3352,7 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
     -ms-transition: color 0.6s ease-in;
     -o-transition: color 0.6s ease-in;
     transition: color 0.6s ease-in;
+    color: #f6cd80;
 }
 .consultaiton a:hover, .consultaiton span:hover
 {
