@@ -44,6 +44,8 @@
                 </div>
               </div>
             </div>
+          </p>
+          <p>
             <div class="modal fade" id="request" tabindex="-1" role="dialog" aria-labelledby="requestLabel" aria-hidden="true">
                 <div class="modal-dialog modal-sm">
                     <div class="modal-content">
