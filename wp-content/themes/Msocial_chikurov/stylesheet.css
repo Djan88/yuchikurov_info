@@ -3355,6 +3355,12 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
         float: none!important;
         border: none;
         text-align: center;
+        display: inline-block;
+    }
+    .consultation_wrap
+    {
+        display: block;
+        margin: auto;
     }
 }
 @media (max-width: 992px) {

@@ -278,17 +278,19 @@
           <!-- Logo Ends --> 
         </div>
 
-        <div class="consultaiton consultaiton-two pull-right">
-            <span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 135-25-48</span>
-        </div>
-        <div class="consultaiton consultaiton-one pull-right">
-            <a href="#" style="color: #f6cd80;" data-toggle="modal" data-target="#quest">
-               <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>ЗАДАТЬ ВОПРОС</a>
-        </div>
-        <div class="consultaiton consultaiton-three pull-right">
-           <a href="https://www.youtube.com/user/ThePractik01" target="_blank" style="color: #f6cd80;" data-toggle="modal" data-target="#videoCours">
-              <i class="fa fa-play fa-fw" style="margin-right: 5px;"></i>ЗАКАЗАТЬ ВИДЕОКУРС
-           </a>
+        <div class="consultation_wrap">
+            <div class="consultaiton consultaiton-two pull-right">
+                <span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 135-25-48</span>
+            </div>
+            <div class="consultaiton consultaiton-one pull-right">
+                <a href="#" style="color: #f6cd80;" data-toggle="modal" data-target="#quest">
+                    <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>ЗАДАТЬ ВОПРОС</a>
+            </div>
+            <div class="consultaiton consultaiton-three pull-right">
+                <a href="https://www.youtube.com/user/ThePractik01" target="_blank" style="color: #f6cd80;" data-toggle="modal" data-target="#videoCours">
+                    <i class="fa fa-play fa-fw" style="margin-right: 5px;"></i>ЗАКАЗАТЬ ВИДЕОКУРС
+                </a>
+            </div>
         </div>
         <div class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
