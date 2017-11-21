@@ -3347,11 +3347,11 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
 .consultaiton a, .consultaiton span {
     padding: 5px 6px;
     display: block;
-    -webkit-transition: color 0.6s ease-in;
-    -moz-transition: color 0.6s ease-in;
-    -ms-transition: color 0.6s ease-in;
-    -o-transition: color 0.6s ease-in;
-    transition: color 0.6s ease-in;
+    -webkit-transition: color 0.2s ease-in;
+    -moz-transition: color 0.2s ease-in;
+    -ms-transition: color 0.2s ease-in;
+    -o-transition: color 0.2s ease-in;
+    transition: color 0.2s ease-in;
     color: #f6cd80;
 }
 .consultaiton a:hover, .consultaiton span:hover
@@ -3437,7 +3437,15 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
     .consultaiton
     {
         display: block;
-        padding: 3px;
+    }
+    .consultaiton a, .consultaiton span
+    {
+        font-size: 13px;
+        padding:0;
+    }
+    .consultaiton-wrap
+    {
+        padding-top: 10px;
     }
 }
 @media (max-width: 600px) {
