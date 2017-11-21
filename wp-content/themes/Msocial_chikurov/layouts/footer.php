@@ -191,26 +191,26 @@
 <noscript><div style="display: none;"><img src="https://mc.yandex.ru/watch/41607904" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 <div class="modal fade" id="videoCours" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="videoCoursLabel">Заказать видеокурс</h4>
+    <div class="modal-dialog modal-sm" aria-labelledby="videoCoursLabel">
+        <div class="modal-content" aria-labelledby="videoCoursLabel">
+            <div class="modal-header" aria-labelledby="videoCoursLabel">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-labelledby="videoCoursLabel">&times;</button>
+                <h4 class="modal-title" id="videoCoursLabel" aria-labelledby="videoCoursLabel">Заказать видеокурс</h4>
             </div>
-            <div class="modal-body">
+            <div class="modal-body" aria-labelledby="videoCoursLabel">
                 <?php echo do_shortcode('[contact-form-7 id="3605" title="Заказ видео курса"]')?>
             </div>
         </div>
     </div>
 </div>
 <div class="modal fade" id="quest" tabindex="-1" role="dialog" aria-labelledby="questLabel" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"  aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="questLabel">Задать вопрос</h4>
+    <div class="modal-dialog modal-sm" aria-labelledby="questLabel">
+        <div class="modal-content" aria-labelledby="questLabel">
+            <div class="modal-header" aria-labelledby="questLabel">
+                <button type="button" class="close" data-dismiss="modal"  aria-hidden="true" aria-labelledby="questLabel">&times;</button>
+                <h4 class="modal-title" id="questLabel" aria-labelledby="questLabel">Задать вопрос</h4>
             </div>
-            <div class="modal-body">
+            <div class="modal-body" aria-labelledby="questLabel">
                 <?php echo do_shortcode('[contact-form-7 id="3776" title="Задать вопрос (шапка)"]')?>
             </div>
         </div>
