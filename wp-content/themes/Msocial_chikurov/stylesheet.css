@@ -3347,17 +3347,36 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
 .consultaiton a, .consultaiton span {
     padding: 5px 6px;
     display: block;
-    -webkit-transition: color 0.2s ease-in;
-    -moz-transition: color 0.2s ease-in;
-    -ms-transition: color 0.2s ease-in;
-    -o-transition: color 0.2s ease-in;
-    transition: color 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
     color: #f6cd80;
 }
 .consultaiton a:hover, .consultaiton span:hover
 {
     color: #fff;
     text-decoration: none;
+}
+.consultaiton.header_media
+{
+    border: none;
+    margin-right: 5px;
+}
+a.header_socials {
+    display: inline-block;
+    background: #fff;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    padding: 0;
+    padding-top: 4px;
+    color: #477ab9;
+}
+a.header_socials:hover {
+    background: #477ab9;
 }
 @media (max-width: 1185px) {
     .consultaiton 
