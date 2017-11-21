@@ -44,6 +44,19 @@
                 </div>
               </div>
             </div>
+            <div class="modal fade bs-example-modal-sm" id="request" tabindex="-1" role="dialog" aria-labelledby="requestLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="requestLabel">Задать вопрос</h4>
+                        </div>
+                        <div class="modal-body">
+                            <?php echo do_shortcode('[contact-form-7 id="3776" title="Задать вопрос (шапка)"]')?>
+                        </div>
+                    </div>
+                </div>
+            </div>
           </p>
         </div>
       </aside>
