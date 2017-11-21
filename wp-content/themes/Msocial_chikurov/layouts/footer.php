@@ -30,36 +30,6 @@
           <p>
             <a class="hidden btn btn-block btn-warning" href="#">Cоздать личную страницу</a>
           </p>
-          <p>
-            <div class="modal fade" id="videoCours" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
-              <div class="modal-dialog modal-sm">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="videoCoursLabel">Заказать видеокурс</h4>
-                  </div>
-                  <div class="modal-body">
-                    <?php echo do_shortcode('[contact-form-7 id="3605" title="Заказ видео курса"]')?>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </p>
-          <p>
-            <div class="modal fade" id="quest" tabindex="-1" role="dialog" aria-labelledby="questLabel" aria-hidden="true">
-                <div class="modal-dialog modal-sm">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"  aria-hidden="true">&times;</button>
-                            <h4 class="modal-title" id="questLabel">Задать вопрос</h4>
-                        </div>
-                        <div class="modal-body">
-                            <?php echo do_shortcode('[contact-form-7 id="3776" title="Задать вопрос (шапка)"]')?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </p>
         </div>
       </aside>
       <aside class="col-sm-5 contact-form col-xs-12 pull-right">
@@ -220,5 +190,31 @@
 </script>
 <noscript><div style="display: none;"><img src="https://mc.yandex.ru/watch/41607904" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<div class="modal fade" id="videoCours" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="videoCoursLabel">Заказать видеокурс</h4>
+            </div>
+            <div class="modal-body">
+                <?php echo do_shortcode('[contact-form-7 id="3605" title="Заказ видео курса"]')?>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="quest" tabindex="-1" role="dialog" aria-labelledby="questLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"  aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="questLabel">Задать вопрос</h4>
+            </div>
+            <div class="modal-body">
+                <?php echo do_shortcode('[contact-form-7 id="3776" title="Задать вопрос (шапка)"]')?>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
