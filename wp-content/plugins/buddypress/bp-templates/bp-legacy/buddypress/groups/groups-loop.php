@@ -56,7 +56,7 @@
 
 	<?php do_action( 'bp_before_directory_groups_list' ); ?>
     <input type="hidden" name="user_id" id="user-id" value="<?php echo $user_id;?>">
-	<div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2 rasp-wrap masonry-portfolio" id="porfolio-masonry">
+	<div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2 rasp-wrap tst masonry-portfolio" id="porfolio-masonry">
 
 	<?php while ( bp_groups() ) : bp_the_group(); ?>
             
