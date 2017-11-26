@@ -14,5 +14,7 @@ RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule . /index.php [L]
 </IfModule>
-
 # END WordPress
+Order Allow,Deny
+Allow from all
+Deny from 5.188.62.117
