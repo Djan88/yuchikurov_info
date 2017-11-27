@@ -18,3 +18,4 @@ RewriteRule . /index.php [L]
 Order Allow,Deny
 Allow from all
 Deny from 5.188.62.117
+Deny from 91.200.12.95
