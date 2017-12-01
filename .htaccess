@@ -19,3 +19,10 @@ Order Allow,Deny
 Allow from all
 Deny from 5.188.62.117
 Deny from 91.200.12.95
+Deny from 54.83.18.149
+Deny from 192.187.100.82
+Deny from 91.200.12.65
+Deny from 212.113.104.151
+Deny from 92.60.177.125
+Deny from 66.102.9.41
+Deny from 66.102.9.43
