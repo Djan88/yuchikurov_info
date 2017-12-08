@@ -321,11 +321,11 @@
             <?php } ?>
           </ul>
           <ul class="nav navbar-nav nav_top_rt">
-            <?php if(is_user_logged_in()){ ?>
-                  <li><a class="button button-primary button-large" href="<?php echo home_url(); ?>/wp-login.php?action=logout&_wpnonce=a9698dd03f">Выйти</a></li>
-            <?php } else { ?>
-                  <li><a href="/wp-login.php">Войти</a></li>
-            <?php } ?>
+<!--            --><?php //if(is_user_logged_in()){ ?>
+<!--                  <li><a class="button button-primary button-large" href="--><?php //echo home_url(); ?><!--/wp-login.php?action=logout&_wpnonce=a9698dd03f">Выйти</a></li>-->
+<!--            --><?php //} else { ?>
+<!--                  <li><a href="/wp-login.php">Войти</a></li>-->
+<!--            --><?php //} ?>
             <li class="search" id="dmsearch"><a href="#" class="fa fa-search"></a>
                   <form role="search" id="searchform" action="<?php bloginfo('siteurl'); ?>" method="get">
                         <div class="dm-search-container">
