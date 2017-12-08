@@ -301,7 +301,6 @@
         <div class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
             <li><a href="/"><span class="fa fa-home"></span></a></li>
-            <li><a href="/seminary-doktora-chikurova/">Семинары</a></li>
             <li><a href="/reestr/ ">Реестр специалистов</a></li>
             <li><a href="/seminar">Семинары мастеров</a></li>
             <li><a href="/biologicheskoe-centrirovanie/">Биологическое центрирование</a></li>

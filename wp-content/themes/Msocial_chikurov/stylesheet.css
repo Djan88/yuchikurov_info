@@ -189,7 +189,7 @@ ul li ul, ul li ol {
     border-bottom: 9px solid rgba(23,23,23,0.90);
 }
 .dropdown-menu > li > a {
-    padding: 14px 0 !important;
+    padding: 7px 0 !important;
     color: #fff;
     font-size: 14px;
     border-bottom: 1px solid rgba(71,122,185,0.50);
