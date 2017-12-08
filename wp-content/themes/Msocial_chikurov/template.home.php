@@ -14,24 +14,6 @@ gk_load('header');
   </div>
 </div>
 <!--section-home-->
-<!-- PORTFOLIO STARTS
-========================================================================= -->
-<div class="container padding-box" id="portfolio">
-  <div class="row header">
-    <article class="col-xs-12">
-      <figure class="col-sm-4 col-xs-4 pull-left"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/bc_2.png" alt></figure>
-      <aside class="col-sm-6 col-xs-12 textbox text-center">
-        <h2 class="black">Семинары доктора Чикурова</h2>
-        <p class="black" style="text-align: justify;">
-          Расписание грядущих семинаров доктора Юрия Чикурова. Кликнув по интересующему мероприятию Вы получите информацию о тематике семинара, его продолжительности. Можете узнать на кого рассчитан семинар, увидеть карту проезда. Воспользовавшись формой Вы можете записаться на мероприятие либо задать интересующий Вас вопрос.
-        </p>
-        <a href="/seminary-doktora-chikurova/" class="btn btn-primary" type="button">Страница семинаров</a>
-      </aside>
-      </div>
-    </article>
-  </div>
-  <!--container--> 
-</div>
 <!-- PORTFOLIO END
   ========================================================================= -->
   <div id="formuls" class="grey-color terapevtic" style="border-bottom: 1px solid #477ab9;">
