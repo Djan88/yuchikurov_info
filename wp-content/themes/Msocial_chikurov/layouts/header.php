@@ -305,14 +305,14 @@
             <li><a href="/reestr/ ">Реестр специалистов</a></li>
             <li><a href="/seminar">Семинары мастеров</a></li>
             <li><a href="/biologicheskoe-centrirovanie/">Биологическое центрирование</a></li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Проекты<b class="caret"></b></a>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Визардтерапия<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="/formuly-bc/">Формулы</a></li>
-                <li><a href="http://marakata.ru/">Marakata</a></li>
                 <li><a href="http://wizardmachine.ru/">Wizard Machine</a></li>
                 <li><a href="http://wizardduos.ru/">Wizard Duos</a></li>
-                <li><a href="http://wizardtarot.ru/">Wizard Tarot</a></li>
+                <li><a href="http://marakata.ru/">Marakata</a></li>
                 <li><a href="http://braincleaner.ru/">Braincleaner</a></li>
+                <li><a href="/formuly-bc/">Формулы</a></li>
+                <li><a href="/pervoelementy/">Первоэлементы</a></li>
               </ul>
             </li>
             <?php if (is_user_logged_in()) { ?>
