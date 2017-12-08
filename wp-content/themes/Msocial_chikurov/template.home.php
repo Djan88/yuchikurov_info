@@ -84,24 +84,6 @@ gk_load('header');
 </div>
 <!-- WELCOME MESSAGE STARTS
 ========================================================================= -->
-<div class="clear"></div>
-<div class="blue-color padding-box">
-  <div class="container">
-    <div class="row header">
-      <div class="col-xs-12 text-white-color">
-        <aside class="col-sm-6 col-xs-12 textlt">
-          <h2 class="white">Биологическое центрирование</h2>
-          <p class="white">Биологическое Центрирование (БЦ) является учением о принципах формирования здорового и успешного жизнеустройства, проистекающих из него физического здоровья, личностного развития, успешной самореализации в жизни...</p>
-          <a href="/biologicheskoe-centrirovanie/" class="btn transparent-btn" type="button">Читать книгу</a>
-        </aside>
-        <figure class="col-sm-4 col-xs-4 pull-right"><img class="img-responsive" src="/wp-content/themes/Msocial_chikurov/images/bc.png" alt></figure>
-      </div>
-    </div>
-    <!--container--> 
-  </div>
-</div>
-<!-- WELCOME MESSAGE END
-========================================================================= -->
 <div class="materials-block padding-box">
   <div class="container">
     <div class="row header">

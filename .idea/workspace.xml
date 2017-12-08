@@ -27,8 +27,8 @@
       <file leaf-file-name="template.home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="222">
+              <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -399,12 +399,12 @@
       <workItem from="1511956134118" duration="378000" />
       <workItem from="1512123989675" duration="3245000" />
       <workItem from="1512718632791" duration="129000" />
-      <workItem from="1512718779231" duration="1467000" />
+      <workItem from="1512718779231" duration="2785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67983000" />
+    <option name="totallyTimeSpent" value="69301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -825,8 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="222">
+          <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
           <folding />
         </state>
       </provider>
