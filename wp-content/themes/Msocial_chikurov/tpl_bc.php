@@ -6,7 +6,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
             <img src="/wp-content/themes/Msocial_chikurov/images/oblojka.png" alt="oblojka">
             <br>
-            <a class="btn btn-primary" target="_blank" href="/wp-content/themes/Msocial_chikurov/bc.pdf" type="button">Скачать книгу</a>
+            <a class="btn btn-primary" target="_blank" href="https://cloud.mail.ru/public/Ep18/Rtg37KpVW" type="button">Скачать книгу</a>
         </div>
     </div>
 </div>

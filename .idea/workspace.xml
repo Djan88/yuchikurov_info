@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e1a322a-5d04-4e8b-b344-c9a86b95656b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php" afterPath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/tpl_bc.php" afterPath="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/tpl_bc.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template.home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
               <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tpl_bc.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/tpl_bc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="104" lean-forward="false" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -105,7 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>template-specialist</find>
       <find>Мастер классы</find>
       <find>&lt;li&gt;&lt;a href=&quot;/reestr/ &quot;&gt;Реестр&lt;/a&gt;&lt;/li&gt;</find>
       <find>м</find>
@@ -135,6 +144,7 @@
       <find>groups-loop-chikurov</find>
       <find>class=&quot;rasp-map&quot;</find>
       <find>id=&quot;portfolio&quot;</find>
+      <find>Скачать книгу</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/.idea</dir>
@@ -175,6 +185,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/stylesheet.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/layouts/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/template.home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/tpl_bc.php" />
       </list>
     </option>
   </component>
@@ -399,12 +410,12 @@
       <workItem from="1511956134118" duration="378000" />
       <workItem from="1512123989675" duration="3245000" />
       <workItem from="1512718632791" duration="129000" />
-      <workItem from="1512718779231" duration="2785000" />
+      <workItem from="1512718779231" duration="3031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69301000" />
+    <option name="totallyTimeSpent" value="69547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -459,14 +470,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/content-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2130">
-          <caret line="146" column="64" lean-forward="false" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/tpl_el.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3375">
@@ -827,6 +830,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Msocial_chikurov/tpl_bc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="104" lean-forward="false" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
           <folding />
         </state>
       </provider>
