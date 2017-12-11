@@ -163,15 +163,16 @@
   </script>
 <?php } ?>
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
+<script type="text/javascript" >
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
-                w.yaCounter41607904 = new Ya.Metrika({
-                    id:41607904,
+                w.yaCounter46973607 = new Ya.Metrika({
+                    id:46973607,
                     clickmap:true,
                     trackLinks:true,
-                    accurateTrackBounce:true
+                    accurateTrackBounce:true,
+                    webvisor:true
                 });
             } catch(e) { }
         });
@@ -188,7 +189,7 @@
         } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div style="display: none;"><img src="https://mc.yandex.ru/watch/41607904" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/46973607" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 <div class="modal fade" id="videoCours" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
     <div class="modal-dialog modal-sm">
