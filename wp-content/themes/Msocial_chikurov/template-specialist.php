@@ -32,7 +32,7 @@ do_action( 'bp_before_directory_members_page' ); ?>
                                 </div>
                             </a>
                             <div class="team-info text-center">
-                                <a href="http://www.chikurov.com/members/<?php echo $field_user_id->get('user_login'); ?>">
+                                <a href="http://www.yuchikurov.info/members/<?php echo $field_user_id->get('user_login'); ?>">
                                     <h4><?php echo $field_user_id->get('display_name'); ?></h4>
                                 </a>
                                 <p>
