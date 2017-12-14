@@ -26,7 +26,7 @@ do_action( 'bp_before_directory_members_page' ); ?>
                             $field_user_foto = get_avatar($field_user, 270);
                         ?>
                         <aside class="team-profile col-sm-3 col-xs-12">
-                            <a href="http://www.chikurov.com/members/<?php echo $field_user_id->get('user_login'); ?>">
+                            <a href="http://www.yuchikurov.info/members/<?php echo $field_user_id->get('user_login'); ?>">
                                 <div class="image-holder">
                                     <?php echo $field_user_foto; ?>
                                 </div>
@@ -36,7 +36,7 @@ do_action( 'bp_before_directory_members_page' ); ?>
                                     <h4><?php echo $field_user_id->get('display_name'); ?></h4>
                                 </a>
                                 <p>
-                                    <a href="http://www.chikurov.com/members/<?php echo $field_user_id->get('user_login'); ?>"><i class="icon-envelope"></i></a>
+                                    <a href="http://www.yuchikurov.info/members/<?php echo $field_user_id->get('user_login'); ?>"><i class="icon-envelope"></i></a>
                                     <a href="mail:<?php echo $field_user_id->get('user_email'); ?>"><?php echo $field_user_id->get('user_email'); ?></a>
                                 </p>
                             </div>
