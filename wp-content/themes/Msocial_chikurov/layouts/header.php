@@ -296,8 +296,6 @@
         <div class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
             <li><a href="/"><span class="fa fa-home"></span></a></li>
-            <li><a href="/reestr/ ">Реестр специалистов</a></li>
-            <li><a href="/seminar">Семинары мастеров</a></li>
             <li><a href="/biologicheskoe-centrirovanie/">Биологическое центрирование</a></li>
             <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Визардмашины<b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -309,6 +307,8 @@
                 <li><a href="/pervoelementy/">Первоэлементы</a></li>
               </ul>
             </li>
+            <li><a href="/reestr/ ">Реестр специалистов</a></li>
+            <li><a href="/seminar">Семинары мастеров</a></li>
             <?php if (is_user_logged_in()) { ?>
             <?php $current_user = wp_get_current_user();?>
             <li><a href="<?php echo '/members/';?><?php echo $current_user->user_login;?>"><span class="fa fa-user"></span></a></li>
