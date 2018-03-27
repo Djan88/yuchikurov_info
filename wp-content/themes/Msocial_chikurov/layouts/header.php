@@ -286,11 +286,6 @@
                 <a href="#" data-toggle="modal" data-target="#quest">
                     <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>ЗАДАТЬ ВОПРОС</a>
             </div>
-            <div class="consultaiton consultaiton-three pull-right">
-                <a href="https://www.youtube.com/user/ThePractik01" target="_blank" data-toggle="modal" data-target="#videoCours">
-                    <i class="fa fa-play fa-fw" style="margin-right: 5px;"></i>ЗАКАЗАТЬ ВИДЕОКУРС
-                </a>
-            </div>
             <div class="consultaiton header_media pull-right">
                 <a href="http://vk.com/id139677998" target="_blank" class="header_socials header_socials_vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
                 <a href="https://www.facebook.com/profile.php?id=100012253260685&pnref" target="_blank" class="header_socials header_socials_fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -304,7 +299,7 @@
             <li><a href="/reestr/ ">Реестр специалистов</a></li>
             <li><a href="/seminar">Семинары мастеров</a></li>
             <li><a href="/biologicheskoe-centrirovanie/">Биологическое центрирование</a></li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Визардтерапия<b class="caret"></b></a>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Визардмашины<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="http://wizardmachine.ru/">Wizard Machine</a></li>
                 <li><a href="http://wizardduos.ru/">Wizard Duos</a></li>
