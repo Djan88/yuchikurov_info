@@ -308,7 +308,7 @@
               </ul>
             </li>
             <li><a href="/reestr/ ">Реестр специалистов</a></li>
-            <li><a href="/seminar">Семинары мастеров</a></li>
+            <!-- <li><a href="/seminar">Семинары мастеров</a></li> -->
             <?php if (is_user_logged_in()) { ?>
             <?php $current_user = wp_get_current_user();?>
             <li><a href="<?php echo '/members/';?><?php echo $current_user->user_login;?>"><span class="fa fa-user"></span></a></li>
