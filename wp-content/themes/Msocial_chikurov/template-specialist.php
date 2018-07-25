@@ -24,6 +24,7 @@ do_action( 'bp_before_directory_members_page' ); ?>
                             $field_user_id = get_userdata($field_user);
                             //$field_user_foto = $field_user['user_avatar'];
                             $field_user_foto = get_avatar($field_user, 270);
+                            $home_country = xprofile_get_field_data(16, $field_user);
                         ?>
                         <aside class="team-profile col-sm-3 col-xs-12 test">
                             <a href="http://www.yuchikurov.info/members/<?php echo $field_user_id->get('user_login'); ?>">
@@ -38,6 +39,7 @@ do_action( 'bp_before_directory_members_page' ); ?>
                                 <p>
                                     <a href="http://www.yuchikurov.info/members/<?php echo $field_user_id->get('user_login'); ?>"><i class="icon-envelope"></i></a>
                                     <a href="mail:<?php echo $field_user_id->get('user_email'); ?>"><?php echo $field_user_id->get('user_email'); ?></a>
+                                    <span><?php echo $home_country; ?></span>
                                 </p>
                             </div>
                         </aside>
