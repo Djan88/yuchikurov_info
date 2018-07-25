@@ -102,7 +102,7 @@
                 <div class="team-box col-xs-12 clearfix">
                     <?php foreach ($masters as $master){ ?>
                         <?php if(!empty($master['name'])){ ?>
-                        <aside class="team-profile col-sm-3 col-xs-12">
+                        <aside class="team-profile col-sm-3 col-xs-12 test">
                             <a href="<?php echo $master['link']; ?>">
                             <div class="image-holder"><?php echo $master['avatar']; ?></div>
                             <div class="team-info text-center">
