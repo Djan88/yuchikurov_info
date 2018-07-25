@@ -25,7 +25,7 @@ do_action( 'bp_before_directory_members_page' ); ?>
                             //$field_user_foto = $field_user['user_avatar'];
                             $field_user_foto = get_avatar($field_user, 270);
                         ?>
-                        <aside class="team-profile col-sm-3 col-xs-12">
+                        <aside class="team-profile col-sm-3 col-xs-12 test">
                             <a href="http://www.yuchikurov.info/members/<?php echo $field_user_id->get('user_login'); ?>">
                                 <div class="image-holder">
                                     <?php echo $field_user_foto; ?>
