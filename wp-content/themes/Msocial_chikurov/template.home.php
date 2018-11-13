@@ -47,7 +47,7 @@ gk_load('header');
               <div class="tab-pane" id="home">
                 <div class="row">
                   <div class="col-md-3 terapevtic_text">
-                    Терапевтическая машина для коррекции партнерских, семейных и бизнес взаимоотношений.
+                    Терапевтическая машина для коррекции партнерских, семейных и бизнес отношений.
                     <div><a target="_blank" href="https://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
                   <div class="col-md-9 terapevtic_image">
@@ -80,7 +80,7 @@ gk_load('header');
               <div class="tab-pane" id="settings">
                 <div class="row">
                   <div class="col-md-3 terapevtic_text">
-                    Психодинамическая машина для инверсии травм личной истории в ресурс жизненной силы.
+                    Психо динамическая машина для инверсии травм личной истории в ресурс жизненной силы.
                     <div><a target="_blank" href="http://marakata.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
                   <div class="col-md-9 terapevtic_image">
