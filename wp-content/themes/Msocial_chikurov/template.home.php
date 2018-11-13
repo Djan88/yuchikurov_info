@@ -23,7 +23,9 @@ gk_load('header');
           <h2 class="black">Терапевтические программы</h2>
           <div class="col-sm-6 col-xs-12 terapevtic_btns row">
             <!-- Nav tabs -->
-            <div class="col-md-6 terapevtic_btn"><a class="active"  href="#profile" data-toggle="tab">Wizard Machine</a></div>
+            <div class="col-md-6 terapevtic_btn"><a class="active"  href="#chikurov" data-toggle="tab">Chikurov.com</a></div>
+            <div class="col-md-6 terapevtic_btn"><a class=""  href="#lovushka" data-toggle="tab">Wizard Lovushka</a></div>
+            <div class="col-md-6 terapevtic_btn"><a  href="#profile" data-toggle="tab">Wizard Machine</a></div>
             <div class="col-md-6 terapevtic_btn"><a href="#home" data-toggle="tab">Wizard Duos</a></div>
             <div class="col-md-6 terapevtic_btn"><a href="#messages" data-toggle="tab">Braincleaner</a></div>
             <div class="col-md-6 terapevtic_btn"><a href="#settings" data-toggle="tab">Marakata</a></div>
@@ -31,22 +33,33 @@ gk_load('header');
           <div class="col-sm-6 col-xs-12 pull-right textbox text-center">
             <!-- Tab panes -->
             <div class="tab-content" style="margin-top: 15px;border-top: 1px solid #ddd;">
+              <div class="tab-pane active" id="chikurov">
+                <div class="row">
+                  <div class="col-md-6 terapevtic_text">
+                    Основной сайт школы доктора Чикурова. Расписание семинаров
+                    <div><a target="_blank" href="https://chikurov.com/">chikurov.com</a></div>
+                  </div>
+                  <div class="col-md-6 terapevtic_image">
+                    <img src="/wp-content/themes/Msocial_chikurov/images/chikurov_home.png" alt="">
+                  </div>
+                </div>
+              </div>
               <div class="tab-pane" id="home">
                 <div class="row">
                   <div class="col-md-6 terapevtic_text">
                     Терапевтическая машина для коррекции партнерских, семейных и бизнес взаимоотношений.
-                    <div><a target="_blank" href="http://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
+                    <div><a target="_blank" href="https://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
                   <div class="col-md-6 terapevtic_image">
                     <img src="/wp-content/themes/Msocial_chikurov/images/wd_home.png" alt="">
                   </div>
                 </div>
               </div>
-              <div class="tab-pane active" id="profile">
+              <div class="tab-pane" id="profile">
                 <div class="row">
                   <div class="col-md-6 terapevtic_text">
                     Терапевтическая машина для коррекции психосоматики.
-                    <div><a target="_blank" href="http://wizardmachine.ru/">СТРАНИЦА ПРОЕКТА</a></div>
+                    <div><a target="_blank" href="https://wizardmachine.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
                   <div class="col-md-6 terapevtic_image">
                     <img src="/wp-content/themes/Msocial_chikurov/images/wm_home.png" alt="">
@@ -72,6 +85,17 @@ gk_load('header');
                   </div>
                   <div class="col-md-6 terapevtic_image">
                     <img src="/wp-content/themes/Msocial_chikurov/images/marakata_home.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="lovushka">
+                <div class="row">
+                  <div class="col-md-6 terapevtic_text">
+                    Программа WizardLovushka
+                    <div><a target="_blank" href="https://wizard-lovushka.ru/">СТРАНИЦА ПРОЕКТА</a></div>
+                  </div>
+                  <div class="col-md-6 terapevtic_image">
+                    <img src="/wp-content/themes/Msocial_chikurov/images/lovushka_home.png" alt="">
                   </div>
                 </div>
               </div>

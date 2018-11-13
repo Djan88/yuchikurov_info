@@ -1,4 +1,7 @@
 jQuery( function() {
+  jQuery('.terapevtic_btn').on('click', function(event) {
+    event.preventDefault();
+  });
   var cur_book = 1,
       cur_page_scroll,
       supportsStorage = function(){
