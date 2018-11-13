@@ -1,7 +1,4 @@
 jQuery( function() {
-  jQuery('.terapevtic_btn a').on('click', function(event) {
-    event.preventDefault();
-  });
   var cur_book = 1,
       cur_page_scroll,
       supportsStorage = function(){
@@ -151,6 +148,7 @@ jQuery( function() {
     });
     //Программы на главной
     jQuery('.terapevtic_btn a').on('click', function(event) {
+      event.preventDefault();
       jQuery('.terapevtic_btn a').removeClass('active');
       jQuery(this).addClass('active');
     });
