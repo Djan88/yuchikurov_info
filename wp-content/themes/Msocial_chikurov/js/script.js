@@ -1,5 +1,5 @@
 jQuery( function() {
-  jQuery('.terapevtic_btn').on('click', function(event) {
+  jQuery('.terapevtic_btn a').on('click', function(event) {
     event.preventDefault();
   });
   var cur_book = 1,

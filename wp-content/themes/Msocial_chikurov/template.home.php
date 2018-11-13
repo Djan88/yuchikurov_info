@@ -35,66 +35,66 @@ gk_load('header');
             <div class="tab-content" style="margin-top: 15px;border-top: 1px solid #ddd;">
               <div class="tab-pane active" id="chikurov">
                 <div class="row">
-                  <div class="col-md-6 terapevtic_text">
+                  <div class="col-md-3 terapevtic_text">
                     Основной сайт школы доктора Чикурова. Расписание семинаров
                     <div><a target="_blank" href="https://chikurov.com/">chikurov.com</a></div>
                   </div>
-                  <div class="col-md-6 terapevtic_image">
+                  <div class="col-md-9 terapevtic_image">
                     <img src="/wp-content/themes/Msocial_chikurov/images/chikurov_home.png" alt="">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="home">
                 <div class="row">
-                  <div class="col-md-6 terapevtic_text">
+                  <div class="col-md-3 terapevtic_text">
                     Терапевтическая машина для коррекции партнерских, семейных и бизнес взаимоотношений.
                     <div><a target="_blank" href="https://wizardduos.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
-                  <div class="col-md-6 terapevtic_image">
+                  <div class="col-md-9 terapevtic_image">
                     <img src="/wp-content/themes/Msocial_chikurov/images/wd_home.png" alt="">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="profile">
                 <div class="row">
-                  <div class="col-md-6 terapevtic_text">
+                  <div class="col-md-3 terapevtic_text">
                     Терапевтическая машина для коррекции психосоматики.
                     <div><a target="_blank" href="https://wizardmachine.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
-                  <div class="col-md-6 terapevtic_image">
+                  <div class="col-md-9 terapevtic_image">
                     <img src="/wp-content/themes/Msocial_chikurov/images/wm_home.png" alt="">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="messages">
                 <div class="row">
-                  <div class="col-md-6 terapevtic_text">
+                  <div class="col-md-3 terapevtic_text">
                     Терапевтическая машина для коррекции взаимодействия человека и архетипов.
                     <div><a target="_blank" href="http://braincleaner.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
-                  <div class="col-md-6 terapevtic_image">
+                  <div class="col-md-9 terapevtic_image">
                     <img src="/wp-content/themes/Msocial_chikurov/images/br_home.png" alt="">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="settings">
                 <div class="row">
-                  <div class="col-md-6 terapevtic_text">
+                  <div class="col-md-3 terapevtic_text">
                     Психодинамическая машина для инверсии травм личной истории в ресурс жизненной силы.
                     <div><a target="_blank" href="http://marakata.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
-                  <div class="col-md-6 terapevtic_image">
+                  <div class="col-md-9 terapevtic_image">
                     <img src="/wp-content/themes/Msocial_chikurov/images/marakata_home.png" alt="">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="lovushka">
                 <div class="row">
-                  <div class="col-md-6 terapevtic_text">
+                  <div class="col-md-3 terapevtic_text">
                     Программа WizardLovushka
                     <div><a target="_blank" href="https://wizard-lovushka.ru/">СТРАНИЦА ПРОЕКТА</a></div>
                   </div>
-                  <div class="col-md-6 terapevtic_image">
+                  <div class="col-md-9 terapevtic_image">
                     <img src="/wp-content/themes/Msocial_chikurov/images/lovushka_home.png" alt="">
                   </div>
                 </div>
