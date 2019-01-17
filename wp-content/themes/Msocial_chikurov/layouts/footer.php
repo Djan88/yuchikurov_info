@@ -30,7 +30,7 @@
           <a target="_blank" href="http://chikurov.com/"><i class="fa fa-home fa-fw" style="margin-right: 5px;"></i>chikurov.com</a>
           <div class="footer_heading">Онлайн школа Доктора Чикурова</div>
           <a target="_blank" href="https://school-bc.ru/"><i class="fa fa-globe fa-fw" style="margin-right: 5px;"></i>school-bc.ru</a>
-          <div class="footer_heading">Задать вопрос:</div>
+          <div class="footer_heading">Задать любой вопрос:</div>
           <a href="mailto:info@chikurov.com">
           <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>info@chikurov.com</a>
           <div class="footer_heading">Позвонить в школу Доктора Чикурова:</div>
