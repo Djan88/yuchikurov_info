@@ -3,8 +3,8 @@
 <footer id="footer">
   <div class="container">
     <div class="row header">
-      <aside class="col-sm-6 col-xs-12">
-        <div class=" col-sm-6 col-xs-12 sitemap">
+      <aside class="col-xs-12">
+        <div class=" col-sm-4 col-xs-12 sitemap">
           <h5 class="white">НАШИ ПРОЕКТЫ</h5>
           <ul class="list-group">
             <li><a target="_blank" href="http://wizardmachine.ru/">WIZARDMACHINE.RU</a></li>
@@ -13,18 +13,28 @@
             <li><a target="_blank" href="http://braincleaner.ru/">BRAINCLEANER.RU</a></li>
             <li><a target="_blank" href="http://marakata.ru/">MARAKATA.RU</a></li>
           </ul>
+        </div>
+        <div class=" col-sm-4 col-xs-12 sitemap">
           <h5 class="white">СОЦИАЛЬНЫЕ СЕТИ</h5>
           <ul class="list-group">
-            <li><a target="_blank" href="https://vk.com/id139677998">Юрий Чикуров</a></li>
-            <li><a target="_blank" href="https://vk.com/wizardmachine">WIZARDMACHINE</a></li>
+            <li><a target="_blank" href="https://vk.com/id139677998">ВКОНТАКТЕ</a></li>
+            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100012253260685&pnref">FACEBOOK</a></li>
+            <li><a target="_blank" href="https://www.instagram.com/dr.chikurov/">INSTAGRAM</a></li>
+            <li><a target="_blank" href="https://www.youtube.com/user/ThePractik01/">YOUTUBE</a></li>
           </ul>
         </div>
-        <div class=" col-sm-6 col-xs-12 sitemap">
+        <div class=" col-sm-4 col-xs-12 sitemap">
           <h5 class="white">КОНТАКТЫ</h5>
           <p>
+            <div class="footer_heading">Официальный сайт и расписание семинаров</div>
+            <a target="_blank" href="http://chikurov.com/"><i class="fas fa-home" style="margin-right: 5px;"></i>chikurov.com/</a><br>
+            <div class="footer_heading">Онлайн школа Доктора Чикурова</div>
+            <a target="_blank" href="https://school-bc.ru/"><i class="fas fa-globe-americas" style="margin-right: 5px;"></i>school-bc.ru/</a><br>
+            <div class="footer_heading">Задать вопрос:</div>
             <a href="mailto:info@chikurov.com">
             <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>info@chikurov.com</a>
             <br>
+            <div class="footer_heading">Позвонить в школу Доктора Чикурова:</div>
             <span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 135-25-48</span>
           </p>
           <p>
@@ -32,10 +42,10 @@
           </p>
         </div>
       </aside>
-      <aside class="col-sm-5 contact-form col-xs-12 pull-right">
+      <!-- <aside class="col-sm-5 contact-form col-xs-12 pull-right">
         <h5 class="white" style="margin-top: 0;">ЗАДАТЬ ВОПРОС</h5>
-        <?php echo do_shortcode( '[contact-form-7 id="3222" title="Задать вопрос"]' ); ?>
-      </aside>
+        <?php //echo do_shortcode( '[contact-form-7 id="3222" title="Задать вопрос"]' ); ?>
+      </aside> -->
       <div class="col-xs-12 copyright-text">© 2017 - Все права защищены.<a href="http://www.chikurov.com/">chikurov.com</a> <div style="display: inline-block;margin-left: 10px;" class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,gplus,twitter" data-counter=""></div></div>
       <!--row--> 
     </div>
