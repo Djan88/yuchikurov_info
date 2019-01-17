@@ -14,7 +14,7 @@
             <li><a target="_blank" href="http://marakata.ru/">MARAKATA.RU</a></li>
           </ul>
         </div>
-        <div class=" col-sm-3 col-xs-12 sitemap">
+        <div class=" col-sm-4 col-xs-12 sitemap">
           <h5 class="white">СОЦИАЛЬНЫЕ СЕТИ</h5>
           <ul class="list-group">
             <li><a target="_blank" href="https://vk.com/id139677998">ВКОНТАКТЕ</a></li>
@@ -23,12 +23,12 @@
             <li><a target="_blank" href="https://www.youtube.com/user/ThePractik01/">YOUTUBE</a></li>
           </ul>
         </div>
-        <div class=" col-sm-6 col-xs-12 sitemap contacts">
+        <div class=" col-sm-5 col-xs-12 sitemap contacts">
           <h5 class="white">КОНТАКТЫ</h5>
           <div class="footer_heading">Официальный сайт и расписание семинаров</div>
           <a target="_blank" href="http://chikurov.com/"><i class="fa fa-home fa-fw" style="margin-right: 5px;"></i>chikurov.com/</a><br>
           <div class="footer_heading">Онлайн школа Доктора Чикурова</div>
-          <a target="_blank" href="https://school-bc.ru/"><i class="fa fa-globe-americas fa-fw" style="margin-right: 5px;"></i>school-bc.ru/</a><br>
+          <a target="_blank" href="https://school-bc.ru/"><i class="fa fa-globe fa-fw" style="margin-right: 5px;"></i>school-bc.ru/</a><br>
           <div class="footer_heading">Задать вопрос:</div>
           <a href="mailto:info@chikurov.com">
           <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>info@chikurov.com</a>
