@@ -3393,6 +3393,15 @@ a.header_socials:hover {
     border-color: #fff;
     transform: scale(1.2);
 }
+.footer_heading 
+{
+    color: #777;
+}
+.contacts a
+{
+    padding-bottom: 5px;
+    font-size: 18px;
+}
 @media (max-width: 1185px) {
     .consultaiton 
     {

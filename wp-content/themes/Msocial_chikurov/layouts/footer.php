@@ -23,20 +23,18 @@
             <li><a target="_blank" href="https://www.youtube.com/user/ThePractik01/">YOUTUBE</a></li>
           </ul>
         </div>
-        <div class=" col-sm-6 col-xs-12 sitemap">
+        <div class=" col-sm-6 col-xs-12 sitemap contacts">
           <h5 class="white">КОНТАКТЫ</h5>
-          <p>
-            <div class="footer_heading">Официальный сайт и расписание семинаров</div>
-            <a target="_blank" href="http://chikurov.com/"><i class="fas fa-home" style="margin-right: 5px;"></i>chikurov.com/</a><br>
-            <div class="footer_heading">Онлайн школа Доктора Чикурова</div>
-            <a target="_blank" href="https://school-bc.ru/"><i class="fas fa-globe-americas" style="margin-right: 5px;"></i>school-bc.ru/</a><br>
-            <div class="footer_heading">Задать вопрос:</div>
-            <a href="mailto:info@chikurov.com">
-            <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>info@chikurov.com</a>
-            <br>
-            <div class="footer_heading">Позвонить в школу Доктора Чикурова:</div>
-            <span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 135-25-48</span>
-          </p>
+          <div class="footer_heading">Официальный сайт и расписание семинаров</div>
+          <a target="_blank" href="http://chikurov.com/"><i class="fa fa-home fa-fw" style="margin-right: 5px;"></i>chikurov.com/</a><br>
+          <div class="footer_heading">Онлайн школа Доктора Чикурова</div>
+          <a target="_blank" href="https://school-bc.ru/"><i class="fa fa-globe-americas fa-fw" style="margin-right: 5px;"></i>school-bc.ru/</a><br>
+          <div class="footer_heading">Задать вопрос:</div>
+          <a href="mailto:info@chikurov.com">
+          <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>info@chikurov.com</a>
+          <br>
+          <div class="footer_heading">Позвонить в школу Доктора Чикурова:</div>
+          <span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 135-25-48</span>
           <p>
             <a class="hidden btn btn-block btn-warning" href="#">Cоздать личную страницу</a>
           </p>
