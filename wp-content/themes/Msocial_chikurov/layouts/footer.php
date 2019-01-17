@@ -27,13 +27,13 @@
         <div class=" col-sm-5 col-xs-12 sitemap contacts">
           <h5 class="white">КОНТАКТЫ</h5>
           <div class="footer_heading">Официальный сайт и расписание семинаров</div>
-          <a target="_blank" href="http://chikurov.com/"><i class="fa fa-home fa-fw" style="margin-right: 5px;"></i>chikurov.com</a><br><br>
+          <a target="_blank" href="http://chikurov.com/"><i class="fa fa-home fa-fw" style="margin-right: 5px;"></i>chikurov.com</a><br>
           <div class="footer_heading">Онлайн школа Доктора Чикурова</div>
-          <a target="_blank" href="https://school-bc.ru/"><i class="fa fa-globe fa-fw" style="margin-right: 5px;"></i>school-bc.ru</a><br><br>
+          <a target="_blank" href="https://school-bc.ru/"><i class="fa fa-globe fa-fw" style="margin-right: 5px;"></i>school-bc.ru</a><br>
           <div class="footer_heading">Задать вопрос:</div>
           <a href="mailto:info@chikurov.com">
           <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>info@chikurov.com</a>
-          <br><br>
+          <br>
           <div class="footer_heading">Позвонить в школу Доктора Чикурова:</div>
           <span class="white"><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 135-25-48</span>
           <p>
