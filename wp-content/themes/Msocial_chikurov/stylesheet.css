@@ -3399,7 +3399,8 @@ a.header_socials:hover {
 }
 .contacts a
 {
-    padding-bottom: 5px;
+    display: block;
+    margin-bottom: 5px;
     font-size: 18px;
 }
 @media (max-width: 1185px) {
