@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row header">
       <aside class="col-xs-12">
-        <div class=" col-sm-4 col-xs-12 sitemap">
+        <div class=" col-sm-3 col-xs-12 sitemap">
           <h5 class="white">НАШИ ПРОЕКТЫ</h5>
           <ul class="list-group">
             <li><a target="_blank" href="http://wizardmachine.ru/">WIZARDMACHINE.RU</a></li>
@@ -14,7 +14,7 @@
             <li><a target="_blank" href="http://marakata.ru/">MARAKATA.RU</a></li>
           </ul>
         </div>
-        <div class=" col-sm-4 col-xs-12 sitemap">
+        <div class=" col-sm-3 col-xs-12 sitemap">
           <h5 class="white">СОЦИАЛЬНЫЕ СЕТИ</h5>
           <ul class="list-group">
             <li><a target="_blank" href="https://vk.com/id139677998">ВКОНТАКТЕ</a></li>
@@ -23,7 +23,7 @@
             <li><a target="_blank" href="https://www.youtube.com/user/ThePractik01/">YOUTUBE</a></li>
           </ul>
         </div>
-        <div class=" col-sm-4 col-xs-12 sitemap">
+        <div class=" col-sm-6 col-xs-12 sitemap">
           <h5 class="white">КОНТАКТЫ</h5>
           <p>
             <div class="footer_heading">Официальный сайт и расписание семинаров</div>
