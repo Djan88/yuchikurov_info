@@ -283,8 +283,7 @@
                 <span><i class="fa fa-phone fa-fw" style="margin-right: 5px;"></i>+7 (495) 135-25-48</span>
             </div>
             <div class="consultaiton consultaiton-one pull-right">
-                <a href="#" data-toggle="modal" data-target="#quest">
-                    <i class="fa fa-envelope-o fa-fw" style="margin-right: 5px;"></i>ЗАДАТЬ ВОПРОС</a>
+                <a href="https://chikurov.com">ШКОЛА ДОКТОРА ЧИКУРОВА</a>
             </div>
             <div class="consultaiton header_media pull-right">
                 <a href="http://vk.com/id139677998" target="_blank" class="header_socials header_socials_vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
